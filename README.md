@@ -1,6 +1,3 @@
-
-
-
 # EU-CS_platform
 
 EU-CS_platform is a web platform for Citizen Science. It is built with [Python][0] using the [Django Web Framework][1].
@@ -16,7 +13,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 ## Configure postgres
-create database eucitizenscience
+create database eucitizenscience;
 create user eucitizenscience with password 'XXXXXXXXXXXXXX';
 grant all on eucitizenscience.* to eucitizenscience
 grant all on  database eucitizenscience to eucitizenscience;

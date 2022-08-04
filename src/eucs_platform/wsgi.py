@@ -18,7 +18,7 @@ application = get_wsgi_application()
 
 # Wrap werkzeug debugger if DEBUG is on
 from django.conf import settings
-
+'''
 if settings.DEBUG:
     try:
         import django.views.debug
@@ -37,3 +37,4 @@ if settings.DEBUG:
         )
     except ImportError:
         pass
+'''
