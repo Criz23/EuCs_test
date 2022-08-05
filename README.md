@@ -8,15 +8,24 @@ sudo apt install python3-pip
 sudo apt install libpq-dev
 sudo apt install postgresql
 sudo apt install gettext
-sudo apt install gettext
 python3 -m venv venv
 source venv/bin/activate
 
 ## Configure postgres
+sudo -u postgres psql
 create database eucitizenscience;
 create user eucitizenscience with password 'XXXXXXXXXXXXXX';
-grant all on eucitizenscience.* to eucitizenscience
+//grant all on eucitizenscience.* to eucitizenscience
 grant all on  database eucitizenscience to eucitizenscience;
+
+```
+postgres=# ALTER ROLE eucitizenscience WITH LOGIN;
+postgres=# ALTER ROLE eucitizenscience WITH SUPERUSER;
+postgres=# ALTER ROLE eucitizenscience WITH CREATEDB;
+postgres=# ALTER ROLE eucitizenscience WITH CREATEROLE;
+postgres=# ALTER ROLE eucitizenscience WITH INHERIT;
+postgres=# ALTER ROLE eucitizenscience WITH REPLICATION;
+```
 
 ## Installation
 First of all, install Python v3 <br/>
@@ -27,11 +36,19 @@ libpq-dev
 In source directory: <br/>
     ```
     pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 ```
 cd src
 cp eucs_platform/settings/local.sample.reference.env eucs_platform/settings/local.env
 And edit this last file with database and email configuration
+```
+
+```
+sudo apt-get install gdal-bin
+pip3 install python-dateutil
+sudo apt install postgis postgresql-postgis
+pip install django-image-cropping
 ```
 
 ```
