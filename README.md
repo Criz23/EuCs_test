@@ -19,18 +19,18 @@ create user eucitizenscience with password 'XXXXXXXXXXXXXX';
 grant all on  database eucitizenscience to eucitizenscience;
 
 ```
-postgres=# ALTER ROLE eucitizenscience WITH LOGIN;
-postgres=# ALTER ROLE eucitizenscience WITH SUPERUSER;
-postgres=# ALTER ROLE eucitizenscience WITH CREATEDB;
-postgres=# ALTER ROLE eucitizenscience WITH CREATEROLE;
-postgres=# ALTER ROLE eucitizenscience WITH INHERIT;
-postgres=# ALTER ROLE eucitizenscience WITH REPLICATION;
+ALTER ROLE eucitizenscience WITH LOGIN;
+ALTER ROLE eucitizenscience WITH SUPERUSER;
+ALTER ROLE eucitizenscience WITH CREATEDB;
+ALTER ROLE eucitizenscience WITH CREATEROLE;
+ALTER ROLE eucitizenscience WITH INHERIT;
+ALTER ROLE eucitizenscience WITH REPLICATION;
 ```
 
 ## Installation
 First of all, install Python v3 <br/>
-python3-dev
-libpq-dev
+sudo apt install python3-dev
+sudo apt install libpq-dev
 
 
 In source directory: <br/>
