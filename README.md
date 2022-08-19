@@ -80,6 +80,41 @@ And to do this automatically:
 python manage.py crontab add
 ```
 
+## COnfiguración del servidor
+
+sudo apt install nginx
+sudo apt install supervisor
+sudo systemctl enable supervisor
+sudo systemctl start supervisor
+
+sudo apte install gunicorn
+pip3 install gunicorn
+cd ../..
+sudo nano bin/gunicorn_srtat
+
 
 [0]: https://www.python.org/
 [1]: https://www.djangoproject.com/
+
+
+## Información de GUNICORN
+#! /bin/bash
+
+NAME="EuCs_Test"
+DIR=/home/eu-cs/Desktop/Repositorios/EuCs_Test
+USER=eu-cs
+GROUP=eu-cs
+WORKERS=3
+BIN=unix: /home/eu-cs/run/gunicorn.sock
+DJANGO_SETTINGS_MODDULE=eu-cs.src.eucs_platform.settings.base
+DJANGO_WSGI_MODDULE=eu-cs.src.eucs_platform.wsgi
+LOG_LEVEL=error
+
+cd $DIR
+
+source ../bin/activate
+
+export DJANGO_SETTINGS_MODDULE_=$DJANGO_SETTINGS_MODDULE
+export PYTHONPATH=$DIR:$PYTHONPATH
+
+exec ../bin/guncorn ${DJANGO_WSGI_MODDULE}:application \
