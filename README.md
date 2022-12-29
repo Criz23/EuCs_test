@@ -8,8 +8,8 @@ sudo apt install python3-pip
 sudo apt install libpq-dev
 sudo apt install postgresql
 sudo apt install gettext
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv EuCs
+source EuCs/bin/activate
 
 ## Configure postgres
 sudo -u postgres psql
@@ -46,10 +46,12 @@ And edit this last file with database and email configuration
 
 ```
 sudo apt-get install gdal-bin
-pip3 install python-dateutil
 sudo apt install postgis postgresql-postgis
-pip install django-image-cropping
 ```
+
+### Modificar la referencias de Sequence para python 3.10
+Abrir el archivo /venv/EuCs/lib/python3.10/site-packages/leaflet/utils.py
+Modificar from collections import Sequence // from collections.abc import Sequence
 
 ```
 python manage.py migrate
@@ -80,7 +82,7 @@ And to do this automatically:
 python manage.py crontab add
 ```
 
-## COnfiguración del servidor
+## Configuración del servidor
 
 sudo apt install nginx
 sudo apt install supervisor
