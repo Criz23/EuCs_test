@@ -15,10 +15,10 @@ os.environ.setdefault(
 from django.core.wsgi import get_wsgi_application
 
 application = get_wsgi_application()
-
+'''
 # Wrap werkzeug debugger if DEBUG is on
 from django.conf import settings
-'''
+
 if settings.DEBUG:
     try:
         import django.views.debug

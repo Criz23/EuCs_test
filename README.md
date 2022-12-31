@@ -93,3 +93,8 @@ Edit file conf
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
+Update access Permission
+```
+sudo chmod -R 775 /home/<name_folder>
+sudo chmod a+rwx project.log
+```
