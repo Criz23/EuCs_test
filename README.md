@@ -87,14 +87,16 @@ python manage.py crontab add
 
 ## Apache server configuration
 ```
-apt install apache2 libapache2-mod-wsgi-py3
+sudo apt install apache2 libapache2-mod-wsgi-py3
 ```
 Edit file conf
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
+service apache2 restart
 ```
 Update access Permission
 ```
 sudo chmod -R 775 /home/<name_folder>
-sudo chmod a+rwx project.log
+sudo chmod 775 /home/<user>
+sudo chmod a+rwx logs/project.log
 ```

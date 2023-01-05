@@ -202,6 +202,7 @@ TRANSLATED_LANGUAGES = (
     ('pt', 'Portuguese'),
     ('es', 'Spanish'),
     ('sv', 'Swedish'),
+    ('zh-hans', 'Simplified Chinese'),
 )
 
 LANGUAGE_CODES = [
