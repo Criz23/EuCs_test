@@ -202,7 +202,7 @@ TRANSLATED_LANGUAGES = (
     ('pt', 'Portuguese'),
     ('es', 'Spanish'),
     ('sv', 'Swedish'),
-    ('zh-hans', 'Simplified Chinese'),
+    ('zh-hant', 'S C'),
 )
 
 LANGUAGE_CODES = [
@@ -256,7 +256,8 @@ LANGUAGE_CODES = [
     'tr',
     'uk',
     'vi',
-    'zh_CN'
+    'zh-hans',
+    'zh-hant'
 ]
 
 TIME_ZONE = "UTC"

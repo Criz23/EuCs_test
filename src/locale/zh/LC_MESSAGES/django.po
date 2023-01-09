@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-04 23:33+0000\n"
+"POT-Creation-Date: 2023-01-05 18:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: accounts/forms.py:28 accounts/forms.py:88
 msgid "Enter Email"
-msgstr "输入电子邮件"
+msgstr ""
 
 #: accounts/forms.py:30 accounts/forms.py:92
 msgid "Enter Password"
-msgstr "输入密码"
+msgstr ""
 
 #: accounts/forms.py:36 templates/base.html:69
 #: templates/registration/password_reset_complete.html:18

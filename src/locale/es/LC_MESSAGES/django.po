@@ -2132,7 +2132,7 @@ msgstr "ADMINISTRAR"
 #: .\src\templates\base_forms.html:43 .\src\templates\base_forum.html:76
 #: .\src\templates\base_r2.html:58
 msgid "Login"
-msgstr "Iniciar sesión"
+msgstr "政策事件"
 
 #: .\src\templates\base_forms.html:46
 msgid "profile"
@@ -2144,7 +2144,7 @@ msgstr "cerrar sesión"
 
 #: .\src\templates\base_forum.html:66 .\src\templates\base_r2.html:48
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #: .\src\templates\base_forum.html:68 .\src\templates\base_r2.html:50
 msgid "Forum"
@@ -2155,12 +2155,12 @@ msgid "Moocs"
 msgstr ""
 
 #: .\src\templates\base_forum.html:70 .\src\templates\base_r2.html:52
-msgid "OpenCall"
-msgstr ""
+msgid "Open Call"
+msgstr "公开征集"
 
 #: .\src\templates\base_forum.html:77 .\src\templates\base_r2.html:59
 msgid "Signup"
-msgstr "Registrarse"
+msgstr "注册"
 
 #: .\src\templates\base_forum.html:132 .\src\templates\base_r2.html:114
 msgid "Add"
