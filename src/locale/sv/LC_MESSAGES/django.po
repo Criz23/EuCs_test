@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: projects/forms.py:23
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-03 11:48+0100\n"
+"POT-Creation-Date: 2023-02-19 17:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,1867 +19,2218 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\src\accounts\forms.py:25 .\src\accounts\forms.py:78
+#: accounts/forms.py:28 accounts/forms.py:88
 msgid "Enter Email"
-msgstr "Ange din e-postadress"
+msgstr "输入电子邮件"
 
-#: .\src\accounts\forms.py:26 .\src\accounts\forms.py:80
+#: accounts/forms.py:30 accounts/forms.py:92
 msgid "Enter Password"
-msgstr "Ange ditt lösenord"
+msgstr "输入密码"
 
-#: .\src\accounts\forms.py:32 .\src\templates\base.html:69
-#: .\src\templates\registration\password_reset_complete.html:18
+#: accounts/forms.py:36 templates/base.html:69
+#: templates/registration/password_reset_complete.html:18
 msgid "Log in"
-msgstr "Logga in"
+msgstr "登录"
 
-#: .\src\accounts\forms.py:50
+#: accounts/forms.py:54
 msgid ""
-"We see that your email address is in our database, but that you have not yet "
-"confirmed your address. Please search for the confirmation email in your "
-"inbox (or spam) to activate your account"
+"We see that your email address is in our database, but that you have not "
+"yetconfirmed your address. Please search for the confirmation email in your "
+"inbox(or spam) to activate your account"
 msgstr ""
-"Din e-postadress är registrerad i vår databas, men du har ännu inte bekräftat "
-"din adress. Kika i din inbox efter vårt bekräftelsemeddelande som du ska "
-"använda för att aktivera kontot (obs att det kan ha hamnat i skräpposten)."
+"我们看到您的电子邮件地址在我们的数据库中，但是您还没有"
+"尚未确认您的地址。请搜索您的确认电子邮件"
+"收件箱（或垃圾邮件）激活您的帐户"
 
-#: .\src\accounts\forms.py:79
-msgid "Enter Full Name"
-msgstr "Ange ditt för- och efternamn"
+#: accounts/forms.py:90
+msgid "Enter name"
+msgstr "输入名字"
 
-#: .\src\accounts\forms.py:81
+#: accounts/forms.py:94
 msgid "Re-enter Password"
-msgstr "Upprepa lösenordet"
+msgstr "重新输入密码"
 
-#: .\src\accounts\forms.py:83 .\src\templates\base.html:70
-#: .\src\templates\base_forms.html:44
+#: accounts/forms.py:97 templates/base.html:70 templates/base_forms.html:44
 msgid "Sign up"
-msgstr "Skapa konto"
+msgstr "报名"
 
-#: .\src\accounts\forms.py:92
+#: accounts/forms.py:106
 msgid "Enter old password"
-msgstr "Ange det gamla lösenordet"
+msgstr "输入旧密码"
 
-#: .\src\accounts\forms.py:93 .\src\accounts\forms.py:114
-#: .\src\templates\registration\password_reset_confirm.html:18
+#: accounts/forms.py:107 accounts/forms.py:130
+#: templates/registration/password_reset_confirm.html:18
 msgid "Enter new password"
-msgstr "Ange det nya lösenordet"
+msgstr "输入新密码"
 
-#: .\src\accounts\forms.py:94 .\src\accounts\forms.py:115
+#: accounts/forms.py:108 accounts/forms.py:131
 msgid "Enter new password (again)"
-msgstr "Upprepa det nya lösenordet"
+msgstr "再次输入新密码（再次）"
 
-#: .\src\accounts\forms.py:95 .\src\accounts\forms.py:116
-#: .\src\profiles\templates\profiles\edit_profile.html:53
+#: accounts/forms.py:109 accounts/forms.py:132
+#: profiles/templates/profiles/privacy_center.html:35
 msgid "Change Password"
-msgstr "Ändra lösenord"
+msgstr "更改密码"
 
-#: .\src\accounts\forms.py:105
+#: accounts/forms.py:119
 msgid "Enter email"
-msgstr "Ange e-postadress"
+msgstr "输入电子邮件"
 
-#: .\src\accounts\forms.py:106
+#: accounts/forms.py:120
 msgid "Reset Password"
-msgstr "Återställ lösenord"
+msgstr "重设密码"
 
-#: .\src\accounts\templates\accounts\acc_active_email.html:4
+#: accounts/templates/accounts/acc_active_email.html:4
 msgid "Activate your EU-Citizen.Science account."
-msgstr "Aktivera ditt EU-Citizen.Science-konto"
+msgstr "激活您的欧盟-citizen.Science帐户。"
 
-#: .\src\accounts\templates\accounts\emails\password-reset-email.html:3
-#: .\src\accounts\templates\accounts\emails\password-reset-subject.txt:1
+#: accounts/templates/accounts/emails/password-reset-email.html:3
+#: accounts/templates/accounts/emails/password-reset-subject.txt:1
 #, python-format
-msgid "Password reset on %(site_name)s"
-msgstr "Återställ lösenord på %(site_name)s"
+msgid "Password reset on %(domain)s"
+msgstr "密码重置％%(domain)s"
 
-#: .\src\accounts\templates\accounts\welcome_email.html:4
-msgid "Welcome to EU-Citizen.Science."
-msgstr "Välkommen till EU-Citizen.Science."
-
-#: .\src\blog\templates\blog.html:34
-msgid "Read More"
-msgstr "Läs mer"
-
-#: .\src\contact\templates\contact.html:10
-#: .\src\contact\templates\contact.html:19
-#: .\src\contact\templates\contact.html:28
-#: .\src\contact\templates\submitter_contact.html:20
-#: .\src\contact\templates\submitter_contact.html:29
-#: .\src\projects\templates\project.html:87
-#: .\src\projects\templates\project.html:209 .\src\templates\_footer.html:81
+#: contact/templates/contact.html:10 contact/templates/contact.html:19
+#: contact/templates/contact.html:28
+#: contact/templates/submitter_contact.html:20
+#: contact/templates/submitter_contact.html:29 templates/_footer.html:83
 msgid "Contact"
-msgstr "Kontakt"
+msgstr "接触"
 
-#: .\src\contact\templates\contact.html:56
-#: .\src\contact\templates\submitter_contact.html:45
+#: contact/templates/contact.html:56
+#: contact/templates/submitter_contact.html:45
 msgid "Send"
-msgstr "Skicka"
+msgstr "发送"
 
-#: .\src\contact\templates\submitter_contact.html:10
+#: contact/templates/submitter_contact.html:10
 msgid "Submitter Contact"
-msgstr "Uppgiftslämnare/Kontaktperson"
+msgstr "提交者联系人"
 
-#: .\src\contact\templates\submitter_contact.html:30
+#: contact/templates/submitter_contact.html:30
 msgid "This email will be sent to submitter of"
-msgstr "Det här meddelandet kommer att skickas till personen som registrerade"
+msgstr "该电子邮件将发送给提交者"
 
-#: .\src\contact\templates\success.html:26
+#: contact/templates/success.html:26
 msgid "Thank you for your message."
-msgstr "Tack för ditt meddelande"
+msgstr "感谢您的留言。"
 
-#: .\src\events\forms.py:8
+#: digest/admin.py:92
+#, python-format
+msgid "%d test email was sent"
+msgid_plural "%d test mails were sent"
+msgstr[0] ""
+msgstr[1] ""
+
+#: eucs_platform/settings/base.py:194
+msgid "Dutch"
+msgstr "荷兰"
+
+#: eucs_platform/settings/base.py:195
+msgid "English"
+msgstr "英语"
+
+#: eucs_platform/settings/base.py:196
+msgid "Estonian"
+msgstr "爱沙尼亚人"
+
+#: eucs_platform/settings/base.py:197
+msgid "Français"
+msgstr "弗朗索瓦人"
+
+#: eucs_platform/settings/base.py:198
+msgid "German"
+msgstr "德语"
+
+#: eucs_platform/settings/base.py:199
+msgid "Greek"
+msgstr "希腊语"
+
+#: eucs_platform/settings/base.py:200
+msgid "Hungarian"
+msgstr "匈牙利"
+
+#: eucs_platform/settings/base.py:201
+msgid "Italian"
+msgstr "意大利人"
+
+#: eucs_platform/settings/base.py:202
+msgid "Lituanian"
+msgstr "lituanian"
+
+#: eucs_platform/settings/base.py:203
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: eucs_platform/settings/base.py:204
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: eucs_platform/settings/base.py:205
+msgid "Swedish"
+msgstr "瑞典"
+
+#: eucs_platform/settings/base.py:206
+msgid "Chinese"
+msgstr "中国人"
+
+#: events/forms.py:8
 msgid "Title of the event"
-msgstr "Evenemangets namn"
+msgstr "活动的标题"
 
-#: .\src\events\forms.py:9
+#: events/forms.py:9
 msgid "A brief description of the event"
-msgstr "En kort beskrivning av evenemanget"
+msgstr "事件的简要说明"
 
-#: .\src\events\forms.py:10
+#: events/forms.py:10
 msgid "Location of the Event"
-msgstr "Evenemangets plats"
+msgstr "活动的位置"
 
-#: .\src\events\forms.py:14
+#: events/forms.py:14
 msgid "Please provide a URL to an external web site for the event"
-msgstr "Skriv in webbadress (URL) till evenemangets externa hemsida"
+msgstr "请为活动提供外部网站的URL"
 
-#: .\src\events\templates\editEvent.html:25
+#: events/templates/editEvent.html:25
 msgid "Edit event"
-msgstr "Ändra evenemang"
+msgstr "编辑事件"
 
-#: .\src\events\templates\editEvent.html:34
-#: .\src\events\templates\new_event.html:35
+#: events/templates/editEvent.html:34 events/templates/new_event.html:35
 msgid "Event info"
-msgstr "Info om evenemang"
+msgstr "事件信息"
 
-#: .\src\events\templates\events.html:12 .\src\templates\about.html:58
-msgid "Events"
-msgstr "Kalendarium"
+#: events/templates/events.html:11
+msgid "On going <span class='lightBlue-color'>events</span>"
+msgstr "在进行<span class ='lightblue-color'>事件</span>"
 
-#: .\src\events\templates\events.html:24 .\src\templates\base_forum.html:89
-#: .\src\templates\base_r2.html:180
-msgid "ADD"
-msgstr "Lägg till"
+#: events/templates/events.html:24
+msgid "Upcoming <span class='lightBlue-color'>events</span>"
+msgstr "即将到来的<span class ='lightblue-color'>事件</span>"
 
-#: .\src\events\templates\events.html:31
-msgid "On going events"
-msgstr "Pågående evenemang"
+#: events/templates/events.html:36
+msgid "Past <span class='lightBlue-color'>events</span>"
+msgstr "过去的<span class ='lightblue-color'>事件</span>"
 
-#: .\src\events\templates\events.html:44 .\src\events\templates\events.html:89
-#: .\src\events\templates\events.html:132
-msgid "More info"
-msgstr "Mer info"
-
-#: .\src\events\templates\events.html:76
-msgid "Upcoming events"
-msgstr "Kommande evenemang"
-
-#: .\src\events\templates\events.html:119
-msgid "Past events"
-msgstr "Tidigare evenemang"
-
-#: .\src\events\templates\events.html:164
-#: .\src\organisations\templates\organisations.html:26
-#: .\src\projects\templates\projects.html:27
-#: .\src\resources\templates\resources.html:27
-msgid "Sorry, nothing found"
-msgstr "Tyvärr, inga sökträffar"
-
-#: .\src\events\templates\new_event.html:25
+#: events/templates/new_event.html:25
 msgid "New event"
-msgstr "Nytt evenemang"
+msgstr "新事件"
 
-#: .\src\organisations\forms.py:10
+#: organisations/forms.py:14
 msgid "The name or the organisation"
-msgstr "Organisationens namn"
+msgstr "名称或组织"
 
-#: .\src\organisations\forms.py:12
+#: organisations/forms.py:18
 msgid "URL of the organisation"
-msgstr "Organisationens webbplats (URL)"
+msgstr "组织的URL"
 
-#: .\src\organisations\forms.py:14
-msgid "Please briefly describe the organisation (ideally in 500 words or less)"
-msgstr "Beskriv organisationen kortfattat (helst under 500 ord)"
+#: organisations/forms.py:21
+msgid "Please briefly describe the organisation (max 3000 characters)"
+msgstr "请简要描述组织（最大3000个字符）"
 
-#: .\src\organisations\forms.py:16
-#: .\src\organisations\templates\finder_organisations.html:18
+#: organisations/forms.py:26
+#: organisations/templates/_finder_organisation.html:30
+#: organisations/templates/finder_organisations.html:18
 msgid "Type"
-msgstr "Typ"
+msgstr "类型"
 
-#: .\src\organisations\forms.py:18
+#: organisations/forms.py:31
 msgid "Please upload the logo of your organisation (.jpg or .png)"
-msgstr "Ladda upp organisationens logotyp (.jpg eller .png)"
+msgstr "请上传组织的徽标（.jpg或.png）"
 
-#: .\src\organisations\forms.py:19
-msgid "Logo"
-msgstr "Logotyp"
-
-#: .\src\organisations\forms.py:26
+#: organisations/forms.py:39 platforms/forms.py:59
 msgid "Please name the contact person or contact point for the organisation"
-msgstr "Namn på organisationens kontaktperson"
+msgstr "请命名该组织的联系人或联系点"
 
-#: .\src\organisations\forms.py:29
+#: organisations/forms.py:44
+msgid ""
+"Please provide the email address of the contact person orcontact point. Note "
+"you will need permission to do that"
+msgstr ""
+"请提供联系人orcontact点的电子邮件地址。笔记"
+"您将需要许可才能做到这一点"
+
+#: organisations/forms.py:91 projects/forms.py:476 resources/forms.py:286
+msgid "Give additional users permission to edit"
+msgstr "授予其他用户许可进行编辑"
+
+#: organisations/templates/_delete_modal.html:6
+msgid "Confirm delete"
+msgstr "确认删除"
+
+#: organisations/templates/_delete_modal.html:10
+msgid ""
+"You are going to delete this organisation, this procedure is irreversible."
+msgstr ""
+"您将删除此组织，此过程是不可逆转的。"
+
+#: organisations/templates/_delete_modal.html:11
+msgid "Do you want to proceed?"
+msgstr "你想继续吗？"
+
+#: organisations/templates/_delete_modal.html:14 templates/_crop_zone.html:27
+#: templates/_modal_to_crop.html:27
+msgid "Cancel"
+msgstr "取消"
+
+#: organisations/templates/_delete_modal.html:15
+msgid "Delete"
+msgstr "删除"
+
+#: organisations/templates/_finder_organisation.html:11
+#: projects/templates/_finder_projects.html:12
+msgid "Most Recent Updated"
+msgstr "最新更新"
+
+#: organisations/templates/_finder_organisation.html:12
+#: projects/templates/_finder_projects.html:13
+msgid "Featured"
+msgstr "特色"
+
+#: organisations/templates/_finder_organisation.html:13
+#: projects/templates/_finder_projects.html:14
+#: resources/templates/_finder_resources.html:16
+msgid "Sort by rating"
+msgstr "按评分排序"
+
+#: organisations/templates/_finder_organisation.html:18
+#: organisations/templates/finder_organisations.html:28
+msgid "Country"
+msgstr "国家"
+
+#: organisations/templates/_finder_organisation.html:42
+#: projects/templates/_finder_projects.html:76
+#: resources/templates/_finder_resources.html:69
+msgid "keyword:"
+msgstr "关键词："
+
+#: organisations/templates/_finder_organisation.html:50
+msgid "country:"
+msgstr "国家："
+
+#: organisations/templates/_finder_organisation.html:58
+msgid "type:"
+msgstr "类型："
+
+#: organisations/templates/_finder_organisation.html:63
+msgid "organisations"
+msgstr "组织"
+
+#: organisations/templates/_finder_organisation.html:65
+#: organisations/templates/_intro_form_organisation.html:8
+msgid "organisation"
+msgstr "组织"
+
+#: organisations/templates/_finder_organisation.html:67
+#: organisations/templates/finder_organisations.html:44
+msgid "found"
+msgstr "成立"
+
+#: organisations/templates/_finder_organisation.html:70
+#: organisations/templates/finder_organisations.html:54
+#: projects/templates/_finder_projects.html:112
+msgid "Clear current search query and filters"
+msgstr "清除当前搜索查询和过滤器"
+
+#: organisations/templates/_intro_form_organisation.html:6
+#: platforms/templates/_intro_form_platform.html:6
+#: projects/templates/_intro_form_project.html:6
+#: resources/templates/_intro_form_resource.html:6
+#: resources/templates/_intro_form_training_resource.html:6
+msgid "Editing"
+msgstr "编辑"
+
+#: organisations/templates/_intro_form_organisation.html:8
+#: platforms/templates/_intro_form_platform.html:8
+#: projects/templates/_intro_form_project.html:8
+#: resources/templates/_intro_form_resource.html:8
+#: resources/templates/_intro_form_training_resource.html:8
+msgid "New"
+msgstr "新的"
+
+#: organisations/templates/_intro_form_organisation.html:13
+msgid ""
+"Thank you for creating a profile for your organisation on the EU-Citizen."
+"Science platform. This can be linked with the personal profiles of the "
+"people in your organisation, the project profiles that your organisation is "
+"involved in, and the resource profiles or the training resources that were "
+"published by your organisation. Please fill in all of the mandatory "
+"information in the fields below (indicated with an asterisk*), and as much "
+"of the non-mandatory information as possible."
+msgstr ""
+"感谢您在欧盟公民上为您的组织创建个人资料。"
+"科学平台。这可以与"
+"您组织中的人们，您的组织是"
+"参与，资源配置文件或培训资源"
+"由您的组织发布。请填写所有强制性"
+"下面的字段中的信息（用星号*表示），同样多"
+"尽可能多的非强制性信息。"
+
+#: organisations/templates/_intro_form_organisation.html:15
+msgid ""
+"Upon saving this profile, your organisational profile will immediately show "
+"up on the platform but will be later moderated by one of the platform "
+"moderators. This step is simply to check for spam or inappropriate uses of "
+"the profile form."
+msgstr ""
+"保存此个人资料后，您的组织资料将立即显示"
+"在平台上，但以后将由一个平台之一进行主持"
+"主持人。此步骤只是检查垃圾邮件或不适当用途"
+"配置文件表格。"
+
+#: organisations/templates/_intro_form_organisation.html:17
+#: platforms/templates/_intro_form_platform.html:17
+#: projects/templates/_intro_form_project.html:22
+#: resources/templates/_intro_form_resource.html:22
+#: resources/templates/_intro_form_training_resource.html:22
+msgid ""
+"We would like to point out that, as the author of this profile, you have to "
+"clear the image rights and copyrights of the content you are submitting. "
+"Please indicate the author or copyright holder of pictures. You may need to "
+"obtain express written permission from them."
+msgstr ""
+"我们想指出的是，作为此个人资料的作者，您必须"
+"清除您提交的内容的图像权利和版权。"
+"请指示作者或版权图片持有者。您可能需要"
+"获得他们明确的书面许可。"
+
+#: organisations/templates/finder_organisations.html:44
+msgid "result"
+msgstr "结果"
+
+#: organisations/templates/organisation.html:27 templates/_subnavbar.html:10
+#: templates/about.html:59
+msgid "Projects"
+msgstr "项目"
+
+#: organisations/templates/organisation.html:38 templates/_subnavbar.html:16
+#: templates/about.html:63
+msgid "Resources"
+msgstr "资源"
+
+#: organisations/templates/organisation.html:49 templates/about.html:67
+msgid "Training resources"
+msgstr "培训资源"
+
+#: organisations/templates/organisation.html:60
+msgid "Members"
+msgstr "成员"
+
+#: organisations/templates/organisation.html:73
+msgid "Go to Organisation"
+msgstr "去组织"
+
+#: organisations/templates/organisation.html:78
+msgid "Edit Organisation"
+msgstr "编辑组织"
+
+#: organisations/templates/organisation.html:86
+msgid "Delete Organisation"
+msgstr "删除组织"
+
+#: organisations/templates/organisation_form.html:46
+#: platforms/templates/platform_form.html:29
+#: projects/templates/project_form.html:35
+#: resources/templates/resource_form.html:36
+msgid "Main information"
+msgstr "主要信息"
+
+#: organisations/templates/organisation_form.html:62
+#: platforms/templates/platform_form.html:43
+msgid "Contact information"
+msgstr "联系信息"
+
+#: organisations/templates/organisation_form.html:75
+msgid "Organisation logo"
+msgstr "组织徽标"
+
+#: organisations/templates/organisation_form.html:96
+#: projects/templates/project.html:151
+msgid "Location"
+msgstr "地点"
+
+#: organisations/templates/organisation_form.html:107
+#: profiles/templates/profiles/edit_profile.html:56 templates/_save_zone.html:3
+msgid "Save"
+msgstr "节省"
+
+#: organisations/templates/organisations.html:17
+msgid "organisation <span class='lightBlue-color'>search</span>"
+msgstr "组织<span class ='LightBlue-Color'>搜索</span>"
+
+#: organisations/views.py:50
+msgid "Organisation added correctly"
+msgstr "组织正确添加"
+
+#: platforms/forms.py:26
+msgid "The name of the network or plarform"
+msgstr "网络或质量的名称"
+
+#: platforms/forms.py:31
+msgid "URL of the network or platform"
+msgstr "网络或平台的URL"
+
+#: platforms/forms.py:36
+msgid "Please briefly describe the network or platform (max 3000 characters)"
+msgstr "请简要描述网络或平台（最大3000个字符）"
+
+#: platforms/forms.py:40 platforms/templates/platform.html:66
+#: projects/forms.py:133
+msgid "Geographic extend"
+msgstr "地理扩展"
+
+#: platforms/forms.py:41
+msgid "Please indicate the spatial scale of the network / platform"
+msgstr "请指出网络 /平台的空间量表"
+
+#: platforms/forms.py:47
+msgid "Please select the country(ies) related to the network / platform"
+msgstr "请选择与网络 /平台相关的国家（IES）"
+
+#: platforms/forms.py:50
+msgid "Network / platform locality"
+msgstr "网络 /平台区域"
+
+#: platforms/forms.py:54
+msgid ""
+"Please describe the locality of the network/platgorm, e.g. City of Lisbon."
+msgstr ""
+"请描述网络/platgorm的局部性，例如里斯本市。"
+
+#: platforms/forms.py:57
+msgid "Contact point"
+msgstr "接触点"
+
+#: platforms/forms.py:64 projects/forms.py:161
+msgid "Contact point email"
+msgstr "联系点电子邮件"
+
+#: platforms/forms.py:67
 msgid ""
 "Please provide the email address of the contact person or contact point. "
 "Note you will need permission to do that"
 msgstr ""
-"Ange e-postadressen för kontaktpersonen. Vänligen se till att du har "
-"kontaktpersonens tillstånd att uppge hens e-postadress"
+"请提供联系人或联系点的电子邮件地址。"
+"注意您需要许可才能做到这一点"
 
-#: .\src\organisations\forms.py:67 .\src\projects\forms.py:286
-#: .\src\resources\forms.py:200
-msgid "Give additional users permission to edit"
-msgstr "Ge fler användare behörighet att redigera"
+#: platforms/forms.py:73 resources/forms.py:119
+msgid "Organisation(s)"
+msgstr "组织"
 
-#: .\src\organisations\templates\edit_organisation.html:28
-#: .\src\organisations\templates\new_organisation.html:27
-#: .\src\projects\templates\editProject.html:29
-#: .\src\projects\templates\new_project.html:31
-#: .\src\resources\templates\editResource.html:23
-#: .\src\resources\templates\new_resource.html:25
-msgid "Crop the photo"
-msgstr "Beskär bild"
-
-#: .\src\organisations\templates\edit_organisation.html:30
-#: .\src\organisations\templates\new_organisation.html:29
-#: .\src\projects\templates\editProject.html:31
-#: .\src\projects\templates\modal_projects.html:10
-#: .\src\projects\templates\new_project.html:33
-#: .\src\projects\templates\new_project.html:67
-#: .\src\resources\templates\editResource.html:25
-#: .\src\resources\templates\modal_resources.html:10
-#: .\src\resources\templates\new_resource.html:27
-#: .\src\resources\templates\new_resource.html:62
-#: .\src\templates\modalinfo.html:10
-msgid "Close"
-msgstr "Stäng"
-
-#: .\src\organisations\templates\edit_organisation.html:44
-#: .\src\organisations\templates\new_organisation.html:43
-#: .\src\projects\templates\editProject.html:45
-#: .\src\projects\templates\new_project.html:47
-#: .\src\resources\templates\editResource.html:39
-#: .\src\resources\templates\new_resource.html:41
-msgid "zoom_in"
-msgstr "förstora"
-
-#: .\src\organisations\templates\edit_organisation.html:47
-#: .\src\organisations\templates\new_organisation.html:46
-#: .\src\projects\templates\editProject.html:48
-#: .\src\projects\templates\new_project.html:50
-#: .\src\resources\templates\editResource.html:42
-#: .\src\resources\templates\new_resource.html:44
-msgid "zoom_out"
-msgstr "förminska"
-
-#: .\src\organisations\templates\edit_organisation.html:50
-#: .\src\organisations\templates\new_organisation.html:49
-#: .\src\organisations\templates\organisation.html:29
-#: .\src\projects\templates\editProject.html:51
-#: .\src\projects\templates\editProject.html:72
-#: .\src\projects\templates\new_project.html:53
-#: .\src\resources\templates\editResource.html:45
-#: .\src\resources\templates\editResource.html:67
-#: .\src\resources\templates\new_resource.html:47
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: .\src\organisations\templates\edit_organisation.html:51
-#: .\src\organisations\templates\new_organisation.html:50
-#: .\src\projects\templates\editProject.html:52
-#: .\src\projects\templates\new_project.html:54
-#: .\src\resources\templates\editResource.html:46
-#: .\src\resources\templates\new_resource.html:48
-msgid "Crop and upload"
-msgstr "Beskär och ladda upp"
-
-#: .\src\organisations\templates\edit_organisation.html:65
-msgid "Edit Organisation Profile"
-msgstr "Redigera organisationsprofil"
-
-#: .\src\organisations\templates\edit_organisation.html:74
-#: .\src\organisations\templates\edit_organisation.html:138
-#: .\src\organisations\templates\new_organisation.html:79
-#: .\src\organisations\templates\new_organisation.html:138
-#: .\src\profiles\templates\profiles\edit_profile.html:52
-#: .\src\projects\templates\editProject.html:90
-#: .\src\projects\templates\editProject.html:333
-#: .\src\resources\templates\editResource.html:84
-#: .\src\resources\templates\editResource.html:256
-#: .\src\resources\templates\new_resource.html:114
-#: .\src\resources\templates\new_resource.html:248
-msgid "Save"
-msgstr "Spara"
-
-#: .\src\organisations\templates\finder_organisations.html:28
-#: .\src\projects\templates\finder_projects.html:54
-msgid "Country"
-msgstr "Land"
-
-#: .\src\organisations\templates\finder_organisations.html:44
-#: .\src\projects\templates\finder_projects.html:82
-#: .\src\resources\templates\finder_resources.html:69
-#: .\src\templates\home.html:66 .\src\templates\home.html:76
-#: .\src\templates\home.html:86 .\src\templates\home.html:96
-msgid "result"
-msgstr "resultat"
-
-#: .\src\organisations\templates\finder_organisations.html:44
-#: .\src\projects\templates\finder_projects.html:82
-#: .\src\resources\templates\finder_resources.html:69
-msgid "found"
-msgstr "hittat"
-
-#: .\src\organisations\templates\finder_organisations.html:54
-#: .\src\projects\templates\finder_projects.html:93
-msgid "Clear current search query and filters"
-msgstr "Rensa sökinställningarna"
-
-#: .\src\organisations\templates\new_organisation.html:64
-msgid "New Organisation Profile"
-msgstr "Ny organisationsprofil"
-
-#: .\src\organisations\templates\new_organisation.html:65
+#: platforms/forms.py:75
 msgid ""
-"Thank you for creating a profile for your organisation on the EU-Citizen."
-"Science Platform."
+"Organisation(s) contributing the resource (multiple selection separated by "
+"comma or presseing enter. If not listed, please add <a href=\"/"
+"new_organisation\" target=_blank\">here</a> before submitting"
 msgstr ""
-"Tack för att du har skapat en profil för din organisation på EU-Citizen."
-"Science."
+"贡献资源的组织（多重选择由"
+"逗号或按下Enter。如果未列出，请添加 <a href=\"/"
+"new_organisation\" target=_blank\">here</a> before submitting"
 
-#: .\src\organisations\templates\new_organisation.html:66
+#: platforms/forms.py:86
+msgid "Logo of your network or platform"
+msgstr "网络或平台的徽标"
+
+#: platforms/forms.py:87 projects/forms.py:208
+msgid "Will be resized to 600x400 pixels"
+msgstr "将调整为600x400像素"
+
+#: platforms/forms.py:96 projects/forms.py:234
+msgid "Logo credit, if applicable"
+msgstr "徽标信用，如果适用"
+
+#: platforms/forms.py:100
+msgid "Network or platform profile image"
+msgstr "网络或平台配置文件图像"
+
+#: platforms/forms.py:101
+msgid "Will be resized to 1100x400 pixels)"
+msgstr "将调整为1100x400像素）"
+
+#: platforms/forms.py:110
+msgid "Profile Image credit, if applicable"
+msgstr "个人资料图像信用，如果适用"
+
+#: platforms/templates/_intro_form_platform.html:8
+msgid "platform"
+msgstr "平台"
+
+#: platforms/templates/_intro_form_platform.html:13
 msgid ""
-"This can be linked with the Personal Profiles of the people in your "
-"organisation, the Project Profiles of the projects that your organisation is "
-"involved in, and the Resource Profiles of the resources that were published "
-"by your organisation."
+"Thank you for creating a profile for your platform or network on the EU-"
+"Citizen.Science platform. Please fill in all of the mandatory information in "
+"the fields below (indicated with an asterisk*), and as much of the non-"
+"mandatory information as possible."
 msgstr ""
-"Denna kan kopplas till de personliga profilerna för personer i er "
-"organisation, projekten som organisationen deltar i och profiler för "
-"resurser publicerade av organisationen."
+"感谢您在欧盟上为您的平台或网络创建个人资料"
+"公民平台。请填写所有强制性信息"
+"下面的字段（用星号*指示），以及许多非 - "
+"强制性信息。"
 
-#: .\src\organisations\templates\new_organisation.html:68
+#: platforms/templates/_intro_form_platform.html:15
 msgid ""
-"Please fill in all of the mandatory information in the fields below "
-"(indicated with an asterisk*), and as much of the non-mandatory information "
-"as possible."
+"Upon saving this profile, your platform or network profile will immediately "
+"show up on the platform but will be later moderated by one of the platform "
+"moderators. This step is simply to check for spam or inappropriate uses of "
+"the profile form."
 msgstr ""
-"Fyll i all obligatorisk information i fälten nedan (markerade med "
-"asterisk*), och gärna så mycket av den icke-obligatoriska informationen "
-"som möjligt."
+"保存此配置文件后，您的平台或网络配置文件将立即"
+"出现在平台上，但以后将由一个平台之一进行调节"
+"主持人。此步骤只是检查垃圾邮件或不适当用途"
+"配置文件表格。"
 
-#: .\src\organisations\templates\new_organisation.html:70
-msgid ""
-"Upon saving this profile, your organisational profile will be submitted for "
-"moderation by one of the members of the EU-Citizen.Science consortium. This "
-"step is simply to check for ‘spam’ or inappropriate uses of the profile form."
-msgstr ""
-"När du har sparat din organisations profil skickas den in för granskning"
-"av en medlem i EU-Citizen.Science. Detta för att säkerställa"
-"att det inte är skräppost eller att formuläret används otillbörligt."
+#: platforms/templates/platform.html:37
+#: profiles/templates/profiles/show_profile.html:17
+#: templates/_subnavbar.html:28 templates/about.html:74
+msgid "Organisations"
+msgstr "组织"
 
-#: .\src\organisations\templates\organisation.html:21
-#: .\src\projects\templates\editProject.html:64
-#: .\src\resources\templates\editResource.html:59
-msgid "Confirm delete"
-msgstr "Bekräfta radering"
+#: platforms/templates/platform.html:71
+msgid "Countries"
+msgstr "国家"
 
-#: .\src\organisations\templates\organisation.html:25
-msgid ""
-"You are going to delete this organisation, this procedure is irreversible."
-msgstr ""
-"Du kommer nu att radera organisationsprofilen. Åtgärden går inte att ångra."
+#: platforms/templates/platform_form.html:54
+msgid "Network or platform images"
+msgstr "网络或平台图像"
 
-#: .\src\organisations\templates\organisation.html:26
-#: .\src\projects\templates\editProject.html:69
-#: .\src\resources\templates\editResource.html:64
-msgid "Do you want to proceed?"
-msgstr "Vill du fortsätta?"
+#: platforms/templates/platforms.html:9
+msgid "platform and network <span class='lightBlue-color'> search</span>"
+msgstr "平台和网络<span class ='lightblue-color'>搜索</span>"
 
-#: .\src\organisations\templates\organisation.html:30
-#: .\src\projects\templates\editProject.html:73
-#: .\src\projects\templates\editProject.html:92
-#: .\src\resources\templates\editResource.html:68
-#: .\src\resources\templates\editResource.html:87
-msgid "Delete"
-msgstr "Radera"
-
-#: .\src\organisations\templates\organisation.html:44
-#: .\src\projects\forms.py:89
-msgid "Contact Point Email"
-msgstr "E-post till kontaktperson"
-
-#: .\src\organisations\templates\organisation.html:53
-msgid "Go to Organisation"
-msgstr "Gå till organisation"
-
-#: .\src\organisations\templates\organisation.html:59
-#: .\src\templates\_subnavbar.html:12 .\src\templates\about.html:55
-#: .\src\templates\home.html:65
-msgid "Projects"
-msgstr "Projekt"
-
-#: .\src\organisations\templates\organisation.html:65
-#: .\src\templates\_subnavbar.html:16 .\src\templates\about.html:54
-#: .\src\templates\home.html:75
-msgid "Resources"
-msgstr "Resurser"
-
-#: .\src\organisations\templates\organisation.html:71
-msgid "Members"
-msgstr "Medlemmar"
-
-#: .\src\organisations\templates\organisation.html:94
-msgid "Delete Organisation"
-msgstr "Ta bort organisation"
-
-#: .\src\organisations\templates\organisation.html:97
-msgid "Edit Organisation"
-msgstr "Redigera organisation"
-
-#: .\src\organisations\templates\organisations_cards.html:17
-#: .\src\profiles\templates\profiles\show_profile.html:46
-#: .\src\templates\modalinfo.html:20
-msgid "Organisation"
-msgstr "Organisation"
-
-#: .\src\profiles\forms.py:48
+#: profiles/forms.py:60
 msgid ""
 "Please write or select interest areas, separated by commas or pressing enter"
 msgstr ""
-"Skriv eller välj intresseområden, separera med kommatecken eller ENTER-tryck"
+"请写或选择兴趣区域，通过逗号或按Enter分开"
 
-#: .\src\profiles\models.py:23
+#: profiles/forms.py:70 projects/forms.py:181
+msgid ""
+"Other Organisation participating in the project.If not listed,please add it "
+"<a href=\"/new_organisation\" target=\"_blank\">here</a> before submitting "
+"the project"
+msgstr ""
+"其他参加该项目的组织。如果未列出，请添加"
+"<a href=\"/new_organisation\" target=\"_blank\">here</a> before submitting "
+"该项目"
+
+#: profiles/forms.py:73 projects/forms.py:184
+msgid "Other Organisations"
+msgstr "其他组织"
+
+#: profiles/models.py:23
+msgid "Surname"
+msgstr "姓"
+
+#: profiles/models.py:34
 msgid "Profile picture"
-msgstr "Profilbild"
+msgstr "个人资料图片"
 
-#: .\src\profiles\models.py:25
-#: .\src\profiles\templates\profiles\show_profile.html:43
+#: profiles/models.py:39
 msgid "Title"
-msgstr "Titel"
+msgstr "标题"
 
-#: .\src\profiles\models.py:26
+#: profiles/models.py:41
 msgid "Short Bio and disciplinary background"
-msgstr "Om mig"
+msgstr "简短的生物和纪律背景"
 
-#: .\src\profiles\models.py:30
+#: profiles/models.py:47
+msgid ""
+"ORCID (If you have registered on the ORCID platform for researchers and "
+"havea persistent digital identifier (your ORCID iD) you can add it here to "
+"link thisprofile with your professional information such as affiliations, "
+"grants, publications,peer review, and more.)"
+msgstr ""
+"ORCID（如果您已经在研究人员的OrcID平台上注册"
+"Havea持续数字标识符（您的OrcID ID）您可以在此处添加"
+"将此Profile链接到您的专业信息，例如从属关系，"
+"赠款，出版物，同行评审等等。）"
+
+#: profiles/models.py:55
 msgid "Email verified"
-msgstr "Din email är bekräftad"
+msgstr "电子邮件已验证"
 
-#: .\src\profiles\models.py:31
-msgid ""
-"ORCID (If you have registered on the ORCID platform for researchers and have "
-"a persistent digital identifier (your ORCID iD) you can add it here to link "
-"this profile with your professional information such as affiliations, "
-"grants, publications, peer review, and more.)"
-msgstr ""
-"ORCID (Om du är registrerad på ORCIDs forskarplattform och kan"
-"identifiera dig via ORCID iD kan du lägga till det här för att"
-"länka profilen med information om samarbetspartner,"
-"stipendier, publikationer etc.)"
+#: profiles/templates/profiles/bookmarks.html:6
+msgid "Projects in bookmarks"
+msgstr "书签项目"
 
-#: .\src\profiles\templates\profiles\edit_profile.html:31
-msgid "Edit profile"
-msgstr "Redigera profil"
-
-#: .\src\profiles\templates\profiles\edit_profile.html:49
-#: .\src\profiles\templates\profiles\show_profile.html:59
-msgid "Geographical location"
-msgstr "Geografisk plats"
-
-#: .\src\profiles\templates\profiles\followed_projects.html:27
-#: .\src\templates\base2.html:65 .\src\templates\base_forum.html:77
-#: .\src\templates\base_r2.html:165
-msgid "Followed projects"
-msgstr "Projekt som jag följer"
-
-#: .\src\profiles\templates\profiles\my_organisations.html:31
+#: profiles/templates/profiles/bookmarks.html:17
+#: profiles/templates/profiles/submissions.html:41
 msgid "Submitted organisations"
-msgstr "Inlagda organisationer"
+msgstr "提交的组织"
 
-#: .\src\profiles\templates\profiles\my_projects.html:31
-msgid "Uploaded projects"
-msgstr "Uppladdade projekt"
+#: profiles/templates/profiles/bookmarks.html:29
+msgid "Resources in bookmarks"
+msgstr "书签中的资源"
 
-#: .\src\profiles\templates\profiles\my_resources.html:31
-msgid "Uploaded resources"
-msgstr "Uppladdade resurser"
+#: profiles/templates/profiles/bookmarks.html:40
+msgid "Training in bookmarks"
+msgstr "书签培训"
 
-#: .\src\profiles\templates\profiles\saved_resources.html:28
-msgid "My library"
-msgstr "Mitt bibliotek"
+#: profiles/templates/profiles/bookmarks.html:51
+#: profiles/templates/profiles/submissions.html:52
+msgid "Submitted events"
+msgstr "提交的活动"
 
-#: .\src\profiles\templates\profiles\show_profile.html:30
-msgid "Delete Profile"
-msgstr "Raderad profil"
+#: profiles/templates/profiles/edit_profile.html:20
+msgid "Personal information"
+msgstr "个人信息"
 
-#: .\src\profiles\templates\profiles\show_profile.html:31
-msgid "Edit Profile"
-msgstr "Redigera profil"
+#: profiles/templates/profiles/edit_profile.html:31
+msgid "Bio &amp; Interest Areas"
+msgstr "Bio &amp; Interest Areas"
 
-#: .\src\profiles\templates\profiles\show_profile.html:38
-msgid "Email"
-msgstr "E-post"
+#: profiles/templates/profiles/edit_profile.html:39
+msgid "Participation"
+msgstr "参与"
 
-#: .\src\profiles\templates\profiles\show_profile.html:39
-msgid "Joined"
-msgstr "Gick med"
+#: profiles/templates/profiles/edit_profile.html:46
+msgid "Picture"
+msgstr "图片"
 
-#: .\src\profiles\templates\profiles\show_profile.html:40
-msgid "Last seen"
-msgstr "Sågs senast"
+#: profiles/templates/profiles/privacy_center.html:4
+msgid "Permissions and password"
+msgstr "权限和密码"
 
-#: .\src\profiles\templates\profiles\show_profile.html:44
-msgid "Bio and disciplinary background"
-msgstr "Om mig"
+#: profiles/templates/profiles/privacy_center.html:40
+msgid "General information"
+msgstr "一般信息"
 
-#: .\src\profiles\templates\profiles\show_profile.html:45
-msgid "ORCID profile"
-msgstr "ORCID"
+#: profiles/templates/profiles/show_profile.html:5
+msgid "Bio and <span class='lightBlue-color'>disciplinary background</span>"
+msgstr "bio and <span class ='lightblue-color'>纪律背景</span>"
 
-#: .\src\profiles\templates\profiles\show_profile.html:51
-msgid "Interest Areas"
-msgstr "Intresseområden"
+#: profiles/templates/profiles/show_profile.html:10
+msgid "Interest and expertise areas"
+msgstr "兴趣和专业领域"
 
-#: .\src\projects\forms.py:21
+#: profiles/templates/profiles/submissions.html:6
+msgid "Submitted <span class='lightBlue-color'>projects</span>"
+msgstr "提交<span class ='lightblue-color'>项目</span>"
+
+#: profiles/templates/profiles/submissions.html:18 templates/base2.html:64
+#: templates/base_forum.html:87
+msgid "Submitted resources"
+msgstr "提交资源"
+
+#: profiles/templates/profiles/submissions.html:29
+msgid "Submitted training"
+msgstr "提交的培训"
+
+#: projects/forms.py:32
 msgid "Short name or title of the project"
-msgstr "Projekts namn"
+msgstr "项目的简短名称或标题"
 
-#: .\src\projects\forms.py:24
-msgid ""
-"Please enter 2-3 keywords (comma separated) or pressing enter to further "
-"describe your project and assist search on the platform"
-msgstr ""
-"Skriv in 2-3 ord (separerade med komma) eller tryck ENTER för att "
-"beskriva ditt projekt och förbättra sökningen på plattformen"
-
-
-#: .\src\projects\forms.py:24 .\src\projects\templates\project.html:67
-#: .\src\projects\templates\project.html:189
-#: .\src\resources\templates\resource.html:51
-#: .\src\resources\templates\resource.html:166
-msgid "Keywords"
-msgstr "Nyckelord"
-
-#: .\src\projects\forms.py:27
-msgid "Primary aim, goal or objective of the project. Max 2000 characters"
-msgstr "Beskriv huvudsyftet med projektet. Max 2000 tecken"
-
-#: .\src\projects\forms.py:30
-msgid ""
-"Please describe the citizen science aspect(s) of the project - see the <a "
-"href=\"https://zenodo.org/communities/citscicharacteristics\">ECSA "
-"Characteristics of Citizen Science</a> for guidance"
-msgstr ""
-"Beskriv hur projektet är kopplat till medborgarforskning. Titta på <a "
-"href=\"https://zenodo.org/communities/citscicharacteristics\">ECSA "
-"Characteristics of Citizen Science</a> för vägledning"
-
-#: .\src\projects\forms.py:34
-msgid "The project topic(s) or field(s) of science, multiple selection"
-msgstr "Projektets ämne(n) eller forskningsområde(n), det går välja flera svar"
-
-#: .\src\projects\forms.py:35 .\src\projects\templates\finder_projects.html:61
-msgid "Topic"
-msgstr "Ämne"
-
-#: .\src\projects\forms.py:38
-msgid "Please select the task(s) undertaken by participants"
-msgstr "Välj de uppgifter som deltagarna genomför"
-
-#: .\src\projects\forms.py:39
-msgid "Participation Task"
-msgstr "Deltagarnas uppgift"
-
-#: .\src\projects\forms.py:43
-msgid "Activity Status"
-msgstr "Aktivitetsstatus"
-
-#: .\src\projects\forms.py:44
-msgid "Select one"
-msgstr "Välj en"
-
-#: .\src\projects\forms.py:47
-msgid "Closest approximate start date of the project"
-msgstr "Beräknat startdatum för projektet"
-
-#: .\src\projects\forms.py:50
-msgid "Approximate end date of the project"
-msgstr "Beräknat slutdatum för projektet"
-
-#: .\src\projects\forms.py:53
+#: projects/forms.py:37
 msgid "Please provide a URL to an external web site for the project"
-msgstr "Fyll i webadressen (URL) till projektets hemsida"
+msgstr "请为该项目提供外部网站的URL"
 
-#: .\src\projects\forms.py:57
+#: projects/forms.py:41
+msgid "Please provide a description of your project here."
+msgstr "请在此处提供您项目的描述。"
+
+#: projects/forms.py:46
+msgid "Primary aim, goal or objective of the project. Max 2000 characters"
+msgstr "项目的主要目的，目标或目标。最大2000个字符"
+
+#: projects/forms.py:51
+msgid ""
+"Please describe the citizen science aspect(s) of the project and the link of "
+"the project tocitizen science using the <a href=\"https://zenodo.org/"
+"communities/citscicharacteristics\">ECSACharacteristics of Citizen Science</"
+"a> and the <a href=\"https://osf.io/xpr2n/\">ECSA 10 Principles of Citizen "
+"Science</a>. What you introduce in this text field will not appear on the "
+"platform; it is just for moderation purposes"
+msgstr ""
+"请描述项目的公民科学方面和"
+"使用<a href <a href=\"https://zenodo.org/"
+"communities/citscicharacteristics\">ECSACharacteristics of Citizen Science</"
+"a> and the <a href=\"https://osf.io/xpr2n/\">ECSA 10 Principles of Citizen "
+"科学</a>。您在此文本字段中介绍的内容不会出现在"
+"平台;它只是为了适度目的"
+
+#: projects/forms.py:57
+msgid "Description of citizen science aspects"
+msgstr "公民科学方面的描述"
+
+#: projects/forms.py:61
+msgid "Activity status"
+msgstr "活动状态"
+
+#: projects/forms.py:63
+msgid "Select one"
+msgstr "选择一个"
+
+#: projects/forms.py:72
+msgid "Please enter 2-3 keywords <b>comma separated</b> or pressing enter"
+msgstr "请输入2-3个关键字<b>逗号分隔</b>或按Enter"
+
+#: projects/forms.py:73 projects/templates/project.html:91
+#: resources/templates/resource.html:152
+msgid "Keywords"
+msgstr "关键字"
+
+#: projects/forms.py:79
+msgid "Closest approximate start date of the project"
+msgstr "该项目最接近的开始日期"
+
+#: projects/forms.py:84
+msgid "Approximate end date of the project"
+msgstr "项目的大约结束日期"
+
+#: projects/forms.py:89
+msgid "The project topic(s) or field(s) of science, multiple selection"
+msgstr "科学的项目主题或领域，多次选择"
+
+#: projects/forms.py:91 projects/templates/_finder_projects.html:46
+msgid "Topic"
+msgstr "话题"
+
+#: projects/forms.py:96
+msgid "More information about participation, multiple selection"
+msgstr "有关参与，多次选择的更多信息"
+
+#: projects/forms.py:98 projects/templates/project.html:107
+msgid "Tags"
+msgstr "标签"
+
+#: projects/forms.py:104
+msgid "Please select the task(s) undertaken by participants"
+msgstr "请选择参与者执行的任务"
+
+#: projects/forms.py:106
+msgid "Participation task"
+msgstr "参与任务"
+
+#: projects/forms.py:111
+msgid "How difficult is the project?"
+msgstr "该项目有多困难？"
+
+#: projects/forms.py:113
+msgid "Difficulty level"
+msgstr "难度级别"
+
+#: projects/forms.py:117
+msgid "Please describe how people can get involved in the project"
+msgstr "请描述人们如何参与该项目"
+
+#: projects/forms.py:123
+msgid "Describe any required or suggested equipment to be used in the project"
+msgstr "描述要在项目中使用的任何必需或建议的设备"
+
+#: projects/forms.py:131
 msgid "Please indicate the spatial scale of the project"
-msgstr "Uppskatta projektets omfattning"
+msgstr "请指出该项目的空间规模"
 
-#: .\src\projects\forms.py:58
-msgid "Geographic Extend"
-msgstr "Geografisk utbredning"
-
-#: .\src\projects\forms.py:61
+#: projects/forms.py:139
 msgid "Project locality"
-msgstr "Projektets plats(er)"
+msgstr "项目所在地"
 
-#: .\src\projects\forms.py:62
+#: projects/forms.py:140
 msgid ""
 "Please describe the locality of the project, in terms of where the main "
-"participant activities take place,         E.g. in your backyard, parks in "
+"participantactivities take place,<br/> E.g. in your backyard, parks in "
 "London, rivers in Europe, online globally, etc."
 msgstr ""
-"Beskriv projektets plats, utifrån var de huvudsakliga"
-"deltagaraktiviteterna genomförs,         som tex på din bakgård, i  "
-"Londons parker, Europas floder eller online över hela världen etc."
+"请用主要位置来描述项目的所在地"
+"参与活动发生，例如在您的后院，停在"
+"伦敦，欧洲的河流，全球在线等。"
 
-#: .\src\projects\forms.py:67
+#: projects/forms.py:147
+msgid "Project geographic location"
+msgstr "项目地理位置"
+
+#: projects/forms.py:153
+msgid "Please name the contact person or contact point for the Project"
+msgstr "请命名该项目的联系人或联系点"
+
+#: projects/forms.py:155
+msgid "Public contact point"
+msgstr "公共联系点"
+
+#: projects/forms.py:160
+msgid "Please provide the email for the contact person or contact point"
+msgstr "请提供联系人或联系点的电子邮件"
+
+#: projects/forms.py:169
 msgid ""
-"Organisation coordinating the project. If not listed, please add it <a href="
-"\"/new_organisation\">here</a>         before submitting the project"
-msgstr ""
-"Organisationen som koordinerar projektet. Finns den inte med? Lägg till <a href="
-"\"/new_organisation\">here</a>         innan du skickar in projektet"
-
-#: .\src\projects\forms.py:69
-msgid "Lead Organisation / Coordinator"
-msgstr "Huvudorganisation/koordinator"
-
-#: .\src\projects\forms.py:72
-msgid ""
-"Other Organisation participating in the project. If not listed, please add "
-"it         <a href=\"/new_organisation\">here</a> before submitting the "
+"Organisation coordinating the project. If not listed, please add it <a "
+"href=\"/new_organisation\" target=\"_blank\">here</a> before submitting the "
 "project"
 msgstr ""
-"Övriga organisationer i projektet. Finns de inte med? Lägg till "
-"här        <a href=\"/new_organisation\">here</a> innan du skickar in"
-"projektet"
+"组织协调项目。如果未列出，请添加<a"
+"href=\"/new_organisation\" target=\"_blank\">here</a> before submitting the "
+"项目"
 
-#: .\src\projects\forms.py:74
-msgid "Other Organisations"
-msgstr "Övriga organisationer"
+#: projects/forms.py:172
+msgid "Lead organisation / coordinator"
+msgstr "领导组织 /协调员"
 
-#: .\src\projects\forms.py:85
-msgid "Please name the contact person or contact point for the Project"
-msgstr "Fyll i kontaktperson eller kontaktsida för projektet"
-
-#: .\src\projects\forms.py:85
-msgid "Public Contact Point"
-msgstr "Offentlig kontaktsida"
-
-#: .\src\projects\forms.py:89
-msgid "Please provide the email for the contact person or contact point"
-msgstr "Fyll i mejladress till kontaktperson"
-
-#: .\src\projects\forms.py:92
-msgid "Project image for the thumbnail profile"
-msgstr "Projektbild till profilbild"
-
-#: .\src\projects\forms.py:93
-msgid "Will be resized to 600x400 pixels"
-msgstr "Skalas om till 600x400 pixlar"
-
-#: .\src\projects\forms.py:99 .\src\projects\forms.py:113
-msgid "provide image credit, if applicable"
-msgstr "ange fotograf, om möjligt"
-
-#: .\src\projects\forms.py:100
-msgid "Project Logo"
-msgstr "Projektets logotyp"
-
-#: .\src\projects\forms.py:101
-msgid "Will be resized to 600x400 pixels)"
-msgstr "Skalas om till 600x400 pixlar"
-
-#: .\src\projects\forms.py:107
-msgid "provide Logo credit, if applicable"
-msgstr "ange upphovsperson, om möjligt"
-
-#: .\src\projects\forms.py:108
-msgid "Project image for the profile heading"
-msgstr "Projektbild till projektets sidhuvud"
-
-#: .\src\projects\forms.py:109
-msgid "Will be resized to 1100x400 pixels"
-msgstr "Skalas om till 1100x400 pixlar"
-
-#: .\src\projects\forms.py:124
-msgid "Please describe how people can get involved in the project"
-msgstr "Beskriv hur man gör för att vara med i projektet"
-
-#: .\src\projects\forms.py:125
-msgid "Can participate at home"
-msgstr "Går att delta i hemifrån"
-
-#: .\src\projects\forms.py:128
-msgid "Describe any required or suggested equipment to be used in the project"
-msgstr "Beskriv utrustning som är nödvändig eller bra att använda i projektet"
-
-#: .\src\projects\forms.py:131
+#: projects/forms.py:193
 msgid ""
 "Please enter the funding agencies of the project (e.g. European "
-"Commission).         Select them from the list or add your own ended by "
-"comma or pressing enter"
+"Commission)<br />Select them from the list or add your own <b>ended by comma "
+"or pressing enter</b>"
 msgstr ""
-"Fyll i projektets finansiärer ( t ex Europeiska "
-"kommissionen).         Välj i listan eller lägg till en ny, avsluta med "
-"komma eller ENTER"
+"请输入该项目的资金机构（例如欧洲"
+"佣金）<br />从列表中选择它们或添加您自己的<b>以逗号结尾"
+"或按Enter </b>"
 
-#: .\src\projects\forms.py:132
-msgid ""
-"Funding body (Put a comma after each name or pressing enter to add a new "
-"funding body)"
-msgstr ""
-"Finansiärer ( Sätt ett kommatecken efter varje nytt namn eller tryck ENTER "
-"för att lägga till ny)"
+#: projects/forms.py:196
+msgid "Funding body"
+msgstr "资金机构"
 
-
-#: .\src\projects\forms.py:136
+#: projects/forms.py:201
 msgid "Indication of the programme that funds or funded a project"
-msgstr "Ange program som finansierar/finansierat ett projekt"
+msgstr "指示资助或资助项目资助的计划"
 
-#: .\src\projects\forms.py:139
+#: projects/forms.py:207
+msgid "Image for the thumbnail profile"
+msgstr "缩略图的图像"
+
+#: projects/forms.py:219
+msgid "Thumbnail credit, if applicable"
+msgstr "缩略图信用，如果适用"
+
+#: projects/forms.py:223
+msgid "Project logo"
+msgstr "项目徽标"
+
+#: projects/forms.py:224
+msgid "Will be resized to 600x400 pixels)"
+msgstr "将调整为600x400像素）"
+
+#: projects/forms.py:238
+msgid "Image for the profile heading"
+msgstr "配置文件标题的图像"
+
+#: projects/forms.py:239
+msgid "Will be resized to 1100x400 pixels"
+msgstr "将调整到1100x400像素"
+
+#: projects/forms.py:249
+msgid "Heading image credit, if applicable"
+msgstr "标题信用，如果适用"
+
+#: projects/forms.py:259
 msgid ""
-"Do you know the name of the database where the project first appeared?, add "
-"it here ended by comma or pressing enter."
+"I want to participate in the #MonthOfTheProjects and agree to be contacted "
+"via email if theproject I am submitting wins the contest.<a href=\"/"
+"blog/2021/05/31/june-monthoftheprojects-eu-citizenscience/\"> Learn more "
+"here!</a>"
 msgstr ""
-"Om du vet namnet på databasen där projektet först dök upp, lägg till "
-"det här. Avsluta med kommatecken eller ENTER."
+"我想参加#MonthTheproject，并同意联系"
+"通过电子邮件如果我提交的项目赢得比赛。<a href=\"/"
+"博客/2021/05/31/6月季前theprojects-eu-citizenscience/\"> Learn more "
+"在这里！</a>"
 
-#: .\src\projects\forms.py:144
-msgid ""
-"Do you know the Unique identificator of the project in the previous "
-"database?, add it here."
-msgstr ""
-"Om du känner till projektets Unique identificator i tidigare "
-"databaser,lägg till det här."
+#: projects/forms.py:420
+msgid "Please provide a <i>description</i> field translation."
+msgstr "请提供<i> Description </i>字段翻译。"
 
-#: .\src\projects\forms.py:145
-msgid "Origin UID"
-msgstr "Ursprunglig UID (Unique identificator)"
+#: projects/forms.py:422 projects/templates/translation_form.html:48
+msgid "Description"
+msgstr "描述"
 
-#: .\src\projects\forms.py:148
-msgid "Do you know the origin URL in the previous database?, add it here"
-msgstr "Känner du till webbadressen (URL) som användes i tidigare databas? Lägg till här"
+#: projects/forms.py:426
+msgid "Please provide an <i>aim</i> field translation."
+msgstr "请提供AIM <i> aim </i>字段翻译。"
 
-#: .\src\projects\forms.py:148
-msgid "Origin URL"
-msgstr "Ursprunglig URL"
+#: projects/forms.py:428 projects/templates/project.html:46
+#: projects/templates/project.html:67
+#: projects/templates/translation_form.html:55
+msgid "Aim"
+msgstr "目的"
 
-#: .\src\projects\templates\editProject.html:68
-msgid "You are going to delete this project, this procedure is irreversible."
-msgstr "Du kommer nu att radera det projektet. Åtgärden går inte att ångra."
+#: projects/forms.py:433
+msgid "Please provide a <i>how to participate</i> field translation."
+msgstr "请提供如何参与字段翻译。"
 
-#: .\src\projects\templates\editProject.html:87
-msgid "Edit project"
-msgstr "Redigera projektet"
+#: projects/forms.py:435 projects/templates/project.html:50
+#: projects/templates/project.html:71
+#: projects/templates/translation_form.html:62
+msgid "How to participate"
+msgstr "如何参加"
 
-#: .\src\projects\templates\editProject.html:119
-#: .\src\projects\templates\new_project.html:116
-msgid "Project info"
-msgstr "Projektinformation"
+#: projects/forms.py:440
+msgid "Please provide a <i>translated equipment</i> field translation."
+msgstr "请提供翻译设备</i>字段翻译。"
 
-#: .\src\projects\templates\editProject.html:173
-#: .\src\projects\templates\new_project.html:173
-msgid "Contact details"
-msgstr "Kontaktuppgifter"
+#: projects/forms.py:442 projects/templates/project.html:55
+#: projects/templates/project.html:76
+msgid "Needed equipment"
+msgstr "需要的设备"
 
-#: .\src\projects\templates\editProject.html:189
-#: .\src\projects\templates\new_project.html:188
-msgid "Project profile images"
-msgstr "Profilbilder till projektet"
-
-#: .\src\projects\templates\editProject.html:251
-#: .\src\projects\templates\new_project.html:236
-msgid "Geography"
-msgstr "Geografi"
-
-#: .\src\projects\templates\editProject.html:252
-msgid ""
-"Main location where the project takes place (Enter address or click on the "
-"map)"
-msgstr ""
-"Huvudsaklig plats där projektet genomförs (Skriv adress eller klicka på "
-"kartan)"
-
-#: .\src\projects\templates\editProject.html:269
-#: .\src\projects\templates\new_project.html:261
-msgid "Supplementary information for Citizen Science"
-msgstr "Extra information"
-
-#: .\src\projects\templates\editProject.html:285
-#: .\src\projects\templates\new_project.html:276
-msgid "Funding"
-msgstr "Finansiering"
-
-#: .\src\projects\templates\editProject.html:298
-#: .\src\projects\templates\new_project.html:289
-msgid "Origin information"
-msgstr "Ursprungsinformation"
-
-#: .\src\projects\templates\editProject.html:316
-msgid "Custom fields"
-msgstr "Anpassade fält"
-
-#: .\src\projects\templates\finder_projects.html:33
-#: .\src\resources\templates\finder_resources.html:22
-msgid "Sort by Most Recent Updated"
-msgstr "Sortera efter senast uppdaterad"
-
-#: .\src\projects\templates\finder_projects.html:34
-#: .\src\resources\templates\finder_resources.html:23
-msgid "Sort by featured"
-msgstr "Sortera efter utvalda"
-
-#: .\src\projects\templates\finder_projects.html:35
-#: .\src\resources\templates\finder_resources.html:24
-msgid "Sort by rating"
-msgstr "Sortera efter betyg"
-
-#: .\src\projects\templates\finder_projects.html:46
-#: .\src\projects\templates\project.html:53
+#: projects/templates/_finder_projects.html:19
 msgid "Status"
-msgstr "Status"
+msgstr "地位"
 
-#: .\src\projects\templates\finder_projects.html:69
-msgid "Doable at home"
-msgstr "Går att göra hemifrån"
+#: projects/templates/_finder_projects.html:28
+msgid "Has tag"
+msgstr "有标签"
 
-#: .\src\projects\templates\finder_projects.html:70
-msgid "Yes"
-msgstr "Ja"
+#: projects/templates/_finder_projects.html:37
+#: projects/templates/project.html:116
+msgid "Difficulty Level"
+msgstr "难度级别"
 
-#: .\src\projects\templates\finder_projects.html:71
-msgid "No"
-msgstr "Nej"
+#: projects/templates/_finder_projects.html:55
+msgid "Participation Task"
+msgstr "参与任务"
 
-#: .\src\projects\templates\finder_projects.html:74
-#: .\src\resources\templates\finder_resources.html:61
+#: projects/templates/_finder_projects.html:65
+#: resources/templates/_finder_resources.html:58
 msgid "Moderated"
-msgstr "Modererad"
+msgstr "主持"
 
-#: .\src\projects\templates\finder_projects.html:75
-#: .\src\resources\templates\finder_resources.html:62
+#: projects/templates/_finder_projects.html:66
+#: resources/templates/_finder_resources.html:59
+#: templates/horizontal_card_project.html:13
+#: templates/horizontal_card_resource.html:13
 msgid "Not yet moderated"
-msgstr "Ej ännu modererad"
+msgstr "尚未调节"
 
-#: .\src\projects\templates\finder_projects.html:76
-#: .\src\resources\templates\finder_resources.html:63
-#: .\src\templates\_subnavbar.html:8
+#: projects/templates/_finder_projects.html:67
+#: resources/templates/_finder_resources.html:60
 msgid "All"
-msgstr "Alla"
+msgstr "全部"
 
-#: .\src\projects\templates\modal_projects.html:8
-#: .\src\resources\templates\modal_resources.html:8
-msgid "Info"
-msgstr "Info"
+#: projects/templates/_finder_projects.html:82
+msgid "topic:"
+msgstr "话题："
 
-#: .\src\projects\templates\modal_projects.html:14
-#: .\src\resources\templates\modal_resources.html:14
-msgid "Search"
-msgstr "Sök"
+#: projects/templates/_finder_projects.html:88
+msgid "status:"
+msgstr "地位："
 
-#: .\src\projects\templates\modal_projects.html:14
-msgid ""
-"projects by title or keywords by typing text directly into the the search bar"
-msgstr ""
-"sortera projekten efter titel eller nyckelord genom att skriva direkt i sökfältet"
+#: projects/templates/_finder_projects.html:94
+msgid "has tag:"
+msgstr "有标签："
 
-#: .\src\projects\templates\modal_projects.html:15
-#: .\src\resources\templates\modal_resources.html:15
-msgid "Sort"
-msgstr "Sortera"
+#: projects/templates/_finder_projects.html:100
+msgid "difficulty level:"
+msgstr "难度级别："
 
-#: .\src\projects\templates\modal_projects.html:15
-msgid "projects by date or by rating"
-msgstr "projekt sorterade på datum eller betyg"
+#: projects/templates/_finder_projects.html:106
+msgid "participation task:"
+msgstr "参与任务："
 
-#: .\src\projects\templates\modal_projects.html:16
-#: .\src\resources\templates\modal_resources.html:16
-msgid "Filter"
-msgstr "Filtrera"
+#: projects/templates/_finder_projects.html:118
+msgid "projects found"
+msgstr "找到项目"
 
-#: .\src\projects\templates\modal_projects.html:16
-msgid "search results by project status, country, or topic"
-msgstr "sökresultat sorterade på projektstatus, land eller ämne"
+#: projects/templates/_finder_projects.html:120
+msgid "project found"
+msgstr "找到的项目"
 
-#: .\src\projects\templates\modal_projects.html:18
-msgid ""
-"Submitted projects that have been through the moderation process are marked "
-"as 'Moderated'.Only these will show in your search results unless you filter "
-"for 'not yet moderated' or 'All'."
-msgstr ""
-"Inskickade projekt som har modererats är märkta "
-"'Modererade'. Enbart dessa syns i sökresultaten om du inte filtrerar på "
-"'Ej modererade ännu' eller 'Alla'."
+#: projects/templates/_intro_form_project.html:8
+msgid "project"
+msgstr "项目"
 
-#: .\src\projects\templates\modal_projects.html:20
-#: .\src\resources\templates\modal_resources.html:20
-msgid "Read more about our"
-msgstr "Läs mer om vår"
-
-#: .\src\projects\templates\modal_projects.html:20
-#: .\src\projects\templates\new_project.html:103
-#: .\src\resources\templates\modal_resources.html:20
-msgid "moderation process"
-msgstr "modererings-process"
-
-#: .\src\projects\templates\new_project.html:65
-msgid "Project is going to saved"
-msgstr "Projektet sparas"
-
-#: .\src\projects\templates\new_project.html:73
-#: .\src\resources\templates\new_resource.html:68
-msgid "Thank you"
-msgstr "Tack"
-
-#: .\src\projects\templates\new_project.html:74
-msgid ""
-"Thank you for submitting your project profile. This has been sent to the EU-"
-"Citizen.Science moderation team, who will check it to ensure that all of the "
-"projects shared on the platform can indeed be considered citizen science "
-"projects."
-msgstr ""
-"Tack för att du har skickat in din projektprofil. Den har nu skickats till EU-"
-"Citizen.Science team, som kommer att kontrollera projektet för att säkerställa att "
-"projekt som delas på plattformen verkligen är medborgarforskningsprojekt"
-
-#: .\src\projects\templates\new_project.html:75
-msgid ""
-"We will be in touch with you if we have any questions, and otherwise you "
-"will see that your project changes from 'not yet moderated' to 'moderated' "
-"on the platform."
-msgstr ""
-"Vi kontaktar dig om vi har några frågor. Annars kommer du att "
-"se projektet ändra status från 'ej modererad ännu' till 'modererad' "
-"på plattformen."
-
-#: .\src\projects\templates\new_project.html:76
-msgid ""
-"You can make updates or changes to this project profile at any time, by "
-"going to the Submitted projects section in your Personal Area (see the top-"
-"right of the platform menu)."
-msgstr ""
-"Du kan uppdatera eller ändra projektets profil när som helst, genom "
-"att gå till avdelningen 'Inskickade projekt' på dina sidor, som finns "
-"längst upp till höger på huvudmenyn."
-
-#: .\src\projects\templates\new_project.html:94
-msgid "New project"
-msgstr "Nytt projekt"
-
-#: .\src\projects\templates\new_project.html:95
+#: projects/templates/_intro_form_project.html:14
 msgid ""
 "Thank you for sharing your citizen science project on the EU-Citizen.Science "
 "platform. Please fill in all of the mandatory information in the fields "
 "below (indicated with an asterisk*), and as much of the non-mandatory "
 "information as possible."
 msgstr ""
-"Tack för att du delar ditt medborgarforskningsprojekt på EU-Citizen.Sciences "
-"plattform. Fyll i all obligatorisk information i fälten nedan (markerade "
-" med asterisk*), och så mycket icke-obligatorisk information som "
-"möjligt."
+"感谢您在欧盟公民上分享您的公民科学项目。"
+"平台。请填写字段中的所有强制性信息"
+"下面（用星号*表示），并尽可能多地"
+"信息尽可能。"
 
-#: .\src\projects\templates\new_project.html:96
+#: projects/templates/_intro_form_project.html:16
 msgid ""
-"Citizen science embraces a wide range of project types, that can be adapted "
+"Citizen science embraces a wide range of project types that can be adapted "
 "and applied within diverse situations and disciplines, represent a range of "
 "approaches and historical practices for public participation in scientific "
 "research, and involve participants in a range of activities across the "
 "research lifecycle. For guidance on whether your project can be considered "
-"to be citizen science, please refer to the"
+"to be citizen science, please refer to the ECSA Characteristics of Citizen "
+"Science."
 msgstr ""
-"Medborgarforskning inkluderar ett brett spektrum av projekt, som kan anpassas "
-"och användas inom olika situationer och forskningsgrenar, och som representerar många "
-"olika tillvägagångssätt och metoder för allmänhetens delaktighet i vetenskaplig "
-"forskning och involverar deltagare i en rad aktiviteter över hela forskningens "
-"livscykel. För vägledning om ditt projekt kan anses vara "
-"medborgarforskning, vänligen ta del av"
+"公民科学涵盖了可以适应的广泛的项目类型"
+"并在各种情况和学科中应用，代表一系列"
+"公众参与科学的方法和历史实践"
+"研究，并让参与者参加一系列活动"
+"研究生命周期。有关是否可以考虑您的项目的指导"
+"要成为公民科学，请参考公民的ECSA特征"
+"科学。"
 
-#: .\src\projects\templates\new_project.html:97
-msgid "ECSA Characteristics of Citizen Science"
-msgstr "ECSA Characteristics of Citizen Science"
-
-#: .\src\projects\templates\new_project.html:99
+#: projects/templates/_intro_form_project.html:18
 msgid ""
 "In the form below, along with other descriptive information, we require that "
-"you describe the citizen science aspects of your project, and the type of "
+"you describe the citizen science aspects of your project and the type of "
 "task(s) that participants undertake. Your project should engage meaningfully "
-"with the"
+"with the ECSA 10 Principles of Citizen Science."
 msgstr ""
-"I formuläret nedan, bredvid övrig information, vill vi att du beskriver "
-"på vilket sätt ditt projekt innehåller medborgarforskning, och vilken "
-"sorts uppgift(er) deltagarna deltar i. Ditt projekt ska på ett meningsfullt "
-"sätt följa"
+"以下面的形式，以及其他描述性信息，我们要求"
+"您描述了项目的公民科学方面和"
+"参与者承担的任务。您的项目应该有意义地参与"
+"具有ECSA 10公民科学原则。"
 
-#: .\src\projects\templates\new_project.html:100
-msgid "ECSA 10 Principles of Citizen Science"
-msgstr "ECSAs tio principer för medborgarforskning"
-
-#: .\src\projects\templates\new_project.html:101
+#: projects/templates/_intro_form_project.html:20
 msgid ""
-"This form asks you for basic Project Information, Participation Information, "
-"links to any Project Documentation, Contact Details, and Project Images that "
-"can be used for the project profile (the logo, a thumbnail image "
-"representing the project, and a banner header representing the project)."
-msgstr ""
-"Fyll i information om projektet, deltagarinformation, länkar till "
-"dokumentation, kontaktuppgifter och bifoga projektbilder som kan användas "
-"till projektets profil (logotyp samt foto för 1: en liten projektbild och "
-"2: som kan användas till sidhuvud för projektet). "
-
-#: .\src\projects\templates\new_project.html:102
-msgid ""
-"Upon saving this profile, your project will be submitted for moderation."
-msgstr ""
-"När du sparat profilen, kommer den att skickas in för granskning."
-
-#: .\src\projects\templates\new_project.html:103
-msgid "The"
-msgstr "Detta"
-
-#: .\src\projects\templates\new_project.html:103
-msgid ""
-"is meant to ensure that all of the projects shared on the platform can "
-"indeed be considered to be citizen science projects, and to prevent "
+"Upon saving this profile, your project will be submitted for moderation. The "
+"moderation process is meant to ensure that all of the projects shared on the "
+"platform can be considered to be citizen science projects, and to prevent "
 "unintended uses of the platform."
 msgstr ""
-"för att säkerställa att alla projekt på plattformen verkligen "
-"uppfyller kriterierna för medborgarforskning, och för att förhindra "
-"att plattformen används i annat syfte. "
+"保存此个人资料后，您的项目将提交用于审核。这"
+"审核过程旨在确保所有项目共享"
+"平台可以被认为是公民科学项目，以防止"
+"平台的意外用途。"
 
-#: .\src\projects\templates\new_project.html:112
-#: .\src\projects\templates\new_project.html:307
-msgid "Submit"
-msgstr "Skicka"
+#: projects/templates/modal_projects.html:8
+#: resources/templates/modal_resources.html:8
+msgid "Info"
+msgstr "信息"
 
-#: .\src\projects\templates\new_project.html:237
+#: projects/templates/modal_projects.html:10
+#: resources/templates/modal_resources.html:10 templates/_crop_zone.html:8
+#: templates/_modal_to_crop.html:8
+msgid "Close"
+msgstr "关闭"
+
+#: projects/templates/modal_projects.html:14
+#: resources/templates/modal_resources.html:14 templates/base_forum.html:64
+#: templates/base_r2.html:57
+msgid "Search"
+msgstr "搜索"
+
+#: projects/templates/modal_projects.html:14
 msgid ""
-"Indicate the location where the project takes place when one location can be "
-"indicated, and otherwise indicate the address of the Coordinator or Leading "
-"Partner. (Enter address or click on the map)"
+"projects by title or keywords by typing text directly into the the search bar"
 msgstr ""
-"Om möjligt, skriv platsen där projektet kommer att utföras. Fyll annars "
-"i adress till koordinator eller huvudpartner. "
-"(Skriv in eller klicka på kartan)"
+"通过将文本直接键入搜索栏来按标题或关键字进行项目"
 
-#: .\src\projects\templates\project.html:32
-msgid "Participation"
-msgstr "Deltagande"
+#: projects/templates/modal_projects.html:15
+#: resources/templates/modal_resources.html:15
+msgid "Sort"
+msgstr "种类"
 
-#: .\src\projects\templates\project.html:38
-msgid "Description"
-msgstr "Beskrivning"
+#: projects/templates/modal_projects.html:15
+msgid "projects by date or by rating"
+msgstr "按日期或评级进行项目"
 
-#: .\src\projects\templates\project.html:56
-#: .\src\projects\templates\project.html:178
-msgid "Start:"
-msgstr "Start:"
+#: projects/templates/modal_projects.html:16
+#: resources/templates/modal_resources.html:16
+msgid "Filter"
+msgstr "筛选"
 
-#: .\src\projects\templates\project.html:57
-#: .\src\projects\templates\project.html:179
-msgid "End:"
-msgstr "Slut"
+#: projects/templates/modal_projects.html:16
+msgid "search results by project status, or topic"
+msgstr "按项目状态或主题搜索结果"
 
-#: .\src\projects\templates\project.html:60
-#: .\src\projects\templates\project.html:182
-msgid "Science Topic"
-msgstr "Ämne"
+#: projects/templates/modal_projects.html:18
+msgid ""
+"Submitted projects that have been through the moderation process are marked "
+"as 'Moderated'.Only these will show in your search results unless you filter "
+"for 'not yet moderated' or 'All'."
+msgstr ""
+"通过审核过程的提交项目被标记"
+"如“主持”。"
+"对于“尚未调节”或“全部”。"
 
-#: .\src\projects\templates\project.html:74
-#: .\src\projects\templates\project.html:196
-msgid "Location"
-msgstr "Plats"
+#: projects/templates/modal_projects.html:20
+#: resources/templates/modal_resources.html:20
+msgid "Read more about our"
+msgstr "阅读有关我们的更多信息"
 
-#: .\src\projects\templates\project.html:89
-msgid "(Host)"
-msgstr "(Värd)"
+#: projects/templates/modal_projects.html:20
+#: resources/templates/modal_resources.html:20
+msgid "moderation process"
+msgstr "适度过程"
 
-#: .\src\projects\templates\project.html:92
-#: .\src\projects\templates\project.html:214
-msgid "(Main organisation)"
-msgstr "(Huvudorganisaton)"
+#: projects/templates/project.html:30 resources/templates/resource.html:20
+msgid "Created"
+msgstr "创建"
 
-#: .\src\projects\templates\project.html:113
-#: .\src\resources\templates\resource.html:74
-#: .\src\templates\projects_cards.html:54
-#: .\src\templates\resources_cards.html:54
-#: .\src\templates\resources_cards_horizontal.html:43
-msgid "review"
-msgstr "omdöme"
+#: projects/templates/project.html:31 resources/templates/resource.html:21
+msgid "Updated"
+msgstr "更新"
 
-#: .\src\projects\templates\project.html:113
-#: .\src\resources\templates\resource.html:125
-msgid "Reviews"
-msgstr "Omdömen"
+#: projects/templates/project.html:40
+msgid "This translation was done before a project profile update."
+msgstr "此翻译是在项目配置文件更新之前完成的。"
 
-#: .\src\projects\templates\project.html:118
+#: projects/templates/project.html:41
+msgid "Plase help the community by improving it"
+msgstr "PLASE通过改进社区来帮助社区"
+
+#: projects/templates/project.html:42
+msgid "here"
+msgstr "这里"
+
+#: projects/templates/project.html:63
+msgid "This project profile is not available in your selected language,"
+msgstr "此项目配置文件不可用您选择的语言，"
+
+#: projects/templates/project.html:86
+msgid "from"
+msgstr "从"
+
+#: projects/templates/project.html:89
+msgid "until"
+msgstr "直到"
+
+#: projects/templates/project.html:98
+msgid "Science Topics"
+msgstr "科学主题"
+
+#: projects/templates/project.html:126
+msgid "Participation tasks"
+msgstr "参与任务"
+
+#: projects/templates/project.html:135
+msgid "Coordinator"
+msgstr "协调员"
+
+#: projects/templates/project.html:142
+msgid "Other Organisations involved"
+msgstr "其他组织"
+
+#: projects/templates/project.html:173
 msgid "Go to Project"
-msgstr "Gå till projektet"
+msgstr "去项目"
 
-#: .\src\projects\templates\project.html:126
-#: .\src\projects\templates\project_review.html:18
-#: .\src\resources\templates\resource.html:121
-#: .\src\resources\templates\resource_review.html:18
+#: projects/templates/project.html:183
+msgid "Translate"
+msgstr "翻译"
+
+#: projects/templates/project.html:202 resources/templates/resource.html:116
+msgid "Admin area"
+msgstr "管理区"
+
+#: projects/templates/project_form.html:55
+msgid "Useful information to classificate the project"
+msgstr "有用的信息来分类项目"
+
+#: projects/templates/project_form.html:66
+msgid "Participation information"
+msgstr "参与信息"
+
+#: projects/templates/project_form.html:77
+msgid "Project location"
+msgstr "项目位置"
+
+#: projects/templates/project_form.html:87
+msgid "Contact and hosts details"
+msgstr "联系并主持详细信息"
+
+#: projects/templates/project_form.html:98
+msgid "Funding Information"
+msgstr "资金信息"
+
+#: projects/templates/project_form.html:107
+msgid "Project profile images"
+msgstr "项目配置文件图像"
+
+#: projects/templates/project_review.html:18
+#: resources/templates/resource_review.html:18
 msgid "Review"
-msgstr "Lämna ett omdöme"
+msgstr "审查"
 
-#: .\src\projects\templates\project.html:130
-msgid "Following"
-msgstr "Följer"
-
-#: .\src\projects\templates\project.html:133
-msgid "Follow"
-msgstr "Följ"
-
-#: .\src\projects\templates\project.html:156
-msgid "How to participate:"
-msgstr "Så deltar du:"
-
-#: .\src\projects\templates\project.html:159
-msgid "Needed equipment:"
-msgstr ""
-
-#: .\src\projects\templates\project.html:161
-msgid "Participation task"
-msgstr "Utrustning som krävs:"
-
-#: .\src\projects\templates\project_review.html:19
-#: .\src\resources\templates\resource_review.html:19
+#: projects/templates/project_review.html:19
+#: resources/templates/resource_review.html:19
 msgid "Rate and comment"
-msgstr "Sätt betyg och kommentera"
+msgstr "比率和评论"
 
-#: .\src\resources\forms.py:19
+#: projects/templates/translation_form.html:28
+msgid "Please indicate the language you want to translate to"
+msgstr "请指出您要翻译成的语言"
+
+#: projects/templates/translation_form.html:69
+msgid "Equipment"
+msgstr "设备"
+
+#: resources/forms.py:20
 msgid "Insert here the title or name of the resource"
-msgstr "Ange namn på resursen"
+msgstr "在这里插入资源的标题或名称"
 
-#: .\src\resources\forms.py:22
+#: resources/forms.py:25
 msgid ""
-"URL to where the document is hosted by the publisher,         or in a "
-"permanent repository such as Zenodo, OSF, the RIO Journal, or similar"
+"URL to where the document is hosted by the publisher,or in a permanent "
+"repository such as Zenodo, OSF, the RIO Journal, or similar"
 msgstr ""
-"Webbadress (URL) där dokumentet är upplagt av utgivaren,         eller till "
-"ett permanent lagringsställe som exempelvis Zenodo, OSF, eller the RIO "
-"Journal"
+"发行商托管文档的位置或永久性的URL"
+"储存库，例如Zenodo，OSF，Rio Journal或类似的存储库"
 
-#: .\src\resources\forms.py:26
+#: resources/forms.py:34
+msgid ""
+"Please write or select keywords to describe the resource,<b>separated by "
+"commas or pressing enter</b>"
+msgstr ""
+"请写或选择关键字以描述资源，<b>由"
+"逗号或按Enter </b>"
+
+#: resources/forms.py:40
 msgid "Please briefly describe the resource (ideally in 500 words or less)"
-msgstr "Beskriv resursen kortfattat (max 500 ord)"
+msgstr "请简要描述资源（理想情况下，以500个或更少）"
 
-#: .\src\resources\forms.py:29
-msgid "Select one of the proposed categories"
-msgstr "Välj en av kategorierna"
-
-#: .\src\resources\forms.py:34
+#: resources/forms.py:46
 msgid ""
-"Select the audience(s) for which the resource is intended. Multiple options "
-"can be selected"
+"Please describe the link between citizen science and the resource you are "
+"uploading– for guidance see the <a href=\"https://zenodo.org/communities/"
+"citscicharacteristics\">ECSA Characteristics of Citizen Science</a> as well "
+"as the <a href=\"https://osf.io/xpr2n/\">ECSA 10 Principles of Citizen "
+"Science</a>. What you introduce in this text field will notappear on the "
+"platform; it is just for moderation purposes and for the administrators "
+"ofthe platform to see."
 msgstr ""
-"Ange målgrupp(er) som resursen är avsedd för. Flera alternativ är möjliga"
+"请描述公民科学与您的资源之间的联系"
+"上传 - 有关指导，请参见<a href=\"https://zenodo.org/communities/"
+"citscicharacteristics \">ECSA Characteristics of Citizen Science</a> as well "
+"as the <a href=\"https://osf.io/xpr2n/\">ECSA 10 Principles of Citizen "
+"Science</a>.您在此文本字段中介绍的内容将在"
+"平台;它仅用于适度目的和管理员"
+"可以看到的平台。"
 
-#: .\src\resources\forms.py:37
-msgid ""
-"Please write or select keywords to describe the resource, separated by "
-"commas or pressing enter"
-msgstr ""
-"Skriv eller välj nyckelord för att beskriva resursen, avgränsade med "
-"kommatecken eller ENTER-tryck"
+#: resources/forms.py:53
+msgid "Description of Citizen Science Aspects"
+msgstr "公民科学方面的描述"
 
-#: .\src\resources\forms.py:40
-msgid "The thematic content of the resource (select as many as apply)"
-msgstr "Det tematiska innehållet i resursen (välj alla alternativ som stämmer)"
-
-#: .\src\resources\forms.py:44
-msgid ""
-"Please provide the Digital Object Signifier that is unique to your "
-"resource,        generated by the Publisher, Zenodo..."
-msgstr ""
-"Ange 'Digital Object Signifier', som är unik för din "
-"resurs,         och genereras av 'the Publisher, Zenodo...' "
-
-#: .\src\resources\forms.py:45 .\src\resources\templates\resource.html:108
-msgid "Resource DOI"
-msgstr "Resursens DOI (Digital Object Identifier)"
-
-#: .\src\resources\forms.py:49
+#: resources/forms.py:62
 msgid ""
 "Author(s) of the resource. Enter <i>FirstInitial LastName</i> and close with "
-"a comma or pressing enter to add an author,        or multiple authors. If "
-"not known, name the project within the resource was created."
+"a comma or pressing enter to add an author or multiple authors"
 msgstr ""
-"Lägg till författare: Skriv <i>Första initialen Efternamn</i> , avsluta med "
-"kommatecken. För att lägga till fler författare, tryck ENTER. Om "
-"författaren är okänd, uppge istället projektnamn."
+"资源的作者。输入<i> firstitial lastname </i>并关闭"
+"逗号或按Enter添加作者或多个作者"
 
-#: .\src\resources\forms.py:51
+#: resources/forms.py:65
 msgid "Authors"
-msgstr "Författare"
+msgstr "作者"
 
-#: .\src\resources\forms.py:54
+#: resources/forms.py:71
+msgid "Select one of the proposed categories"
+msgstr "选择拟议类别之一"
+
+#: resources/forms.py:79
 msgid ""
-"Indicate the resource license, such as Creative Commons CC-BY.         Enter "
-"a URL link to the license if available."
+"Select the audience(s) for which the resource is intended.Multiple options "
+"can be selected"
 msgstr ""
-"Ange användarlicensen för resursen, som exempelvis Creative Commons CC-"
-"BY.         Uppge om möjligt en webbadress (URL) till licensen."
+"选择用于资源的受众群体。"
+"可以选择"
 
-#: .\src\resources\forms.py:58
+#: resources/forms.py:85
+msgid "The thematic content of the resource (select as many as apply)"
+msgstr "资源的主题内容（选择尽可能多的应用）"
+
+#: resources/forms.py:91
+msgid ""
+"Please provide the <b>Digital Object Signifier</b> that is unique to your "
+"resource"
+msgstr ""
+"请提供您独特的数字对象指示符</b>"
+"资源"
+
+#: resources/forms.py:93
+msgid "Resource DOI"
+msgstr "资源doi"
+
+#: resources/forms.py:99
+msgid "Enter the year (YYYY) that this version of the resource was published"
+msgstr "输入该版本的资源（Yyyy）发表的年度（Yyyy）"
+
+#: resources/forms.py:104
+msgid ""
+"Indicate the resource license, such as Creative Commons CC-BY.Enter a URL "
+"link to the license if available."
+msgstr ""
+"指示资源许可证，例如Creative Commons cc-by.enter a URL"
+"链接到许可证（如果有）。"
+
+#: resources/forms.py:115
 msgid ""
 "Organisation(s) contributing the resource (multiple selection separated by "
-"comma or pressing enter).         If not listed, please add them <a href=\"/"
-"new_organisation\">here</a > before submitting"
+"commaor pressing enter). If not listed, please add them <a href=\"/"
+"new_organisation\" target=\"_blank\">here</a > before submitting"
 msgstr ""
-"Organisationer som bidragit till resursen. (Ange flera genom att separera "
-"dem med kommatecken eller ENTER.) Om de inte finns, lägg till dem <a href=\"/"
-"new_organisation\">here</a > innan du skickar in formuläret."
+"贡献资源的组织（多重选择由"
+"通讯按Enter）。如果未列出，请添加它们 <a href=\"/"
+"new_organisation\" target=\"_blank\">here</a > before submitting"
 
-#: .\src\resources\forms.py:59 .\src\resources\templates\resource.html:102
-msgid "Organisation(s)"
-msgstr "Organisation(er)"
-
-#: .\src\resources\forms.py:62
+#: resources/forms.py:127
 msgid ""
-"The publisher of the resource (or the project name, or the lead institution)."
+"Project(s) where the resource was created (multiple selection separated by "
+"commaor pressing enter). If not listed, please add them <a href=\"/"
+"newProject\" target=\"_blank\">here</a > before submitting"
 msgstr ""
-"Resursens utgivare (alternativt projektnamn, eller namn på ansvarig "
-"institution)."
+"创建资源的项目（多个选择由"
+"通讯按Enter）。如果未列出，请添加它们<a href=\"/"
+"newProject\" target=\"_blank\">here</a > before submitting"
 
-#: .\src\resources\forms.py:65
-msgid "Enter the year (YYYY) that this version of the resource was published"
-msgstr "Ange årtal (fyra siffror) då denna version av resursen publicerades"
+#: resources/forms.py:131
+msgid "Project(s)"
+msgstr "项目"
 
-#: .\src\resources\forms.py:70
+#: resources/forms.py:136
+msgid "The publisher of the resource"
+msgstr "资源的发布者"
+
+#: resources/forms.py:144
+msgid "Resource image for the thumbnail profile"
+msgstr "缩略图配置文件的资源图像"
+
+#: resources/forms.py:145
+msgid "This image will be resized to 600x400 pixels"
+msgstr "此图像将调整为600x400像素"
+
+#: resources/forms.py:146
 msgid "Image 1 credit"
-msgstr "Bild 1 upphovsperson/organisation"
+msgstr "图片1个贷方"
 
-#: .\src\resources\forms.py:77
+#: resources/forms.py:156
+msgid "Resource image for the profile heading"
+msgstr "配置文件标题的资源图像"
+
+#: resources/forms.py:157
+msgid "This image will be resized to 1100x400 pixels"
+msgstr "此图像将调整为1100x400像素"
+
+#: resources/forms.py:158
 msgid "Image 2 credit"
-msgstr "Bild 2 upphovsperson/organisation"
+msgstr "图片2信用"
 
-#: .\src\resources\forms.py:83
+#: resources/forms.py:170
 msgid "Curated lists"
-msgstr "Granskade listor"
+msgstr "精选列表"
 
-#: .\src\resources\forms.py:88 .\src\resources\templates\resource.html:92
-msgid "Education level"
-msgstr "Utbildningsnivå"
+#: resources/forms.py:178
+msgid "Educational level"
+msgstr "受教育程度"
 
-#: .\src\resources\forms.py:89
-msgid "Insert education level needed, end using comma or pressing enter"
-msgstr "Uppge vilken utbildningsnivå som krävs, avsluta med komma eller ENTER"
+#: resources/forms.py:180
+msgid ""
+"Insert education level needed, end using comma or pressing enter. Examples "
+"of educational levels include beginner, intermediate or advanced, and formal "
+"sets of level indicators"
+msgstr ""
+"插入教育水平，使用逗号或按Enter结束。例子"
+"教育水平包括初学者，中级或高级以及正式"
+"一组级别指标"
 
-#: .\src\resources\forms.py:93
+#: resources/forms.py:190
 msgid "Learning resource type"
-msgstr "Typ av läranderesurs"
+msgstr "学习资源类型"
 
-#: .\src\resources\forms.py:94 .\src\resources\forms.py:97
-msgid "Help text here"
-msgstr "Hjälptext här"
+#: resources/forms.py:192
+msgid ""
+"The predominant type or kind characterizing the learning resource. For "
+"example, presentation, handout, etc."
+msgstr ""
+"表征学习资源的主要类型或善良。为了"
+"例如，演示，讲义等。"
 
-#: .\src\resources\forms.py:96
+#: resources/forms.py:196
 msgid "Aproximate hours required to finish the training"
-msgstr "Beräknat antal timmar för bli färdig med träningen"
+msgstr "完成培训所需的小时"
 
-#: .\src\resources\templates\editResource.html:63
-msgid "You are going to delete this resource, this procedure is irreversible."
-msgstr "Du håller på att ta bort den här resursen. Åtgärden går inte att ångra."
+#: resources/forms.py:198
+msgid ""
+"Please describe any conditions that affect the accessibility of the training "
+"material, such as <i>requires registration</i>, <i>requires enrollment</i>, "
+"or <i>requires payment</i>"
+msgstr ""
+"请描述任何影响培训可及性的条件"
+"材料，例如<i>需要注册</i>，<i>需要注册</i>，"
+"或<i>需要付款</i>"
 
-#: .\src\resources\templates\editResource.html:81
-msgid "Edit resource"
-msgstr "Redigera resurs"
+#: resources/templates/_finder_resources.html:14
+msgid "Sort by Most Recent Updated"
+msgstr "按最新更新进行排序"
 
-#: .\src\resources\templates\finder_resources.html:35
+#: resources/templates/_finder_resources.html:15
+msgid "Sort by featured"
+msgstr "按特色排序"
+
+#: resources/templates/_finder_resources.html:20
 msgid "All languages"
-msgstr "Alla språk"
+msgstr "所有语言"
 
-#: .\src\resources\templates\finder_resources.html:49
+#: resources/templates/_finder_resources.html:33
 msgid "All themes"
-msgstr "Alla teman"
+msgstr "所有主题"
 
-#: .\src\resources\templates\finder_resources.html:55
-msgid "All Resource Types"
-msgstr "Alla typer av resurser"
+#: resources/templates/_finder_resources.html:39
+#: resources/templates/resource.html:162
+msgid "Category"
+msgstr "类别"
 
-#: .\src\resources\templates\modal_resources.html:14
+#: resources/templates/_finder_resources.html:47
+#: resources/templates/resource.html:167
+msgid "Audience"
+msgstr "观众"
+
+#: resources/templates/_finder_resources.html:76
+msgid "language:"
+msgstr "语言："
+
+#: resources/templates/_finder_resources.html:86
+msgid "theme:"
+msgstr "主题："
+
+#: resources/templates/_finder_resources.html:93
+msgid "category:"
+msgstr "类别："
+
+#: resources/templates/_finder_resources.html:100
+msgid "audience:"
+msgstr "观众："
+
+#: resources/templates/_finder_resources.html:112
+msgid "training resources found"
+msgstr "发现培训资源"
+
+#: resources/templates/_finder_resources.html:112
+msgid "training resource found"
+msgstr "发现培训资源"
+
+#: resources/templates/_finder_resources.html:115
+msgid "resources found"
+msgstr "找到资源"
+
+#: resources/templates/_finder_resources.html:115
+msgid "resource found"
+msgstr "找到资源"
+
+#: resources/templates/_intro_form_resource.html:8
+msgid "resource"
+msgstr "资源"
+
+#: resources/templates/_intro_form_resource.html:14
+msgid ""
+"Thank you for submitting a new citizen science resource to be shared on the "
+"EU-Citizen.Science platform. Please fill in all of the mandatory information "
+"in the fields below (indicated with an asterisk*), and as much of the non-"
+"mandatory information as possible."
+msgstr ""
+"感谢您提交了新的公民科学资源"
+"欧盟-Citizen.Science平台。请填写所有强制性信息"
+"在下面的字段中（用星号*表示），以及许多非 - "
+"强制性信息。"
+
+#: resources/templates/_intro_form_resource.html:16
+msgid ""
+"Resources can include documents such as guidelines, reports, policy briefs, "
+"and protocols; tools such as software or hardware; and other file formats "
+"such as videos or podcasts."
+msgstr ""
+"资源可以包括指南，报告，政策摘要等文档，"
+"和协议；软件或硬件等工具；和其他文件格式"
+"例如视频或播客。"
+
+#: resources/templates/_intro_form_resource.html:18
+#: resources/templates/_intro_form_training_resource.html:18
+msgid ""
+"Upon saving this profile, your resource will be submitted for moderation. "
+"The moderation process is meant to ensure that all of the resources shared "
+"on the platform are useful for citizen science projects and practitioners, "
+"and are of good quality. Read more about the moderation process. As quality "
+"factors we consider whether your resource is easy to access, is structured "
+"clearly, is easy to read (or hear or view) and understand. Read our quality "
+"criteria."
+msgstr ""
+"保存此配置文件后，您的资源将提交用于审核。"
+"审核过程旨在确保共享的所有资源"
+"平台上对公民科学项目和从业者有用，"
+"并具有良好的质量。阅读有关审核过程的更多信息。作为质量"
+"我们考虑您的资源是否易于访问的因素是结构化的"
+"显然，易于阅读（或听到或查看）并理解。阅读我们的质量"
+"标准。"
+
+#: resources/templates/_intro_form_resource.html:20
+#: resources/templates/_intro_form_training_resource.html:20
+msgid ""
+"Please note that we strongly recommend that you first ensure that your "
+"resource is hosted in a permanent repository (such as on a website that will "
+"be maintained and can provide a permalink, or a repository such as a "
+"publisher, Zenodo , OSF or the RIO Journal)."
+msgstr ""
+"请注意，我们强烈建议您首先确保您"
+"资源是在永久存储库中托管的（例如在网站上"
+"维护并可以提供永久链接或存储库，例如"
+"出版商，Zenodo，OSF或Rio Journal）。"
+
+#: resources/templates/_intro_form_training_resource.html:8
+msgid "training resource"
+msgstr "培训资源"
+
+#: resources/templates/_intro_form_training_resource.html:14
+msgid ""
+"Thank you for submitting a new citizen science training resource or "
+"educational material to be shared on the EU-Citizen.Science platform. Please "
+"fill in all of the mandatory information in the fields below (indicated with "
+"an asterisk*), and as much of the non-mandatory information as possible."
+msgstr ""
+"感谢您提交新的公民科学培训资源或"
+"教育材料将在欧盟-Citizen.Science平台上共享。请"
+"填写以下字段中的所有强制性信息（用"
+"星号*），以及尽可能多的非强制性信息。"
+
+#: resources/templates/_intro_form_training_resource.html:16
+msgid ""
+"Training resources and educational material is material that is designed or "
+"can be used explicitly for the goals of teaching or training a person on the "
+"practice of citizen science e.g. how to design and implement a volunteer-"
+"based activity, how to control data quality, the ethical and legal "
+"requirements of working with volunteers and managing their data. These can "
+"include massive open online courses (MOOCs), workshops, webinars, gamified "
+"training, and quizzes."
+msgstr ""
+"培训资源和教育材料是设计或"
+"可以明确用于教学或训练一个人的目标"
+"公民科学实践，例如如何设计和实施志愿者 - "
+"基于的活动，如何控制数据质量，道德和法律"
+"与志愿者合作和管理数据的要求。这些可以"
+"包括大型开放在线课程（MOOC），研讨会，网络研讨会，游戏"
+"培训和测验。"
+
+#: resources/templates/modal_resources.html:14
 msgid ""
 "resources by title or keywords by typing text directly into the the search "
 "bar"
-msgstr "sök resurser genom att skriva in titel eller nyckelord i sökfältet"
+msgstr ""
+"通过将文本直接键入搜索来通过标题或关键字进行资源"
+"酒吧"
 
-#: .\src\resources\templates\modal_resources.html:15
+#: resources/templates/modal_resources.html:15
 msgid "resources by date or by rating"
-msgstr "resurser efter datum eller betyg"
+msgstr "按日期或评级进行资源"
 
-#: .\src\resources\templates\modal_resources.html:16
+#: resources/templates/modal_resources.html:16
 msgid "search results by language, theme or category"
-msgstr "sökresultat efter språk, tema eller kategori"
+msgstr "按语言，主题或类别进行搜索结果"
 
-#: .\src\resources\templates\modal_resources.html:18
+#: resources/templates/modal_resources.html:18
 msgid ""
 "Submitted resources that have been through the moderation process are marked "
 "as 'Moderated'.Only these will show in your search results unless you filter "
 "for 'not yet moderated' or 'All'."
 msgstr ""
-"Inskickade resurser som har genomgått moderering är markerade som "
-"'modererade'. Endast modererade resurser kommer att visas i dina sökresultat "
-"om du inte väljer att filtrera som 'ej modererade ännu' eller 'alla'."
+"标记了通过审核过程的提交资源"
+"如“主持”。"
+"对于“尚未调节”或“全部”。"
 
-#: .\src\resources\templates\new_resource.html:60
-msgid "Resource is going to saved"
-msgstr "Resursen sparas"
+#: resources/templates/resource.html:25
+#: resources/templates/resource_form.html:54
+msgid "Publish information"
+msgstr "发布信息"
 
-#: .\src\resources\templates\new_resource.html:70
-msgid ""
-"Thank you for submitting your resource profile. This has been sent to the EU-"
-"Citizen.Science moderation team, who will check it to ensure that all of the "
-"resources shared on the platform are indeed useful for citizen science "
-"projects and practitioners, and are of good quality."
-msgstr ""
-"Tack för att du skickade in en profil för den här resursen. Den har nu gått "
-"vidare för moderering av deltagare i EU-Citizen.Science-projektet, som "
-"kommer att granska den för att se till att alla resurser som delas på "
-"portalen är användbara och av god kvalitet."
+#: resources/templates/resource.html:47
+msgid "Links with projects and/or organisations"
+msgstr "与项目和/或组织的链接"
 
-#: .\src\resources\templates\new_resource.html:72
-msgid ""
-"We will be in touch with you if we have any questions, and otherwise you "
-"will receive an alert that your resource has been moderated and published to "
-"the platform. Your resource profile will be visible to the public in the "
-"meantime, but will be marked as unmoderated."
-msgstr ""
-"Vi kommer att höra av oss om vi har några frågor, och annars kommer du att "
-"få en notis när resursen är modererad och publicerad på portalen. Under "
-"tiden kommer resursen att finnas synlig på portalen, men med markeringen att "
-"den ännu inte är modererad."
+#: resources/templates/resource.html:64
+msgid "Training information"
+msgstr "培训信息"
 
-#: .\src\resources\templates\new_resource.html:74
-msgid ""
-"You can make updates or changes to this resource profile at any time, by "
-"going to the Submitted resources section in your Personal Area (see the top-"
-"right of the platform menu)."
-msgstr ""
-"Du kan när som helst göra uppdateringar och ändringar i resursens profil, "
-"genom att gå till 'uppladdade resurser' på din personliga sida (högst upp "
-"till höger på portalens meny)."
-
-#: .\src\resources\templates\new_resource.html:79
-msgid "OK"
-msgstr "OK"
-
-#: .\src\resources\templates\new_resource.html:92
-msgid "New"
-msgstr "Ny"
-
-#: .\src\resources\templates\new_resource.html:92
-msgid "training"
-msgstr "för träning"
-
-#: .\src\resources\templates\new_resource.html:92
-msgid "resource"
-msgstr "resurs"
-
-#: .\src\resources\templates\new_resource.html:93
-msgid ""
-"Thank you for proposing a new citizen science resource to be shared on the "
-"EU-Citizen.Science Platform. Please fill in all of the mandatory information "
-"in the fields below (indicated with an asterisk*), and as much of the non-"
-"mandatory information as possible."
-msgstr ""
-"Tack för att du vill lägga till en ny resurs för medborgarforskning till EU-"
-"Citizen.Science-portalen. Fyll i all obligatorisk information nedan "
-"(markerade med en asterisk*), och så mycket som möjligt av den övriga "
-"informationen."
-
-#: .\src\resources\templates\new_resource.html:95
-msgid ""
-"Resources can include documents such as guidelines, reports, policy briefs, "
-"and protocols; tools such as software or hardware, and other file formats "
-"such as videos or podcasts. Read our blog post on Types of Resources."
-msgstr ""
-"Resurser kan vara dokument som exempelvis riktlinjer, rapporter, "
-"policydokument, och protokoll; verktyg i form av mjukvara eller hårdvara, "
-"samt andra format som videoklipp eller poddar. Läs gärna vårt blogginlägg "
-"'Types of Resources' för mer info."
-
-#: .\src\resources\templates\new_resource.html:97
-msgid ""
-"Upon saving this profile, your resource will be submitted for moderation by "
-"one of the members of the EU-Citizen.Science consortium. The moderation "
-"process is meant to ensure that all of the resources shared on the platform "
-"are indeed useful for citizen science projects and practitioners, and are of "
-"good quality. Read more about "
-msgstr ""
-"När du sparar den här resursen kommer den att skickas till en medlem av EU-"
-"Citizen.Science-projektet för moderering. Syftet är att se till så att alla "
-"resurser som delas på portalen är användbara och av god kvalitet. Läs mer om "
-
-#: .\src\resources\templates\new_resource.html:98
-#: .\src\templates\moderation.html:23
-msgid "The Moderation Process"
-msgstr "modererings-processen"
-
-#: .\src\resources\templates\new_resource.html:98
-#: .\src\resources\templates\new_resource.html:101
-msgid "here."
-msgstr "här."
-
-#: .\src\resources\templates\new_resource.html:100
-msgid ""
-"Quality factors that we consider include whether your resource is easy to "
-"access, is structured clearly, is easy to read (or hear or view) and "
-"understand. Read our"
-msgstr ""
-"Kvalitetsfaktorer som vi tar hänsyn till är bland annat om resursen är enkel "
-"att komma åt, har en tydlig struktur, är lätt att läsa (alternativt höra/se) "
-"och förstå. Läs mer om våra"
-
-#: .\src\resources\templates\new_resource.html:101
-msgid "Quality Guidelines"
-msgstr "riktlinjer för kvalitet"
-
-#: .\src\resources\templates\new_resource.html:103
-msgid ""
-"Please note that we strongly recommend that you first ensure that your "
-"resource is hosted in a permanent repository (such as on a website that will "
-"be maintained and can provide a permalink, or a repository such as a "
-"publisher, "
-msgstr ""
-"Vi rekommenderar starkt att du ser till att resursen är upplagd på ett "
-"varaktigt lagringsställe, som exempelvis en webbplats som kommer att "
-"underhållas och kan tillhandahålla en permanent länk (permalink), eller hos "
-"en publiceringstjänst, "
-
-#: .\src\resources\templates\new_resource.html:105
-msgid "or the"
-msgstr "eller"
-
-#: .\src\resources\templates\new_resource.html:179
-msgid "Please indicate the (main) language that the resource is made available"
-msgstr "Ange vilket språk resursen finns tillgänglig på"
-
-#: .\src\resources\templates\resource.html:28
-#: .\src\resources\templates\resource.html:143
-msgid "Language"
-msgstr "Språk"
-
-#: .\src\resources\templates\resource.html:38
-#: .\src\resources\templates\resource.html:153
-msgid "Category"
-msgstr "Kategori"
-
-#: .\src\resources\templates\resource.html:44
-#: .\src\resources\templates\resource.html:159
-msgid "Theme"
-msgstr "Tema"
-
-#: .\src\resources\templates\resource.html:74
-#: .\src\templates\projects_cards.html:54
-#: .\src\templates\resources_cards.html:54
-#: .\src\templates\resources_cards_horizontal.html:43
-msgid "reviews"
-msgstr "omdömen"
-
-#: .\src\resources\templates\resource.html:79
-msgid "Go to Training"
-msgstr "Gå till träning"
-
-#: .\src\resources\templates\resource.html:82
-#: .\src\resources\templates\resource.html:111
-msgid "Go to Resource"
-msgstr "Gå till resurs"
-
-#: .\src\resources\templates\resource.html:93
-msgid "Learning Resource Type"
-msgstr "Typ av lärande-resurs"
-
-#: .\src\resources\templates\resource.html:94
+#: resources/templates/resource.html:66
 msgid "Time required"
-msgstr "Tidsåtgång"
+msgstr "需要时间"
 
-#: .\src\resources\templates\resource.html:95
+#: resources/templates/resource.html:69
 msgid "Conditions of access"
-msgstr "Villkor för tillgänglighet"
+msgstr "访问条件"
 
-#: .\src\resources\templates\resource.html:99
-msgid "License"
-msgstr "Licens"
+#: resources/templates/resource.html:82
+msgid "Go to Training"
+msgstr "去训练"
 
-#: .\src\resources\templates\resource.html:100
-msgid "Audience"
-msgstr "Målgrupp"
+#: resources/templates/resource.html:84
+msgid "Go to Resource"
+msgstr "转到资源"
 
-#: .\src\resources\templates\resource.html:101
-msgid "Publisher"
-msgstr "Utgivare"
-
-#: .\src\resources\templates\resource.html:107
-msgid "Year of publication"
-msgstr "Publiceringsår"
-
-#: .\src\resources\templates\resource.html:115
-#: .\src\templates\resources_cards_horizontal.html:96
-msgid "In my library"
-msgstr "I mitt bibliotek"
-
-#: .\src\resources\templates\resource.html:117
-#: .\src\templates\resources_cards_horizontal.html:98
-msgid "Add to library"
-msgstr "Lägg till i bibliotek"
-
-#: .\src\resources\templates\resource.html:210
+#: resources/templates/resource.html:94
 msgid "Edit"
-msgstr "Redigera"
+msgstr "编辑"
 
-#: .\src\templates\_footer.html:12
+#: resources/templates/resource.html:109
+msgid "Comment"
+msgstr "评论"
+
+#: resources/templates/resource.html:122
+msgid "Approve"
+msgstr "批准"
+
+#: resources/templates/resource.html:129
+msgid "Set featured"
+msgstr "设置特色"
+
+#: resources/templates/resource.html:136
+msgid "Is training"
+msgstr "正在训练"
+
+#: resources/templates/resource.html:138
+msgid "Contact submitter"
+msgstr "联系提交者"
+
+#: resources/templates/resource.html:144
+msgid "Language"
+msgstr "语言"
+
+#: resources/templates/resource.html:157
+msgid "Theme"
+msgstr "主题"
+
+#: resources/templates/resource.html:175
+msgid "Education level"
+msgstr "教育程度"
+
+#: resources/templates/resource.html:182
+msgid "Learning Resource Type"
+msgstr "学习资源类型"
+
+#: resources/templates/resource_form.html:83
+msgid "Training resource fields"
+msgstr "培训资源领域"
+
+#: resources/templates/resource_form.html:98
+msgid "Links with projects and organisations"
+msgstr "与项目和组织的联系"
+
+#: resources/templates/resource_form.html:108
+msgid "Resource profile images"
+msgstr "资源配置文件图像"
+
+#: resources/views.py:134
+msgid "Training resource added correctly"
+msgstr "培训资源正确添加了"
+
+#: resources/views.py:141
+msgid "Resource added correctly"
+msgstr "资源正确添加"
+
+#: templates/_crop_zone.html:6 templates/_modal_to_crop.html:6
+msgid "Crop the photo"
+msgstr "裁剪照片"
+
+#: templates/_crop_zone.html:21 templates/_modal_to_crop.html:21
+msgid "zoom_in"
+msgstr "放大"
+
+#: templates/_crop_zone.html:24 templates/_modal_to_crop.html:24
+msgid "zoom_out"
+msgstr "缩小"
+
+#: templates/_crop_zone.html:28 templates/_modal_to_crop.html:28
+msgid "Crop and upload"
+msgstr "作物和上传"
+
+#: templates/_footer.html:11
 msgid ""
-"You are in the alpha version of the EU-Citizen.Science platform. Please "
+"You are in the beta version of the eu-citizen.science platform. Please "
 "provide your feedback in the official"
 msgstr ""
-"Du använder alfa-versionen av EU-Citizen.Science-portalen. Lämna gärna "
-"återkoppling och kommentarer i den officiella lagringsplatsen på "
+"您是EU-Citizen.Science平台的Beta版。请"
+"在官员中提供您的反馈"
 
-#: .\src\templates\_footer.html:13
+#: templates/_footer.html:13
 msgid "GitHub repository"
-msgstr "GitHub"
+msgstr "GitHub存储库"
 
-#: .\src\templates\_footer.html:14
+#: templates/_footer.html:14
 msgid "here to subscribe to our newsletter"
-msgstr "här för att prenumerera på vårt nyhetsbrev"
+msgstr "在这里订阅我们的新闻通讯"
 
-#: .\src\templates\_footer.html:56
+#: templates/_footer.html:55
 msgid ""
 "EU-Citizen.Science has received funding from the European Union´s Horizon "
 "2020 Framework Programme for Research and Innovation under grant agreement "
 "No. 824580"
 msgstr ""
-"EU-Citizen.Science har erhållit finansiering från EU:s ramverk för forskning "
-"och innovation – Horisont 2020 – under grant agreement No. 824580"
+"欧盟-citizen.Science已获得欧盟地平线的资金"
+"2020年授予协议研究与创新框架计划"
+"第824580号"
 
-#: .\src\templates\_footer.html:66
+#: templates/_footer.html:65
 msgid "Links"
-msgstr "Länkar"
+msgstr "链接"
 
-#: .\src\templates\_footer.html:69
+#: templates/_footer.html:68 templates/base_forum.html:70
+#: templates/base_r2.html:70
+msgid "Open Call"
+msgstr "打开电话"
+
+#: templates/_footer.html:71
 msgid "Terms of Use"
-msgstr "Användarvillkor"
+msgstr "使用条款"
 
-#: .\src\templates\_footer.html:72 .\src\templates\privacy.html:10
-#: .\src\templates\privacy.html:21
+#: templates/_footer.html:74 templates/privacy.html:10
+#: templates/privacy.html:21
 msgid "Privacy"
-msgstr "Sekretess"
+msgstr "隐私"
 
-#: .\src\templates\_footer.html:75 .\src\templates\imprint.html:10
-#: .\src\templates\imprint.html:22
+#: templates/_footer.html:77 templates/imprint.html:10
+#: templates/imprint.html:22
 msgid "Imprint"
-msgstr "Om webbplatsen"
+msgstr "烙印"
 
-#: .\src\templates\_footer.html:78
+#: templates/_footer.html:80
 msgid "Deliverables"
-msgstr "Projektets resultat"
+msgstr "可交付成果"
 
-#: .\src\templates\_footer.html:94 .\src\templates\faq.html:14
+#: templates/_footer.html:96 templates/base_r2.html:74
+msgid "Policy Event"
+msgstr "政策事件"
+
+#: templates/_footer.html:99 templates/faq_old.html:14
 msgid "FAQ"
-msgstr "Vanliga frågor och svar"
+msgstr "常问问题"
 
-#: .\src\templates\_footer.html:97
-msgid "Quality Criteria"
-msgstr "Kvalitetskriterier"
+#: templates/_footer.html:103
+msgid "Moderation & quality criteria"
+msgstr "适度与质量标准"
 
-#: .\src\templates\_footer.html:102
-msgid "Moderation"
-msgstr "Moderering"
-
-#: .\src\templates\_footer.html:105 .\src\templates\development.html:10
+#: templates/_footer.html:106 templates/development.html:10
 msgid "Development"
-msgstr "Utveckling"
+msgstr "发展"
 
-#: .\src\templates\_footer.html:108
+#: templates/_footer.html:109
 msgid "API"
 msgstr "API"
 
-#: .\src\templates\_navbar.html:3 .\src\templates\base_forum.html:58
-#: .\src\templates\base_r2.html:145
-msgid "SEARCH"
-msgstr "SÖK"
+#: templates/_modalsubmit.html:8
+msgid "What do you want to submit?"
+msgstr "您想提交什么？"
 
-#: .\src\templates\_navbar.html:4 .\src\templates\base_forum.html:60
-#: .\src\templates\base_r2.html:147
-msgid "BLOG"
-msgstr "BLOGG"
+#: templates/_modalsubmit.html:13
+msgid "Project"
+msgstr "项目"
 
-#: .\src\templates\_navbar.html:5 .\src\templates\base_forum.html:61
-#: .\src\templates\base_r2.html:148
-msgid "EVENTS"
-msgstr "EVENEMANG"
+#: templates/_modalsubmit.html:14
+msgid "Create a Citizen Science Project profile"
+msgstr "创建公民科学项目概况"
 
-#: .\src\templates\_navbar.html:6 .\src\templates\base_forum.html:63
-#: .\src\templates\base_r2.html:150
-msgid "MOOCS"
-msgstr ""
+#: templates/_modalsubmit.html:15
+msgid "Resource"
+msgstr "资源"
 
-#: .\src\templates\_navbar.html:7 .\src\templates\base_forum.html:64
-#: .\src\templates\base_r2.html:151
-msgid "ABOUT"
-msgstr "OM"
+#: templates/_modalsubmit.html:16
+msgid "Create a profile for a Resource that is relevant for Citizen Science"
+msgstr "为与公民科学相关的资源创建个人资料"
 
-#: .\src\templates\_subnavbar.html:20 .\src\templates\home.html:85
-#: .\src\templates\modalinfo.html:18 .\src\templates\resources_cards.html:33
+#: templates/_modalsubmit.html:17 templates/_subnavbar.html:22
 msgid "Training"
-msgstr "Träning"
+msgstr "训练"
 
-#: .\src\templates\_subnavbar.html:24 .\src\templates\home.html:95
-msgid "Organisations"
-msgstr "Organisationer"
-
-#: .\src\templates\_subnavbar.html:29
-msgid "Our Gold Star Selection"
-msgstr "Vår stjärn-selektion"
-
-#: .\src\templates\about.html:4 .\src\templates\about.html:8
-msgid "About"
-msgstr "Om"
-
-#: .\src\templates\about.html:19
-msgid "Watch our teaser, in 12 different languages!"
+#: templates/_modalsubmit.html:18
+msgid ""
+"Create a profile for Training and Education Material related to the practice "
+"of Citizen Science"
 msgstr ""
+"创建与实践有关的培训和教育材料的个人资料"
+"公民科学"
 
-#: .\src\templates\about.html:44
+#: templates/_modalsubmit.html:19
+msgid "Organisation"
+msgstr "组织"
+
+#: templates/_modalsubmit.html:20
+msgid "Create a profile for your Organisation"
+msgstr "为您的组织创建个人资料"
+
+#: templates/_modalsubmit.html:22
+msgid "Event"
+msgstr "事件"
+
+#: templates/_modalsubmit.html:23
+msgid "Create an Event"
+msgstr "创建一个事件"
+
+#: templates/_navbar.html:3
+msgid "SEARCH"
+msgstr "搜索"
+
+#: templates/_navbar.html:4
+msgid "BLOG"
+msgstr "博客"
+
+#: templates/_navbar.html:5
+msgid "EVENTS"
+msgstr "事件"
+
+#: templates/_navbar.html:6
+msgid "MOOCS"
+msgstr "MOOC"
+
+#: templates/_navbar.html:7
+msgid "CALL"
+msgstr "称呼"
+
+#: templates/_navbar.html:8
+msgid "ABOUT"
+msgstr "关于"
+
+#: templates/_save_zone.html:6
+msgid "Save & continue editing"
+msgstr "保存并继续编辑"
+
+#: templates/_subnavbar.html:34
+msgid "Platforms"
+msgstr "平台"
+
+#: templates/_subnavbar.html:41
+msgid "Our Gold Star Selection"
+msgstr "我们的金星选择"
+
+#: templates/about.html:4 templates/base_forum.html:65 templates/faq.html:4
+#: templates/moderation_quality_criteria.html:4
+msgid "About"
+msgstr "关于"
+
+#: templates/about.html:12
+msgid "about"
+msgstr "关于"
+
+#: templates/about.html:19
+msgid "Watch our teaser, in 12 different languages!"
+msgstr "观看我们的预告片，用12种不同的语言！"
+
+#: templates/about.html:49
 msgid "The Platform"
-msgstr "Portalen"
+msgstr "该平台"
 
-#: .\src\templates\about.html:47
+#: templates/about.html:54
 msgid ""
 "EU-Citizen.Science is an online platform for sharing knowledge, tools, "
 "training and resources for citizen science – by the community, for the "
 "community."
 msgstr ""
-"EU-Citizen.Science är en portal för att dela kunskap, verktyg, och andra "
-"resurser för medborgarforskning."
+"EU-Citizen.Science是一个在线平台，用于共享知识，工具，"
+"社区的公民科学培训和资源"
+"社区。"
 
-#: .\src\templates\about.html:48
+#: templates/about.html:55
 msgid ""
 "The vision for the platform is to serve as a Knowledge Hub, in aid of the "
 "mainstreaming of citizen science, and build on the growing impact of "
 "citizens participating in research across the full range of scientific "
-"enquiry."
+"enquiry. We accomplish this by supporting the sharing of knowledge, know-"
+"how, and experience between anyone doing or wanting to do citizen science."
 msgstr ""
-"Vår vision är att portalen ska bli ett kunskapsnav som kan bidra till att "
-"göra medborgarforskning ännu mer känt och använt bland olika aktörer i "
-"samhället."
+"该平台的愿景是作为知识中心"
+"公民科学的主流化，并建立在不断增长的影响的基础上"
+"参与整个科学范围的研究的公民"
+"询问。我们通过支持知识的共享来实现这一目标 - "
+"任何人或想做公民科学的人之间的经验和经验。"
 
-#: .\src\templates\about.html:49
-msgid ""
-"We accomplish this by supporting the sharing of knowledge, know-how, and "
-"experience between anyone doing or wanting to do citizen science."
-msgstr ""
-"Alla kan bidra genom att via portalen dela med sig av kunskaper och "
-"erfarenheter med andra som vill lära sig mer om medborgarforskning."
+#: templates/about.html:56
+msgid "On this platform you will find:"
+msgstr "在此平台上，您会发现："
 
-#: .\src\templates\about.html:52
-msgid "On this platform you will find"
-msgstr "På portalen hittar du"
-
-#: .\src\templates\about.html:54
-msgid "that are useful for citizen science practitioners"
-msgstr "som är användbara för personer som arbetar med medborgarforskning"
-
-#: .\src\templates\about.html:55
+#: templates/about.html:60
 msgid "that are engaging the public in research via citizen science activities"
-msgstr "som engagerar allmänheten i forskning"
+msgstr "通过公民科学活动吸引公众参与研究"
 
-#: .\src\templates\about.html:56
-msgid "Training resources and materials citizen science as a practice"
-msgstr "Resurser för att utöva medborgarforskning i praktiken"
+#: templates/about.html:64
+msgid "that are useful for citizen science practitioners"
+msgstr "对公民科学从业者有用"
 
-#: .\src\templates\about.html:57
+#: templates/about.html:68
+msgid "and materials on citizen science as a practice"
+msgstr "和公民科学作为实践的材料"
+
+#: templates/about.html:71
+msgid "Training modules"
+msgstr "训练模块"
+
+#: templates/about.html:72
+msgid "on citizen science in a wide range of themes"
+msgstr "关于公民科学的广泛主题"
+
+#: templates/about.html:75
+msgid "that are involved in citizen science projects and research"
+msgstr "参与公民科学项目和研究"
+
+#: templates/about.html:77
+msgid "Events calendar"
+msgstr "事件日历"
+
+#: templates/about.html:79
+msgid "A blog"
+msgstr "一个博客"
+
+#: templates/about.html:82
 msgid ""
-"Organisations that are involved in citizen science projects and research"
+"Spotted something missing? You can add your own profiles via the <i>New "
+"submission</i> button in the top menu. Have a suggestion for us? Please "
+"share your thoughts via the"
 msgstr ""
-"Organisationer som är involverade i medborgarforskning."
+"发现缺少的东西？您可以通过New <i>添加自己的个人资料"
+"顶部菜单中的提交按钮。有建议吗？请"
+"通过"
 
-#: .\src\templates\about.html:58
-msgid "an"
-msgstr "ett"
+#: templates/about.html:82
+msgid "contact form"
+msgstr "联系表"
 
-#: .\src\templates\about.html:58
-msgid "calendar"
-msgstr "för evenemang"
+#: templates/about.html:86
+msgid "The project"
+msgstr "该项目"
 
-#: .\src\templates\about.html:58
-msgid "and"
-msgstr "och"
-
-#: .\src\templates\about.html:59
-msgid ""
-"Community Forums for questions, conversations, and collaboration with the "
-"rest of the community."
-msgstr "forum för frågor, diskussion och samarbete med andra användare."
-
-#: .\src\templates\about.html:63
-msgid ""
-"Spotted something missing? You can add your own profiles for Resources, "
-"Projects, and Training via the +ADD button in the top menu. Have a "
-"suggestion for us? Please share your thoughts in our community feedback "
-"forum or in the"
-msgstr ""
-"Något som saknas? Du kan själv lägga till nya resurser, projekt och "
-"träningsmaterial med Lägg till-knappen i sidans toppmeny. Om du har några "
-"förslag eller synpunkter får du gärna dela dem i forumet, eller via"
-
-#: .\src\templates\about.html:63
-msgid "contact"
-msgstr "kontaktsidorna"
-
-#: .\src\templates\about.html:63
-msgid "section"
-msgstr "avdelning"
-
-#: .\src\templates\about.html:72
-msgid "The Project"
-msgstr "Projektet"
-
-#: .\src\templates\about.html:76
+#: templates/about.html:91
 msgid ""
 "The EU-Citizen.Science project has been funded by the European Commission "
 "Horizon 2020 programme, in the Science with and for Society programme of "
-"work (also known as SwafS).  Our mission is ambitious –to become the "
-"reference point for citizen science through cross-network knowledge sharing "
-"for citizen science participants, practitioners, researchers, policy makers "
-"and society across Europe"
+"work (also known as SwafS). The project’s mission is ambitious – to become "
+"the reference point for citizen science through cross-network knowledge "
+"sharing for citizen science participants, practitioners, researchers, policy "
+"makers and society across Europe."
 msgstr ""
-"Projektet EU-Citizen.Science har finansierats av EU-kommissionens "
-"forskningsprogram Horisont 2020, inom dess delprogram Science with and for "
-"Society (SwafS). Vi har ett ambitiöst uppdrag – att bli referenspunkten för "
-"medborgarforskning i Europa."
+"欧盟公民。Science项目已由欧盟委员会资助"
+"Horizo​​n 2020计划，与社会计划的科学计划"
+"工作（也称为SWAFS）。该项目的使命是雄心勃勃的 - 成为"
+"通过跨网络知识的公民科学的参考点"
+"为公民科学参与者，从业人员，研究人员，政策分享"
+"欧洲的创造者和社会。"
 
-#: .\src\templates\about.html:81
-msgid "Our Vision"
-msgstr "Vår vision"
-
-#: .\src\templates\about.html:82
+#: templates/about.html:93
 msgid ""
-"is that Citizen Science becomes an appreciated and widely established means "
-"for the democratization of science in Europe"
+"<b>Our Vision</b> is that Citizen Science becomes an appreciated and widely "
+"established means for the democratization of science in Europe"
 msgstr ""
-"är att medborgarforskning ska bli en uppskattad och etablerad metod för att "
-"samskapa vetenskaplig kunskap i Europa."
+"<b>我们的愿景</b>是公民科学成为一种赞赏和广泛的"
+"建立的欧洲科学民主化手段"
 
-#: .\src\templates\about.html:89
-msgid "Our Core Mission"
-msgstr "Vårt kärnuppdrag"
-
-#: .\src\templates\about.html:90
+#: templates/about.html:94
 msgid ""
-"is to become the European reference point for CS through cross-network "
-"knowledge sharing for citizen science participants, practitioners, "
-"researchers, policy makers and society across Europe"
+"<b>Our Core Mission</b> is to become the European reference point for "
+"citizen science through cross-network knowledge sharing for citizen science "
+"participants, practitioners, researchers, policy makers and society across "
+"Europe."
 msgstr ""
-"är att bli att bli referenspunkten för medborgarforskning i Europa"
+"<b>我们的核心使命</b>是成为欧洲参考点"
+"公民科学通过跨网络知识共享公民科学"
+"参与者，从业者，研究人员，政策制定者和社会"
+"欧洲。"
 
-#: .\src\templates\about.html:97
-msgid "Objective 1: Establish"
-msgstr "Mål 1: Etablera"
+#: templates/about.html:95
+msgid "Our objectives are:"
+msgstr "我们的目标是："
 
-#: .\src\templates\about.html:98
+#: templates/about.html:97
 msgid ""
-"EU-Citizen.Science as the knowledge and community hub for high-quality CS "
-"exchange and learning in Europe"
+"to stablish EU-Citizen.Science as the knowledge and community hub for high-"
+"quality citizen science exchange and learning in Europe."
 msgstr ""
-"EU-Citizen.Science som navet för högkvalitativ medborgarforskning i Europa"
+"稳定欧盟citizen。"
+"欧洲优质公民科学交流和学习。"
 
-#: .\src\templates\about.html:105
-msgid "Objective 2: Consolidate"
-msgstr "Mål 2: Sammanföra"
-
-#: .\src\templates\about.html:106
+#: templates/about.html:98
 msgid ""
-"the CS knowledge base and celebrate outstanding practices and state of the "
-"art in CS in Europe"
+"to onsolidate the citizen science knowledge base and celebrate outstanding "
+"practices and state of the art in citizen science in Europe."
 msgstr ""
-"den breda kunskapen om medborgarforskning som finns i Europa, och "
-"uppmärksamma ledande, inspirerande exempel på området"
+"on毁公民科学知识基础并庆祝杰出"
+"欧洲公民科学中的实践和艺术。"
 
-#: .\src\templates\about.html:113
-msgid "Objective 3: Empower"
-msgstr "Mål 3: Stärka"
-
-#: .\src\templates\about.html:114
+#: templates/about.html:99
 msgid ""
-"diverse stakeholders to become citizen scientists, start CS initiatives, and "
-"implement CS approaches professionally"
+"to empower diverse stakeholders to become citizen scientists, start citizen "
+"science initiatives, and implement citizen science approaches professionally."
 msgstr ""
-"individer i olika delar av samhället till att bli medborgarforskare, starta "
-"egna projekt och använda sig av medborgarforskning i sina yrken"
+"授权多元化的利益相关者成为公民科学家，开始公民"
+"科学计划，并实施公民科学的专业方法。"
 
-#: .\src\templates\about.html:121
-msgid "Objective 4: Explore"
-msgstr "Mål 4: Utforska"
-
-#: .\src\templates\about.html:122
+#: templates/about.html:100
 msgid ""
-"new pathways for participatory governance, by strengthening links between CS "
-"and policy making"
+"to explore new pathways for participatory governance, by strengthening links "
+"between citizen science and policy making."
 msgstr ""
-"nya vägar till delaktighet i samhällets styrning, genom att stärka banden "
-"mellan medborgarforskning och beslutsfattande"
+"通过加强联系来探索参与性治理的新途径"
+"在公民科学与政策制定之间。"
 
-#: .\src\templates\about.html:129
-msgid "Objective 5: Advance"
-msgstr "Mål 5: Lyfta"
-
-#: .\src\templates\about.html:130
+#: templates/about.html:102
 msgid ""
-"CS into the mainstream of public engagement, science communication and "
-"education"
+"to advance citizen science into the mainstream of public engagement, science "
+"communication and education."
 msgstr ""
-"medborgarforskning till att bli en självklar del av samverkan, "
-"forskningskommunikation och utbildning"
+"将公民科学推向公众参与，科学的主流"
+"沟通和教育。"
 
-#: .\src\templates\about.html:137
+#: templates/about.html:110
+msgid "The team"
+msgstr "团队"
+
+#: templates/about.html:115
 msgid ""
-"In keeping with our mission, we aim to engage equally with CS participants, "
-"practitioners, researchers, policy makers and society as a whole throughout "
-"the course of the project. In order to do so effectively, it is necessary to "
-"have a clear understanding of who our target audience is, their needs and "
-"requirements, and how we can build a community of engaged users of the "
-"Platform."
+" The EU-Citizen.Science consortium consists of 14 partners and 9 third "
+"parties from across 14 European countries. We represent a variety of "
+"stakeholders that are active in citizen science, including universities, non-"
+"governmental organisations, local authorities, community service "
+"organisations and museums."
 msgstr ""
-"I linje med vårt uppdrag vill vi på jämlika villkor engagera deltagare, "
-"praktiker, forskare, beslutsfattare och samhället i sin helhet genom hela "
-"projektet. För att kunna göra detta på ett bra sätt behöver vi ha en tydlig "
-"bild av vilka våra målgrupper är, vilka behov och förutsättningar de har, "
-"och hur vi tillsammans kan bygga en engagerad gemenskap bland portalens "
-"användare."
+"欧盟公民。ScienceConsortium由14个合作伙伴和9个第三伙伴组成"
+"来自14个欧洲国家的政党。我们代表各种各样的"
+"活跃于公民科学的利益相关者，包括大学，非 - "
+"政府组织，地方当局，社区服务"
+"组织和博物馆。"
 
-#: .\src\templates\about.html:147
-msgid "The Team"
-msgstr "Projektgruppen"
-
-#: .\src\templates\about.html:150
-msgid ""
-"The EU-Citizen.Science consortium consists of 14 partners and 9 third "
-"parties from across 14 European member states, as well as other project "
-"supporters. We represent a variety of stakeholders that are active in "
-"citizen science, including universities, non-governmental organisations, "
-"local authorities, community service organisations and museums."
-msgstr ""
-"Projektgruppen i EU-Citizen.Science består av 14 partnerorganisationer och "
-"nio fristående (tredje part) organisationer från sammanlagt 14 EU-länder.Vi "
-"representerar tillsammans en mängd olika aktörer inom medborgarforskning, "
-"såsom lärosäten, ideella organisationer och myndigheter."
-
-#: .\src\templates\about.html:159
+#: templates/about.html:121
 msgid "Consortium partners"
-msgstr "Projektpartners"
+msgstr "财团合作伙伴"
 
-#: .\src\templates\about.html:216
+#: templates/about.html:183
 msgid "Third party partners"
-msgstr "Fristående partners"
+msgstr "第三方合作伙伴"
 
-#: .\src\templates\about.html:257
-msgid "Citizen Science"
-msgstr "Medborgarforskning"
+#: templates/base.html:74 templates/base2.html:68 templates/base_forms.html:51
+#: templates/base_forum.html:92 templates/base_r2.html:135
+msgid "Admin"
+msgstr "行政"
 
-#: .\src\templates\about.html:260
+#: templates/base.html:84
+msgid "Profile"
+msgstr "轮廓"
+
+#: templates/base.html:85 templates/base2.html:70 templates/base_forum.html:94
+#: templates/base_r2.html:137
+msgid "Logout"
+msgstr "登出"
+
+#: templates/base.html:141 templates/base_forms.html:75
+msgid "Company"
+msgstr "公司"
+
+#: templates/base.html:144 templates/base_forms.html:78
+msgid "Connect with us on"
+msgstr "与我们联系"
+
+#: templates/base2.html:56 templates/base3.html:49
+msgid "LOGIN"
+msgstr "登录"
+
+#: templates/base2.html:57 templates/base3.html:50
+msgid "SIGN UP"
+msgstr "报名"
+
+#: templates/base2.html:61 templates/base_forum.html:84
+msgid "My Profile"
+msgstr "我的简历"
+
+#: templates/base2.html:62 templates/base_forum.html:85
+msgid "My organisations"
+msgstr "我的组织"
+
+#: templates/base2.html:63 templates/base_forum.html:86
+msgid "Submitted projects"
+msgstr "提交的项目"
+
+#: templates/base2.html:65 templates/base_forum.html:88
+msgid "Followed projects"
+msgstr "跟随项目"
+
+#: templates/base2.html:66 templates/base_forum.html:89
+msgid "Resources library"
+msgstr "资源库"
+
+#: templates/base3.html:52
+msgid "PROFILE"
+msgstr "轮廓"
+
+#: templates/base3.html:53
+msgid "LOGOUT"
+msgstr "登出"
+
+#: templates/base3.html:56
+msgid "ADMIN"
+msgstr "行政"
+
+#: templates/base_forms.html:43 templates/base_forum.html:76
+#: templates/base_r2.html:115
+msgid "Login"
+msgstr "登录"
+
+#: templates/base_forms.html:46
+msgid "profile"
+msgstr "轮廓"
+
+#: templates/base_forms.html:47
+msgid "logout"
+msgstr "登出"
+
+#: templates/base_forum.html:66 templates/base_r2.html:61
+msgid "Blog"
+msgstr "博客"
+
+#: templates/base_forum.html:67 templates/base_r2.html:64
+msgid "Events"
+msgstr "事件"
+
+#: templates/base_forum.html:68
+msgid "Forum"
+msgstr "论坛"
+
+#: templates/base_forum.html:69 templates/base_r2.html:67
+msgid "Moocs"
+msgstr "MOOC"
+
+#: templates/base_forum.html:77 templates/base_r2.html:117
+msgid "Signup"
+msgstr "报名"
+
+#: templates/base_forum.html:132
+msgid "Add"
+msgstr "添加"
+
+#: templates/base_forum.html:192 templates/base_r2.html:204
+msgid "FORUM"
+msgstr "论坛"
+
+#: templates/base_r2.html:129
+msgid "My personal area"
+msgstr "我的个人区域"
+
+#: templates/base_r2.html:130
+msgid "My submissions"
+msgstr "我的提交"
+
+#: templates/base_r2.html:131 templates/base_r2.html:132
+msgid "My bookmarks"
+msgstr "我的书签"
+
+#: templates/base_r2.html:146
+msgid "New submission"
+msgstr "新提交"
+
+#: templates/call.html:10
+msgid "EU-Citizen.Science call (closed)"
+msgstr "欧盟-Citizen.Science Call（关闭）"
+
+#: templates/criteria.html:10 templates/moderation_quality_criteria.html:36
+msgid "Quality criteria"
+msgstr "质量标准"
+
+#: templates/curated.html:11
+msgid "gold star <span class='lightBlue-color'> selection</span>"
+msgstr "金星<span class ='lightblue-color'>选择</span>"
+
+#: templates/curated.html:14
+msgid ""
+"The EU-Citizen.Science consortium has curated a selection of Gold Star "
+"citizen science resources"
+msgstr ""
+"欧盟公民。ScienceConsortium策划了一系列金星"
+"公民科学资源"
+
+#: templates/curated.html:15
+msgid ""
+"to help you get started with designing and launching your own citizen "
+"science project or simply learn about citizen science, categorised across "
+"the project lifecycle."
+msgstr ""
+"为了帮助您开始设计和推出自己的公民"
+"科学项目或简单地了解公民科学，分类"
+"项目生命周期。"
+
+#: templates/faq.html:12
+msgid "frequently <span class='lightBlue-color'>asked questions</span>"
+msgstr "经常<span class ='lightblue-color'>问问题</span>"
+
+#: templates/faq.html:21
+msgid "What is Citizen Science?"
+msgstr "什么是公民科学？"
+
+#: templates/faq.html:27
 msgid ""
 "Citizen science actively involves the public in scientific research that "
 "generates new knowledge or understanding, and thus has the potential to "
@@ -1886,566 +2238,1090 @@ msgid ""
 "impactful way. As a core dimension of Open Science, it opens up the "
 "opportunity for all members of society to take an active role in research, "
 "innovation and the development of evidence-based policy, at local, national "
-"and EU levels."
+"and EU levels. Citizen scientists can participate in many stages of the "
+"scientific process, from data collection and volunteer mapping, through data "
+"interpretation and analysis, to publication and dissemination of results."
 msgstr ""
-"I medborgarforskning är allmänheten aktivt engagerad i forskning som skapar "
-"ny kunskap eller förståelse, och som på detta vis kan föra samman vetenskap, "
-"beslutsfattande och hela samhället på ett kraftfullt sätt. "
-"Medborgarforskning är en viktig del i öppen vetenskap (open science) och gör "
-"det möjligt för aktörer från alla delar av samhället att aktivt delta i "
-"forskning, innovation och utveckling av evidensbaserat beslutsfattande, på "
-"lokal, nationell och europeisk nivå."
+"公民科学积极参与公众参与科学研究"
+"产生新的知识或理解，因此有潜力"
+"将科学，政策制定者和社会整体汇集在一起"
+"有影响力的方式。作为开放科学的核心维度，它打开了"
+"社会所有成员在研究中发挥积极作用的机会，"
+"创新和制定基于循证政策的地方，国家，国家"
+"和欧盟水平。公民科学家可以参加"
+"从数据收集和志愿者映射的科学过程，通过数据"
+"解释和分析，出版和传播结果。"
 
-#: .\src\templates\about.html:261
+#: templates/faq.html:28
 msgid ""
 "Citizen science is a flexible concept which can be adapted and applied "
-"within diverse situations and disciplines. In order to set out some of the "
-"key principles which we as a community believe underlie good practice in "
-"citizen science, the following"
+"within diverse situations and disciplines, and represents a range of "
+"approaches and historical practices for public participation in scientific "
+"research. As a result, there are a wide range of activities that can fall "
+"under the umbrella of citizen science, as can be seen in the ECSA "
+"Characteristics of Citizen Science. A good source of guidance when planning "
+"a citizen science initiative is the ECSA 10 Principles of Citizen Science. "
+"They have been translated to 30 languages by the citizen science community!"
 msgstr ""
-"Medborgarforskning – citizen science – är ett flexibelt koncept som kan "
-"användas i en mängd olika situationer och områden. För att lyfta fram några "
-"av de grundläggande villkoren för bra medborgarforskning, utvecklades "
-"följande"
+"公民科学是一个灵活的概念，可以适应和应用"
+"在各种情况和学科中，代表一系列"
+"公众参与科学的方法和历史实践"
+"研究。结果，有很多活动可能会下降"
+"在ECSA中可以看出，在公民科学的保护下"
+"公民科学的特征。计划时的良好指导来源"
+"公民科学计划是ECSA 10公民科学原则。"
+"公民科学界已经将它们翻译成30种语言！"
 
-#: .\src\templates\about.html:261
-msgid "10 Principles of Citizen Science"
-msgstr "tio principer för medborgarforskning"
+#: templates/faq.html:34
+msgid "Who is the EU-Citizen.Science Knowledge Hub for?"
+msgstr "谁是欧盟-Citizen.Science知识中心？"
 
-#: .\src\templates\about.html:261
+#: templates/faq.html:40
 msgid ""
-"were developed by the ‘Sharing best practice and building capacity’ working "
-"group of the"
+"Our community is open to anyone interested in citizen science - our vision "
+"for the platform is to encourage the democratization of science via the wide "
+"establishment and appreciation of citizen science approaches across Europe."
 msgstr ""
-"av arbetsgruppen 'Sharing best practice and building capacity' inom den "
+"我们的社区向对公民科学感兴趣的任何人开放 - 我们的愿景"
+"因为该平台是通过广泛的"
+"整个欧洲的公民科学方法的建立和欣赏。"
 
-#: .\src\templates\about.html:261
-msgid "European Citizen Science Association"
-msgstr "europeiska föreningen för medborgarforskning (ECSA)"
-
-#: .\src\templates\about.html:261
+#: templates/faq.html:42
 msgid ""
-"led by the Natural History Museum London with input from many members of the "
-"Association."
+"We hope to become the central reference point for anyone setting up or "
+"running a citizen science project (practitioners, researchers, educators, "
+"communities and citizens), anyone supporting the ecosystem of citizen "
+"science projects (policy makers and funding bodies), and anyone interested "
+"in the outcomes and impact of citizen science (decision makers, the press, "
+"and society as a whole). It doesn’t matter if you have years of experience "
+"or are completely new to citizen science."
 msgstr ""
-"under ledning av Londons naturhistoriska museum, och med bidrag från många "
-"av föreningens medlemmar."
+"我们希望成为任何设置或"
+"运行公民科学项目（从业者，研究人员，教育工作者，"
+"社区和公民），任何支持公民生态系统的人"
+"科学项目（政策制定者和资助机构）以及任何感兴趣的人"
+"在公民科学的结果和影响下（决策者，媒体，"
+"和整个社会）。有多年的经验都没关系"
+"或完全是公民科学的新手。"
 
-#: .\src\templates\about.html:269
-msgid "Ten principles of citizen science"
-msgstr "Tio principer för medborgarforskning"
+#: templates/faq.html:48
+msgid "What are the features of the EU-Citizen.Science platform?"
+msgstr "欧盟-Citizen.Science平台的功能是什么？"
 
-#: .\src\templates\about.html:273
+#: templates/faq.html:54
 msgid ""
-"Citizen science projects actively involve citizens in scientific endeavour "
-"that generates new knowledge or understanding. Citizens may act as "
-"contributors, collaborators, or as project leader and have a meaningful role "
-"in the project."
+"On the platform you can browse and search for resources that are useful for "
+"planning and running citizen science projects, training resources and "
+"materials about the practice of citizen science, and citizen science "
+"projects to learn from the experience of others and collaborate. There is a "
+"section with training modules or MOOCS on citizen science from introduction "
+"to citizen science over research design and methods to engagement, impact "
+"and communication. There are also an events calendar and a blog, profiles of "
+"organisations and platforms involved in citizen science projects and "
+"research, community forums for questions and conversations with the "
+"community."
 msgstr ""
-"Medborgarforskningsprojekt engagerar på ett aktivt sätt medborgare i "
-"vetenskapligt arbete som skapar ny kunskap eller förståelse. Deltagare kan "
-"agera som bidragsgivare, samarbetspartners eller som projektledare och fylla "
-"en betydelsefull roll i projektet."
+"在平台上，您可以浏览并搜索有用的资源"
+"计划和运行公民科学项目，培训资源和"
+"关于公民科学实践和公民科学实践的材料"
+"从他人的经验中学习并进行合作的项目。有一个"
+"介绍中带有有关公民科学的培训模块或MOOC的部分"
+"关于研究设计和参与方法的公民科学，影响"
+"和沟通。还有一个事件日历和博客，"
+"参与公民科学项目的组织和平台以及"
+"研究，社区论坛的问题和对话"
+"社区。"
 
-#: .\src\templates\about.html:274
-msgid "Citizen science projects have a genuine science outcome."
-msgstr "Medborgarforskningsprojekt genererar vetenskapliga resultat. "
+#: templates/faq.html:60
+msgid "Why should I sign-up to become a member of the community?"
+msgstr "我为什么要注册成为社区成员？"
 
-#: .\src\templates\about.html:274
+#: templates/faq.html:66
 msgid ""
-"For example, answering a research question or informing conservation action, "
-"management decisions or environmental policy."
+"A range of additional features become available to you when you sign-up to "
+"be a member of the community. You will be able to share your own projects "
+"and resources with the community, profile your organisation and link that "
+"profile with the projects you are involved in, and leave feedback or "
+"information about your own experience using the materials on the platform. "
+"When viewing a project profile, you can follow it, or when viewing a "
+"resource profile you can bookmark it to find them quickly again from your "
+"Personal Area. You will also be able to join the discussions in the Forum."
 msgstr ""
-"Resultaten kan till exempel bestå i att besvara en forskningsfråga, ge "
-"underlag för miljövårdande åtgärder eller miljöpolicy."
+"注册时，您可以使用一系列其他功能"
+"成为社区成员。您将能够分享自己的项目"
+"以及与社区的资源，介绍您的组织并将其联系起来"
+"您参与的项目的个人资料，并留下反馈或"
+"使用平台上的材料的信息信息。"
+"查看项目配置文件时，您可以关注它，或者查看"
+"资源配置文件您可以将其添加为书签，以便从您的"
+"个人区域。您还可以在论坛中加入讨论。"
 
-#: .\src\templates\about.html:275
+#: templates/faq.html:72
+msgid "Are the resources hosted on the EU-Citizen.Science platform?"
+msgstr "资源是否在欧盟-Citizen.Science平台上托管？"
+
+#: templates/faq.html:78
 msgid ""
-"Both the professional scientists and the citizen scientists benefit from "
-"taking part."
+"No, we don’t host any documents, files, or software on our platform. When a "
+"profile is created for a resource, it points to the location where that "
+"resource is stored or published, and project profiles point to the external "
+"website of that project. We strongly recommend the use of permanent "
+"repositories (such as the publisher’s page, Zenodo, OSF or the RIO Journal) "
+"to create permalinks and digital object identifiers (DOI) for all resources."
 msgstr ""
-"Medborgarforskningsprojekt ger nytta både för de professionella forskarna "
-"och för medborgarforskarna."
+"不，我们在平台上没有托管任何文档，文件或软件。当一个"
+"配置文件是为资源创建的，它指向该位置"
+"资源存储或发布，项目概况指向外部"
+"该项目的网站。我们强烈建议使用永久性"
+"存储库（例如出版商的页面，Zenodo，OSF或Rio Journal）"
+"为所有资源创建永久链接和数字对象标识符（DOI）。"
 
-#: .\src\templates\about.html:275
+#: templates/faq.html:84
+msgid "I can’t find the type of resource that I’m looking for, can you help?"
+msgstr "我找不到我想要的资源类型，您能帮忙吗？"
+
+#: templates/faq.html:90
 msgid ""
-"Benefits may include the publication of research outputs, learning "
-"opportunities, personal enjoyment, social benefits, satisfaction through "
-"contributing to scientific evidence e.g. to address local, national and "
-"international issues, and through that, the potential to influence policy."
+"While there are a lot of resources on the platform, we don’t host a database "
+"of all possibly existing materials on citizen science. Maybe what you are "
+"looking for does not exist yet. Please send us a message via the contact "
+"form and we will do our best to help you find it, or initiate the creation "
+"of it!"
 msgstr ""
-"Nyttan kan omfatta publicering av forskningsresultat, nytt vetande, "
-"personligt nöje, tillfredsställelse i att bidra till vetenskapliga underlag "
-"för att angripa lokala, nationella och internationella frågor, och "
-"härigenom, en möjlighet att påverka politiska beslut."
+"虽然平台上有很多资源，但我们没有托管数据库"
+"在所有可能现有的公民科学材料中。也许你是什么"
+"寻找尚不存在。请通过联系人给我们发送消息"
+"形式，我们将尽最大努力帮助您找到它，或启动创建"
+"它！"
 
-#: .\src\templates\about.html:276
+#: templates/faq.html:96
+msgid "Can I add a project or resource of my own?"
+msgstr "我可以添加自己的项目或资源吗？"
+
+#: templates/faq.html:102
 msgid ""
-"Citizen scientists may, if they wish, participate in multiple stages of the "
-"scientific process."
+"Yes, we actively encourage all members of the community to create a profile "
+"for their organisations, citizen science projects and resources on the "
+"platform. To create a profile, you will first need to sign up and log in to "
+"the platform and then select the appropriate form via the +Add button in the "
+"top right-hand corner."
 msgstr ""
-"Medborgarforskare kan, om de vill, medverka i flera delar av den "
-"vetenskapliga processen i projektet."
+"是的，我们积极鼓励社区所有成员创建个人资料"
+"对于他们的组织，公民科学项目和资源"
+"平台。要创建个人资料，您首先需要注册并登录到"
+"平台，然后通过 +添加按钮在"
+"右上方。"
 
-#: .\src\templates\about.html:276
+#: templates/faq.html:103
 msgid ""
-"This may include developing the research question, designing the method, "
-"gathering and analysing data, and communicating the results."
+"Please note that we moderate all submissions (What is the moderation "
+"process?) to ensure that all resources are of good quality (What are the "
+"quality criteria?), and that all projects are indeed citizen science "
+"initiatives (What is citizen science?). Please note that resources are not "
+"uploaded to the platform, rather they are linked to from within the profile "
+"that you create."
 msgstr ""
-"Detta kan innebära att utveckla forskningsfrågan, utforma metoden, samla in "
-"och analysera data och att kommunicera resultaten."
+"请注意，我们调节所有提交（审核是什么"
+"过程？）确保所有资源都有良好的质量（什么是"
+"质量标准？），所有项目确实是公民科学"
+"倡议（什么是公民科学？）。请注意，资源不是"
+"上传到平台，而是从配置文件中链接到"
+"您创建的。"
 
-#: .\src\templates\about.html:277
-msgid "Citizen scientists receive feedback from the project."
-msgstr "Medborgarforskare får återkoppling från projektet."
+#: templates/faq.html:109
+msgid "What types of resources can I submit?"
+msgstr "我可以提交哪些类型的资源？"
 
-#: .\src\templates\about.html:277
+#: templates/faq.html:115
 msgid ""
-"For example, how their data are being used and what the research, policy or "
-"societal outcomes are."
+"Resources should be related to citizen science, and useful for "
+"understanding, planning, implementing and evaluating citizen science and "
+"citizen science practices, or otherwise of value to citizen science "
+"practitioners. Resources can include documents such as how-to guides, "
+"publications, reports, policy briefs, and protocols; technical tools such as "
+"software or hardware; other file formats such as videos, podcasts, and "
+"diagrams; and even websites or webpages. Please note that there is a "
+"separate form for training resources and materials that are about the "
+"practice of citizen science. All resources should meet a range of quality "
+"criteria such as being clearly structured, easy to read (or hear, or view), "
+"and easy to understand. For guidance, read our quality criteria."
 msgstr ""
-"till exempel om hur insamlad data används och vilka vetenskapliga, politiska "
-"eller samhälleliga resultat de leder till."
+"资源应与公民科学有关，对"
+"理解，计划，实施和评估公民科学以及"
+"公民科学实践，或其他对公民科学的价值"
+"从业者。资源可以包括诸如操作指南之类的文档，"
+"出版物，报告，政策简介和协议；技术工具，例如"
+"软件或硬件；其他文件格式，例如视频，播客和"
+"图；甚至网站或网页。请注意，有一个"
+"培训资源和材料的单独形式"
+"公民科学实践。所有资源都应符合各种质量"
+"诸如明确结构，易于阅读（或听到或查看）之类的标准，"
+"并且易于理解。为了进行指导，请阅读我们的质量标准。"
 
-#: .\src\templates\about.html:278
+#: templates/faq.html:121
+msgid "What types of projects can I submit?"
+msgstr "我可以提交哪些类型的项目？"
+
+#: templates/faq.html:127
 msgid ""
-"Citizen science is considered a research approach like any other, with "
-"limitations and biases that should be considered and controlled for."
+"The projects profiled must involve participants in a way that can genuinely "
+"be considered citizen science. For guidance, please refer to ECSA's "
+"Characteristics of Citizen Science. The projects can be short-term or long-"
+"term initiatives or projects without an end date. Citizen science projects "
+"can involve voluntary participants (citizen scientists) in many fields of "
+"research and in many stages of the research process - from data collection "
+"and volunteer mapping, through data interpretation and analysis, to "
+"publication and dissemination of results. Additionally, projects profiled on "
+"the platform should engage as much as possible with the ECSA 10 Principles "
+"of Citizen Science."
 msgstr ""
-"Medborgarforskning ses som en forskningsmetod bland många andra, med "
-"begränsningar och bias som bör beaktas och kontrolleras."
+"所介绍的项目必须以真正的方式参与参与者"
+"被视为公民科学。有关指导，请参阅ECSA的"
+"公民科学的特征。这些项目可以是短期的或长期的"
+"期限倡议或没有结束日期的项目。公民科学项目"
+"可以参与许多领域的自愿参与者（公民科学家）"
+"研究过程的许多阶段 - 从数据收集中"
+"以及通过数据解释和分析来志愿映射到"
+"结果的出版和传播。此外，项目介绍了"
+"该平台应尽可能与ECSA 10原则合作"
+"公民科学。"
 
-#: .\src\templates\about.html:278
+#: templates/faq.html:133
+msgid "How do I add a project or resource?"
+msgstr "如何添加项目或资源？"
+
+#: templates/faq.html:139
 msgid ""
-"However unlike traditional research approaches, citizen science provides "
-"opportunity for greater public engagement and democratisation of science."
+"Once you have signed up and are logged in, look for the +Add button in the "
+"top right-hand corner of the website. There you can select the profile form "
+"that you wish to complete. We recommend that you first create a profile for "
+"your organisation, so that it can be linked to your projects and resources. "
+"In this form you will be asked to provide descriptive information in a "
+"number of mandatory and optional data fields. This information will be used "
+"for creating the public profile of the project or resource on our platform. "
+"Please note that resources are not uploaded to the platform, rather they are "
+"linked to from within the profile that you create."
 msgstr ""
-"Till skillnad från traditionella forskningsmetoder erbjuder "
-"medborgarforskning möjligheter till större engagemang hos allmänheten och en "
-"demokratisering av vetenskapen."
+"注册并登录后，查找 +添加按钮"
+"网站的右上角。您可以选择个人资料表格"
+"您想完成的。我们建议您首先为"
+"您的组织，以便它可以链接到您的项目和资源。"
+"以这种形式，您将被要求在"
+"强制性和可选数据字段的数量。此信息将被使用"
+"用于在我们的平台上创建项目或资源的公共资料。"
+"请注意，资源没有上传到平台，而是它们是"
+"链接到您创建的配置文件中。"
 
-#: .\src\templates\about.html:279
+#: templates/faq.html:141
 msgid ""
-"Citizen science project data and meta-data are made publicly available and "
-"where possible, results are published in an open access format."
+"Please note that you will be required to describe the citizen science "
+"aspects of your project, and the way in which your resource relates to the "
+"practice of citizen science. When saved, the profile will be submitted to a "
+"member of the EU-Citizen.Science team for moderation. Once that process is "
+"complete, the profile will be marked as ‘Moderated’, and will be fully "
+"available on the platform."
 msgstr ""
-"Data och metadata från medborgarforskningsprojekt görs allmänt tillgängliga "
-"och resultaten publiceras (när så är möjligt) i ett open access-format."
+"请注意，您将被要求描述公民科学"
+"项目的各个方面，以及您的资源与"
+"公民科学实践。保存后，配置文件将提交给"
+"欧盟公民的成员。节制小组。一旦该过程是"
+"完整，该配置文件将被标记为“调节”，并且将完全"
+"在平台上可用。"
 
-#: .\src\templates\about.html:279
+#: templates/faq.html:148
+msgid "How does moderation work?"
+msgstr "节制如何工作？"
+
+#: templates/faq.html:154
 msgid ""
-"Data sharing may occur during or after the project, unless there are "
-"security or privacy concerns that prevent this."
+"When a profile is saved, it will be submitted for moderation to the platform "
+"moderator, and marked as ‘not yet moderated’ on the platform. The first "
+"criterion that the moderator will look for, is that you have described the "
+"citizen science aspects of your project, or described the way in which your "
+"resource is relevant to citizen science. Guidance for this can be found in "
+"ECSA's Characteristics of Citizen Science developed by the citizen science "
+"community. The moderator will also consider whether your resource or project "
+"is in alignment with the ECSA 10 Principles of Citizen Science."
 msgstr ""
-"Datadelning kan göras under eller efter projektet, såvida det inte finns "
-"säkerhets- eller integritetsskäl som förhindrar detta."
+"保存配置文件时，它将提交给平台的审核"
+"主持人，在平台上被标记为“尚未调节”。首先"
+"主持人将要寻找的标准是您已经描述了"
+"您项目的公民科学方面或描述了您的方式"
+"资源与公民科学有关。可以在"
+"ECSA公民科学发展的公民科学特征"
+"社区。主持人还将考虑您的资源还是项目"
+"与ECSA 10公民科学原则保持一致。"
 
-#: .\src\templates\about.html:280
+#: templates/faq.html:156
 msgid ""
-"Citizen scientists are acknowledged in project results and publications."
+"Resources will be assessed further against a range of specific criteria to "
+"ensure that they are easy to access, implement and adapt, well structured, "
+"clearly described and written in clear language, and ideally improve or "
+"support the desired impact of the initiative (e.g. on science, policy or "
+"society, etc.). You can read the full list of quality criteria."
 msgstr ""
-"Deltagarnas bidrag i medborgarforskningsprojekt ska uppmärksammas i "
-"projektets resultat och i publikationer."
+"资源将根据一系列特定标准进行进一步评估"
+"确保它们易于访问，实施和适应，结构良好，"
+"清楚地描述和写出清晰的语言，理想地改进或"
+"支持该计划的期望影响（例如，对科学，政策或"
+"社会等）。您可以阅读质量标准的完整列表。"
 
-#: .\src\templates\about.html:281
+#: templates/faq.html:162
+msgid "What are the quality criteria for resources?"
+msgstr "资源的质量标准是什么？"
+
+#: templates/faq.html:168
 msgid ""
-"Citizen science programmes are evaluated for their scientific output, data "
-"quality, participant experience and wider societal or policy impact."
+"After completing all mandatory metadata fields in the profile, and ensuring "
+"that the resource is relevant to citizen science initiatives, the resource "
+"will be assessed against a set of specific criteria developed to ensure that "
+"all resources profiled on the platform are of good quality. We consider good "
+"quality citizen science resources to be those that are easy to access, "
+"implement and adapt, well structured, clearly described and written in clear "
+"language, and ideally improve or support the desired impact of the "
+"initiative (e.g. on science, policy or society, etc.). It also enhances the "
+"value and quality of your resource when you can say something about how it "
+"has been used and developed further in practice, and whether or not it has "
+"been evaluated for usefulness, applicability, and impact. You can read the "
+"full list of quality criteria."
 msgstr ""
-"Medborgarforskningsprojekt utvärderas med avseende på vetenskapliga "
-"resultat, datakvalitet, deltagarnas erfarenheter och bredare samhälleliga "
-"eller politiska effekter."
+"完成轮廓中的所有强制性元数据字段后，并确保"
+"资源与公民科学计划有关，资源"
+"将根据制定的一系列特定标准进行评估，以确保"
+"平台上介绍的所有资源都具有良好的质量。我们认为很好"
+"优质的公民科学资源是那些易于访问的资源"
+"实施和适应，结构良好，清楚地描述和书写"
+"语言，理想地改善或支持所需的影响"
+"倡议（例如，科学，政策或社会等）。它还增强了"
+"当您可以说出有关它的价值和质量的价值和质量"
+"在实践中已被使用和开发，以及是否具有"
+"评估有用性，适用性和影响。你可以阅读"
+"质量标准的完整列表。"
 
-#: .\src\templates\about.html:282
+#: templates/faq.html:173
+msgid "What are the quality criteria for projects?"
+msgstr "项目的质量标准是什么？"
+
+#: templates/faq.html:179
 msgid ""
-"The leaders of citizen science projects take into consideration legal and "
-"ethical issues surrounding copyright, intellectual property, data sharing "
-"agreements, confidentiality, attribution, and the environmental impact of "
-"any activities."
+"The same overarching criteria are applied to both projects and resources. "
+"You are required to provide descriptive information in a number of data "
+"fields in the project profile, some of which are mandatory, before it can be "
+"submitted for moderation. One of these mandatory fields is a description of "
+"the citizen science aspects of the project. Guidance for this can be found "
+"in ECSA's Characteristics of Citizen Science. A further suggested "
+"overarching criteria for projects is that they be in alignment with the ECSA "
+"10 Principles of Citizen Science."
 msgstr ""
-"Ansvariga för medborgarforskningsprojekt tar hänsyn till juridiska och "
-"etiska aspekter kring upphovsrätt, immaterialrätt, överenskommelser kring "
-"datadelning, sekretess, redovisning av olika parters bidrag och ansvar, och "
-"miljöpåverkan av aktiviteter inom projektets ramar."
+"同样的总体标准也适用于项目和资源。"
+"您需要在许多数据中提供描述性信息"
+"项目配置文件中的字段，其中一些是强制性的，然后才能是"
+"提交适度。这些强制性领域之一是描述"
+"该项目的公民科学方面。可以找到这一点的指导"
+"在ECSA的公民科学特征中。进一步建议"
+"项目的总体标准是它们与ECSA保持一致"
+"公民科学原理。"
 
-#: .\src\templates\base.html:74 .\src\templates\base2.html:68
-#: .\src\templates\base_forms.html:51 .\src\templates\base_forum.html:80
-#: .\src\templates\base_r2.html:169
-msgid "Admin"
-msgstr "Admin"
+#: templates/faq.html:185
+msgid "Can I edit a profile after I have saved it?"
+msgstr "保存后可以编辑个人资料吗？"
 
-#: .\src\templates\base.html:84
-msgid "Profile"
-msgstr "Profil"
-
-#: .\src\templates\base.html:85 .\src\templates\base2.html:70
-#: .\src\templates\base_forum.html:82 .\src\templates\base_r2.html:171
-msgid "Logout"
-msgstr "Logga ut"
-
-#: .\src\templates\base.html:141 .\src\templates\base_forms.html:75
-msgid "Company"
-msgstr "Företag"
-
-#: .\src\templates\base.html:144 .\src\templates\base_forms.html:78
-msgid "Connect with us on"
-msgstr "Följ oss på"
-
-#: .\src\templates\base2.html:56 .\src\templates\base3.html:49
-#: .\src\templates\base_forum.html:66 .\src\templates\base_r2.html:153
-msgid "LOGIN"
-msgstr "LOGGA IN"
-
-#: .\src\templates\base2.html:57 .\src\templates\base3.html:50
-#: .\src\templates\base_forum.html:67
-msgid "SIGN UP"
-msgstr "SKAPA KONTO"
-
-#: .\src\templates\base2.html:61 .\src\templates\base_forum.html:73
-#: .\src\templates\base_r2.html:161
-msgid "My Profile"
-msgstr "Min profil"
-
-#: .\src\templates\base2.html:62 .\src\templates\base_forum.html:74
-#: .\src\templates\base_r2.html:162
-msgid "My organisations"
-msgstr "Mina organisationer"
-
-#: .\src\templates\base2.html:63 .\src\templates\base_forum.html:75
-#: .\src\templates\base_r2.html:163
-msgid "Submitted projects"
-msgstr "Inskickade projekt"
-
-#: .\src\templates\base2.html:64 .\src\templates\base_forum.html:76
-#: .\src\templates\base_r2.html:164
-msgid "Submitted resources"
-msgstr "Inskickade resurser"
-
-#: .\src\templates\base2.html:66 .\src\templates\base_forum.html:78
-#: .\src\templates\base_r2.html:166
-msgid "Resources library"
-msgstr "Resursbibliotek"
-
-#: .\src\templates\base3.html:52
-msgid "PROFILE"
-msgstr "PROFIL"
-
-#: .\src\templates\base3.html:53
-msgid "LOGOUT"
-msgstr "LOGGA UT"
-
-#: .\src\templates\base3.html:56
-msgid "ADMIN"
-msgstr "ADMIN"
-
-#: .\src\templates\base_forms.html:43
-msgid "Login"
-msgstr "Logga in"
-
-#: .\src\templates\base_forms.html:46
-msgid "profile"
-msgstr "profil"
-
-#: .\src\templates\base_forms.html:47
-msgid "logout"
-msgstr "logga ut"
-
-#: .\src\templates\base_forum.html:62 .\src\templates\base_forum.html:148
-#: .\src\templates\base_r2.html:149 .\src\templates\base_r2.html:244
-msgid "FORUM"
-msgstr "FORUM"
-
-#: .\src\templates\base_r2.html:154
-msgid "SIGNUP"
-msgstr "SKAPA KONTO"
-
-#: .\src\templates\criteria.html:10
-msgid "Quality criteria"
-msgstr "Kvalitetskriterier"
-
-#: .\src\templates\curated.html:27
+#: templates/faq.html:191
 msgid ""
-"The EU-Citizen.Science consortium has curated a selection of Gold Star "
-"citizen science resources"
+"Yes, you can edit and update the profiles of the projects, resources, and "
+"organisations that you have shared, both before and after they have been "
+"moderated. You can find these profile edit pages in your Personal Area."
 msgstr ""
-"I vår 'stjärn-selektion' har EU-Citizen.Science-projektets deltagare valt ut "
-"en samling särskilt användbara resurser för medborgarforskning"
+"是的，您可以编辑和更新项目，资源和"
+"您已经分享的组织之前和之后"
+"主持。您可以在您的个人区域中找到这些个人资料编辑页面。"
 
-#: .\src\templates\curated.html:28
+#: templates/faq.html:197
+msgid "What is the Our Gold Star Selection page?"
+msgstr "我们的金星选择页面是什么？"
+
+#: templates/faq.html:203
 msgid ""
-"to help you get started with designing and launching your own citizen "
-"science project, categorised across the project lifecycle."
+"The members of the EU-Citizen.Science consortium have curated a list of "
+"‘Gold Star’ resources from amongst those in the (training) resources section "
+"that are of particularly high quality, or represent best practice, to make "
+"it easier for new and experienced practitioners alike to zoom in on the most "
+"useful resources. Read more about Our Selection on the blog post ‘How we "
+"selected the starter set of resources, and curated ‘Our Selection’’. "
 msgstr ""
-"för att hjälpa dig att komma igång med ditt eget medborgarforskningsprojekt."
+"欧盟公民的成员。ScienceConsortium策划了一份清单"
+"（培训）资源部分中的“金星”资源"
+"质量特别高或代表最佳实践的方法"
+"新的和经验丰富的从业者更容易放大"
+"有用的资源。在博客文章中阅读有关我们选择的更多信息。"
+"选择了首发资源集，并策划了“我们的选择”。"
 
-#: .\src\templates\faq.html:20
+#: templates/faq.html:209
+msgid "What is the Personal Area?"
+msgstr "什么是个人区域？"
+
+#: templates/faq.html:215
+msgid ""
+"The Personal Area is where you can edit any of the content profiles that you "
+"have submitted (as a logged-in member of the platform), in order to keep "
+"those profiles up to date. There you will also find the list of projects "
+"that you have ‘followed’, and the resources that you have bookmarked so that "
+"you can find them quickly again from your Personal Area. Please also share "
+"more information about yourself in the Profile area with other members of "
+"the community."
+msgstr ""
+"个人区域是您可以编辑任何内容配置文件的地方"
+"已提交（作为平台的登录成员），以保留"
+"这些配置文件最新。在那里您还将找到项目列表"
+"您已经“遵循”，以及您已添加书签的资源，以便"
+"您可以从您的个人区域再次找到它们。也请分享"
+"有关您自己在个人资料区域的更多信息与其他成员"
+"社区。"
+
+#: templates/faq_old.html:20
 msgid "Frequently Asked Questions"
-msgstr "Vanliga frågor och svar"
+msgstr "经常问的问题"
 
-#: .\src\templates\home.html:31
+#: templates/final_launch.html:10
 msgid ""
-"Welcome to the platform for sharing Citizen Science projects, resources, "
-"tools, and training"
+"What’s new in citizen science training: from open science to public "
+"engagement"
 msgstr ""
-"Välkommen till portalen för allt som har med medborgarforskning att göra.Här "
-"kan du dela och ta del av projekt, resurser, verktyg och träningsmaterial."
+"公民科学培训中的新功能：从开放科学到公众"
+"订婚"
 
-#: .\src\templates\home.html:41
-msgid ""
-"Search for citizen science resources, projects, tools, training, and more...."
-msgstr ""
+#: templates/home.html:43
+msgid "Search..."
+msgstr "搜索..."
 
-#: .\src\templates\home.html:66
-msgid "in Projects"
-msgstr "bland projekt"
+#: templates/horizontal_card_project.html:16
+#: templates/horizontal_card_resource.html:16
+msgid "Not approved"
+msgstr "不批准"
 
-#: .\src\templates\home.html:67 .\src\templates\home.html:77
-#: .\src\templates\home.html:87 .\src\templates\home.html:97
-msgid "here"
-msgstr "här"
-
-#: .\src\templates\home.html:67 .\src\templates\home.html:77
-#: .\src\templates\home.html:87 .\src\templates\home.html:97
-msgid "to see all of them"
-msgstr "för att se samtliga profiler"
-
-#: .\src\templates\home.html:76
-msgid "in Resources"
-msgstr "bland resurser"
-
-#: .\src\templates\home.html:86
-msgid "in Training"
-msgstr "bland träningsmaterial"
-
-#: .\src\templates\home.html:96
-msgid "in Organisations"
-msgstr "bland organisationer"
-
-#: .\src\templates\modalinfo.html:8
-msgid ""
-"Select the form for the content profile you would like to add to the platform"
-msgstr ""
-"Välj formulär för profilen som du vill lägga till på portalen"
-
-#: .\src\templates\modalinfo.html:14 .\src\templates\projects_cards.html:34
-msgid "Project"
-msgstr "Projekt"
-
-#: .\src\templates\modalinfo.html:15
-msgid "Create a Citizen Science Project profile"
-msgstr "Skapa profil för medborgarforskningsprojekt"
-
-#: .\src\templates\modalinfo.html:16 .\src\templates\resources_cards.html:33
-msgid "Resource"
-msgstr "Resurs"
-
-#: .\src\templates\modalinfo.html:17
-msgid "Create a profile for a Resource that is relevant for Citizen Science"
-msgstr "Skapa profil för resurs som är relevant för medborgarforskning"
-
-#: .\src\templates\modalinfo.html:19
-msgid ""
-"Create a profile for Training and Education Material related to the practice "
-"of Citizen Science"
-msgstr ""
-"Skapa profil för tränings- och utbildningsmaterial om medborgarforskning"
-
-#: .\src\templates\modalinfo.html:21
-msgid "Create a profile for your Organisation"
-msgstr "Skapa en profil för din organisation"
-
-#: .\src\templates\modalinfo.html:23
-msgid "Event"
-msgstr "Evenemang"
-
-#: .\src\templates\modalinfo.html:24
-msgid "Create an Event"
-msgstr "Skapa ett evenemang"
-
-#: .\src\templates\moderation.html:10
+#: templates/moderation.html:10
 msgid "The moderation process"
-msgstr "Modererings-processen"
+msgstr "适度过程"
 
-#: .\src\templates\projects_cards.html:20
-#: .\src\templates\resources_cards.html:15
-#: .\src\templates\resources_cards_horizontal.html:19
-msgid "NOT ACCEPTED"
-msgstr "EJ ACCEPTERAT"
+#: templates/moderation.html:23
+msgid "The Moderation Process"
+msgstr "适度过程"
 
-#: .\src\templates\projects_cards.html:22
-#: .\src\templates\projects_cards_featured.html:19
-#: .\src\templates\projects_cards_short.html:19
-#: .\src\templates\resources_cards.html:16
-#: .\src\templates\resources_cards_featured.html:17
-#: .\src\templates\resources_cards_horizontal.html:20
-#: .\src\templates\resources_cards_short.html:17
+#: templates/moderation_quality_criteria.html:12
+msgid "moderation"
+msgstr "适度"
+
+#: templates/moderation_quality_criteria.html:12
+msgid "and"
+msgstr "和"
+
+#: templates/moderation_quality_criteria.html:12
+msgid "quality criteria"
+msgstr "质量标准"
+
+#: templates/moderation_quality_criteria.html:27
+msgid ""
+"Our ambitious goal is to become the place to share useful resources about "
+"planning, running, evaluating and participating in citizen science "
+"initiatives or simply learning about citizen science, including tools and "
+"guidelines, best practices and training modules. We hope to make practical "
+"guidance on citizen science findable and accessible to all, and enable "
+"people to initiate their own activities wherever they are. It is important "
+"to us, and the community of practitioners, that we have a way of ensuring "
+"that the resources profiled on the platform are of good quality, and that "
+"the projects profiled on the platform are indeed citizen science "
+"initiatives. This is why we have a moderation process for all submissions."
+msgstr ""
+"我们雄心勃勃的目标是成为分享有用资源的地方"
+"计划，跑步，评估和参与公民科学"
+"倡议或简单地学习公民科学，包括工具和"
+"指南，最佳实践和培训模块。我们希望做实用"
+"公民科学指南可被所有人找到和访问，并启用"
+"人们无论身在何处都会发起自己的活动。这很重要"
+"对我们和从业者的社区，我们有一种方法来确保"
+"平台上介绍的资源质量高，并且"
+"平台上介绍的项目确实是公民科学"
+"倡议。这就是为什么我们为所有提交的调节过程进行了审核。"
+
+#: templates/moderation_quality_criteria.html:29
+msgid ""
+"When you create a profile for a resource or a project to share on the "
+"platform, you will be asked to provide a range of descriptive information "
+"about it, and once all of the mandatory data fields are completed, you will "
+"be able to submit the profile. Upon submission, it will be sent for "
+"moderation. Until it has been reviewed against our criteria, it will be "
+"marked as ‘not yet moderated’, and will not be automatically visible in "
+"search results. Once your resource profile has successfully been through the "
+"moderation process, it will be marked as ‘moderated’, and will be fully "
+"available in search results."
+msgstr ""
+"当您为资源或项目创建个人资料时"
+"平台，您将被要求提供一系列描述性信息"
+"关于它，一旦所有强制性数据字段都完成，您将"
+"能够提交个人资料。提交后，将发送"
+"适度。在根据我们的标准进行审查之前，它将是"
+"被标记为“尚未调节”，在"
+"搜索结果。一旦您的资源配置文件成功地通过"
+"适度过程，它将被标记为“调节”，并且将完全"
+"在搜索结果中可用。"
+
+#: templates/moderation_quality_criteria.html:42
+msgid ""
+"We have developed a set of comprehensive quality criteria as a way of "
+"ensuring that the projects and resources that you can find on this platform "
+"are of good quality. The overarching criteria can be applied to both "
+"projects and resources. Specific and supporting criteria have been developed "
+"for resources. The table below provides an overview of all resources; "
+"further down on this page you can read about all the quality criteria in "
+"more detail."
+msgstr ""
+"我们已经开发了一套全面的质量标准"
+"确保您可以在此平台上找到的项目和资源"
+"质量很好。总体标准可以应用于两者"
+"项目和资源。已经开发了具体和支持标准"
+"用于资源。下表提供了所有资源的概述；"
+"在此页面上，您可以阅读有关所有质量标准的信息"
+"更多详情。"
+
+#: templates/moderation_quality_criteria.html:46
+msgid "Overarching Criteria (for projects and resources)"
+msgstr "总体标准（用于项目和资源）"
+
+#: templates/moderation_quality_criteria.html:56
+msgid "Specific Criteria (for resources)"
+msgstr "特定标准（用于资源）"
+
+#: templates/moderation_quality_criteria.html:60
+#: templates/moderation_quality_criteria.html:144
+msgid "Readability and Legibility"
+msgstr "可读性和可读性"
+
+#: templates/moderation_quality_criteria.html:61
+msgid "Clear structure"
+msgstr "清晰的结构"
+
+#: templates/moderation_quality_criteria.html:64
+msgid "Clear language"
+msgstr "清晰的语言"
+
+#: templates/moderation_quality_criteria.html:67
+msgid "Basic formatting"
+msgstr "基本格式"
+
+#: templates/moderation_quality_criteria.html:70
+msgid "Content"
+msgstr "内容"
+
+#: templates/moderation_quality_criteria.html:73
+#: templates/moderation_quality_criteria.html:156
+msgid "Applicability"
+msgstr "适用性"
+
+#: templates/moderation_quality_criteria.html:74
+msgid "Easy to implement"
+msgstr "易于实现"
+
+#: templates/moderation_quality_criteria.html:77
+msgid "Easy to adapt"
+msgstr "容易适应"
+
+#: templates/moderation_quality_criteria.html:80
+msgid "Object"
+msgstr "目的"
+
+#: templates/moderation_quality_criteria.html:81
+msgid "Clearly audible (audio object)"
+msgstr "显然听到（音频对象）"
+
+#: templates/moderation_quality_criteria.html:84
+msgid "Good quality (video or image)"
+msgstr "优质（视频或图像）"
+
+#: templates/moderation_quality_criteria.html:87
+msgid "Supporting Criteria (for resources)"
+msgstr "支持标准（资源）"
+
+#: templates/moderation_quality_criteria.html:88
+#: templates/moderation_quality_criteria.html:186
+msgid "Evaluation"
+msgstr "评估"
+
+#: templates/moderation_quality_criteria.html:89
+msgid "Used in the context of a citizen science initiative"
+msgstr "用于公民科学计划的背景"
+
+#: templates/moderation_quality_criteria.html:92
+msgid ""
+"Evaluated in terms of the quality of the content, methods, or results of the "
+"method"
+msgstr ""
+"根据内容，方法或结果的质量评估"
+"方法"
+
+#: templates/moderation_quality_criteria.html:95
+#: templates/moderation_quality_criteria.html:192
+msgid "Impact"
+msgstr "影响"
+
+#: templates/moderation_quality_criteria.html:108
+msgid "The overarching criteria for all resources"
+msgstr "所有资源的总体标准"
+
+#: templates/moderation_quality_criteria.html:114
+msgid " Required Criteria - Citizen Science"
+msgstr "所需标准 - 公民科学"
+
+#: templates/moderation_quality_criteria.html:115
+msgid ""
+"The first criterion that the moderator will look for, is that your "
+"<b>resource is relevant to citizen science</b>, or that your <b>project is a "
+"citizen science initiative</b>."
+msgstr ""
+"主持人将要寻找的第一个标准是"
+"<b>资源与公民科学相关</b>，或者您的<b>项目是一个"
+"公民科学倡议</b>。"
+
+#: templates/moderation_quality_criteria.html:117
+msgid ""
+"Although there are no hard and fast definitions of what citizen science is "
+"and is not (nor should there be - citizen science should always remain a "
+"broad and inclusive concept), we turn to the recent work conducted by the "
+"citizen science community on the ECSA Characteristics of Citizen Science as "
+"guidance. Please consult these characteristics if you are uncertain whether "
+"the resource or the project you would like to share really does relate to "
+"citizen science. If the moderator has concerns they will contact you "
+"directly."
+msgstr ""
+"虽然没有什么公民科学的艰难定义"
+"而且不是（也不应该存在 - 公民科学应该始终保持"
+"广泛而包容的概念），我们求助于"
+"公民科学界关于公民科学的ECSA特征"
+"指导。如果您不确定是否"
+"您想共享的资源或项目确实与"
+"公民科学。如果主持人有疑问，他们将与您联系"
+"直接地。"
+
+#: templates/moderation_quality_criteria.html:119
+msgid ""
+"The moderator will also check if all mandatory fields in the resource "
+"profile are completed. This is to ensure that all project and resource "
+"profiles provide sufficient information to enable users of the platform to "
+"see whether it is useful or relevant to them."
+msgstr ""
+"主持人还将检查资源中的所有强制性字段"
+"个人资料已完成。这是为了确保所有项目和资源"
+"配置文件提供了足够的信息，使平台的用户能够"
+"看看它是否有用或与他们相关。"
+
+#: templates/moderation_quality_criteria.html:121
+msgid "Suggested Criteria - the Principles of Citizen Science"
+msgstr "建议的标准 - 公民科学的原则"
+
+#: templates/moderation_quality_criteria.html:122
+msgid ""
+"The moderator of your submitted profile will also consider whether your "
+"resource or project is in alignment with the ECSA 10 Principles of Citizen "
+"Science."
+msgstr ""
+"您提交的个人资料的主持人还将考虑您的"
+"资源或项目与ECSA 10公民原则保持一致"
+"科学。"
+
+#: templates/moderation_quality_criteria.html:128
+msgid "Specific criteria"
+msgstr "具体标准"
+
+#: templates/moderation_quality_criteria.html:134
+msgid ""
+"For the resources to be shared on the platform, we have developed a specific "
+"set of further criteria, which will be assessed during the moderation "
+"process. You can read more about how we developed these in the blog post "
+"‘How we developed the quality criteria for resources’."
+msgstr ""
+"为了在平台上共享资源，我们开发了一个特定的资源"
+"一组进一步的标准，将在适度期间进行评估"
+"过程。您可以在博客文章中阅读更多有关我们如何开发这些信息的信息"
+"“我们如何制定资源质量标准”。"
+
+#: templates/moderation_quality_criteria.html:136
+msgid ""
+"We consider good quality citizen science resources to be those that are easy "
+"to access, implement and adapt, well structured, clearly described and "
+"written in clear language, and ideally improve or support the desired impact "
+"of the initiative (eg. on science, policy or society, etc). For this purpose "
+"we have developed a range of criteria that the moderator will assess against "
+"a 5-point scale, from strongly disagree (1 point) to strongly agree (5 "
+"points)."
+msgstr ""
+"我们认为优质的公民科学资源是那些很容易的人"
+"访问，实施和适应，结构良好，清晰描述并"
+"用清晰的语言编写，理想地改善或支持所需的影响"
+"倡议（例如，科学，政策或社会等）。以此目的"
+"我们已经制定了一系列标准，主持人将评估反对"
+"从强烈不同意（1分）到强烈同意的5分量表（5"
+"点）。"
+
+#: templates/moderation_quality_criteria.html:139
+msgid "Easy access to the resource"
+msgstr "轻松访问资源"
+
+#: templates/moderation_quality_criteria.html:141
+msgid ""
+"The resource should be easy to access, i.e. it doesn’t require registration, "
+"and is not behind a paywall."
+msgstr ""
+"资源应该易于访问，即不需要注册，"
+"并且不在付费墙后面。"
+
+#: templates/moderation_quality_criteria.html:146
+msgid ""
+"The resource should be <b>clearly structured</b> according to the type of "
+"the resource. For example, a scientific paper or report should include an "
+"introduction, methodology, results, discussion and/or conclusions, and "
+"methodology documents should include an introduction, audience description, "
+"step by step methodology, and an example."
+msgstr ""
+"资源应根据类型的类型</b>清楚地结构</b>"
+"资源。例如，科学论文或报告应包括"
+"引言，方法，结果，讨论和/或结论以及"
+"方法论文档应包括介绍，受众描述，"
+"逐步的方法论和一个例子。"
+
+#: templates/moderation_quality_criteria.html:147
+msgid ""
+"The resource should be <b>written in clear language</b> that is easy to read "
+"and understand for the intended target audience, and should be concise, "
+"unambiguous, and avoid the use of unusual words and jargon. Where technical "
+"terms are used, their meaning should be explained clearly."
+msgstr ""
+"资源应用清晰的语言</b> <b> </b>易于阅读"
+"并了解预期的目标受众，应该简洁，"
+"明确，避免使用异常的单词和行话。在哪里技术"
+"使用术语，应清楚地解释其含义。"
+
+#: templates/moderation_quality_criteria.html:148
+msgid ""
+"The resource should pay attention to <b>basic formatting</b>, such as clear "
+"titles and paragraphs, correct grammar and spelling, a legible font of large "
+"enough size to read, and clearly marked references."
+msgstr ""
+"资源应注意<b>基本格式</b>，例如清晰"
+"标题和段落，正确的语法和拼写，一种较大的字体"
+"足够的大小可以阅读，并明确标记了参考。"
+
+#: templates/moderation_quality_criteria.html:151
+msgid "Clarity of Content"
+msgstr "内容的清晰度"
+
+#: templates/moderation_quality_criteria.html:153
+msgid ""
+"The resource should clearly describe its aims, goals and methods, so that it "
+"is easy for readers to understand how to apply the resource in their own "
+"context."
+msgstr ""
+"资源应清楚地描述其目标，目标和方法，以便"
+"读者很容易理解如何自己应用资源"
+"语境。"
+
+#: templates/moderation_quality_criteria.html:159
+msgid ""
+"The resource should be <b>easy to implement</b>, ideally with descriptions "
+"of how it can be implemented, the contexts that it is useful for, and "
+"recommendations for further use or development."
+msgstr ""
+"资源应<b>易于实现</b>，理想情况下是描述"
+"关于如何实现它，对其有用的上下文以及"
+"进一步使用或开发的建议。"
+
+#: templates/moderation_quality_criteria.html:160
+msgid ""
+"The resource should be <b>easy to adapt</b> to different cases, ideally with "
+"an explanation of any limitations of the resource and the contexto in which "
+"it could be useful, and with guidelines or recommendations for its "
+"adaptation to different cases."
+msgstr ""
+"资源应易于适应不同的情况，理想情况下"
+"对资源和上下文的任何限制的解释"
+"它可能很有用，并有了指南或建议"
+"适应不同情况。"
+
+#: templates/moderation_quality_criteria.html:163
+msgid "Object Quality"
+msgstr "对象质量"
+
+#: templates/moderation_quality_criteria.html:165
+msgid ""
+"If the resource is an audio object, it should be <b>clearly audible</b>, "
+"with no interruptions or background noise."
+msgstr ""
+"如果资源是音频对象，则应显然是听觉的</b>，"
+"没有中断或背景噪音。"
+
+#: templates/moderation_quality_criteria.html:166
+msgid ""
+"If the resource is a video, an image or illustration, the quality should be "
+"good enough to <b>see clearly, with a sharp focus</b>."
+msgstr ""
+"如果资源是视频，图像或插图，则质量应该是"
+"足够好，可以清楚地看到，焦点敏锐</b>。"
+
+#: templates/moderation_quality_criteria.html:170
+#, python-format
+msgid ""
+"The highest possible score is 40 points, if all criteria are applicable. But "
+"in most cases, only a selection of the above criteria will be applicable. "
+"The moderator will look to see that your resource exceeds 50%% of the total "
+"possible points for that type of resource. That is the threshold for being "
+"listed on the platform as a good quality resource."
+msgstr ""
+"如果所有条件都适用，则最高分数是40分。但"
+"在大多数情况下，仅适用上述标准的选择。"
+"主持人将看到您的资源超过总数的50 %%"
+"该类型的资源的可能点。那是被限制的门槛"
+"在平台上列为优质资源。"
+
+#: templates/moderation_quality_criteria.html:177
+msgid "Supporting criteria"
+msgstr "支持标准"
+
+#: templates/moderation_quality_criteria.html:183
+msgid ""
+"It really enhances the value and quality of your resources when you can say "
+"something about how it has been used and developed further in practice, and "
+"whether or not it has been evaluated for usefulness and applicability in "
+"practice. The moderator will also take it into positive consideration if "
+"there is evidence of the following criteria being met (but these are not "
+"part of the threshold calculation mentioned above):"
+msgstr ""
+"当您可以说，它确实提高了您的资源的价值和质量"
+"关于如何在实践中进一步使用和开发的内容，以及"
+"是否已对其有用和适用性进行了评估"
+"实践。主持人还将将其视为积极的考虑"
+"有证据表明满足以下标准（但这些标准不是"
+"上述阈值计算的一部分）："
+
+#: templates/moderation_quality_criteria.html:188
+msgid ""
+"The resource has been <b>used in the context of citizen science</b>, or is "
+"currently being used in a citizen science initiative, and the outcome of "
+"this has been shared."
+msgstr ""
+"该资源已在公民科学</b>的背景下使用，或者是"
+"目前正在公民科学倡议中使用，以及"
+"这已经共享。"
+
+#: templates/moderation_quality_criteria.html:189
+msgid ""
+"The resource has been <b>evaluated</b> in terms of the quality of the "
+"content, or the methods, or the results of the method, and the outcomes of "
+"these evaluations have been shared."
+msgstr ""
+"根据</b>评估了该资源的质量</b>"
+"内容，方法或方法的结果，以及"
+"这些评估已共享。"
+
+#: templates/moderation_quality_criteria.html:194
+msgid ""
+"The resource refers to any <b>impact</b> that it could have (or has had) on "
+"science, policy, society, etc."
+msgstr ""
+"资源是指它可能具有（或已有）的任何<b>影响</b>"
+"科学，政策，社会等"
+
+#: templates/moderation_quality_criteria.html:195
+msgid ""
+"The impact of the resource has been <b>measured</b> and is shared in the "
+"resource."
+msgstr ""
+"资源的影响已被测量</b>，并在"
+"资源。"
+
+#: templates/policy_brief.html:4 templates/policy_brief.html:8
+msgid "Policy Brief"
+msgstr "政策简介"
+
+#: templates/policy_maker_event_2021.html:10
+msgid "Citizen Science for Policy across Europe"
+msgstr "欧洲政策的公民科学"
+
+#: templates/projects_cards_featured.html:19
+#: templates/projects_cards_short.html:19
+#: templates/resources_cards_featured.html:17
+#: templates/resources_cards_horizontal.html:20
+#: templates/resources_cards_short.html:17
 msgid "NOT YET MODERATED"
-msgstr "EJ MODERERAD ÄNNU"
+msgstr "尚未调节"
 
-#: .\src\templates\projects_cards.html:24
-#: .\src\templates\projects_cards_featured.html:20
-#: .\src\templates\projects_cards_short.html:20
-#: .\src\templates\resources_cards.html:17
-#: .\src\templates\resources_cards_featured.html:18
-#: .\src\templates\resources_cards_horizontal.html:21
-#: .\src\templates\resources_cards_short.html:18
+#: templates/projects_cards_featured.html:20
+#: templates/projects_cards_short.html:20
+#: templates/resources_cards_featured.html:18
+#: templates/resources_cards_horizontal.html:21
+#: templates/resources_cards_short.html:18
 msgid "MODERATED"
-msgstr "MODERERAT"
+msgstr "主持"
 
-#: .\src\templates\projects_cards.html:34
-msgid "Featured project"
-msgstr "Uppmärksammat projekt"
-
-#: .\src\templates\projects_cards_featured.html:33
-#: .\src\templates\projects_cards_short.html:33
-#: .\src\templates\resources_cards_featured.html:30
-#: .\src\templates\resources_cards_horizontal.html:45
-#: .\src\templates\resources_cards_short.html:30
+#: templates/projects_cards_featured.html:28
+#: templates/projects_cards_short.html:28
+#: templates/resources_cards_featured.html:30
+#: templates/resources_cards_horizontal.html:45
+#: templates/resources_cards_short.html:30
 msgid "Read more"
-msgstr "Läs mer"
+msgstr "阅读更多"
 
-#: .\src\templates\registration\logged_out.html:9
+#: templates/registration/logged_out.html:9
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr "Du är nu utloggad från ditt konto."
+msgstr "感谢您今天在网站上度过美好的时光。"
 
-#: .\src\templates\registration\logged_out.html:11
+#: templates/registration/logged_out.html:11
 msgid "Log in again"
-msgstr "Logga in igen"
+msgstr "再次登录"
 
-#: .\src\templates\registration\password_change_done.html:6
-#: .\src\templates\registration\password_change_form.html:6
-#: .\src\templates\registration\password_reset_complete.html:6
-#: .\src\templates\registration\password_reset_confirm.html:6
-#: .\src\templates\registration\password_reset_done.html:6
-#: .\src\templates\registration\password_reset_form.html:6
+#: templates/registration/password_change_done.html:6
+#: templates/registration/password_change_form.html:6
+#: templates/registration/password_reset_complete.html:6
+#: templates/registration/password_reset_confirm.html:6
+#: templates/registration/password_reset_done.html:6
+#: templates/registration/password_reset_form.html:6
 msgid "Home"
-msgstr "Hem"
+msgstr "家"
 
-#: .\src\templates\registration\password_change_done.html:7
-#: .\src\templates\registration\password_change_form.html:7
-#: .\src\templates\registration\password_change_form.html:11
-#: .\src\templates\registration\password_change_form.html:12
+#: templates/registration/password_change_done.html:7
+#: templates/registration/password_change_form.html:7
+#: templates/registration/password_change_form.html:11
+#: templates/registration/password_change_form.html:12
 msgid "Password change"
-msgstr "Ändra lösenord"
+msgstr "密码更改"
 
-#: .\src\templates\registration\password_change_done.html:11
-#: .\src\templates\registration\password_change_done.html:12
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_change_done.html:12
 msgid "Password change successful"
-msgstr "Lösenordet har ändrats."
+msgstr "密码更改成功"
 
-#: .\src\templates\registration\password_change_done.html:16
+#: templates/registration/password_change_done.html:16
 msgid "Your password was changed."
-msgstr "Ditt lösenord har ändrats."
+msgstr "您的密码已更改。"
 
-#: .\src\templates\registration\password_change_form.html:19
+#: templates/registration/password_change_form.html:19
 msgid "Please correct the error below."
-msgstr "Vänligen korrigera felet nedan."
+msgstr "请更正下面的错误。"
 
-#: .\src\templates\registration\password_change_form.html:19
+#: templates/registration/password_change_form.html:19
 msgid "Please correct the errors below."
-msgstr "Vänligen korrigera felen nedan."
+msgstr "请更正以下错误。"
 
-#: .\src\templates\registration\password_change_form.html:23
+#: templates/registration/password_change_form.html:23
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"Ange först ditt gamla lösenord, och skriv därefter in ditt nya lösenord två "
-"gånger."
+"为了安全起见，请输入您的旧密码，然后输入您的新密码"
+"密码两次，因此我们可以正确验证您将其正确键入。"
 
-#: .\src\templates\registration\password_change_form.html:63
-#: .\src\templates\registration\password_reset_confirm.html:42
+#: templates/registration/password_change_form.html:63
+#: templates/registration/password_reset_confirm.html:42
 msgid "Change my password"
-msgstr "Ändra lösenord"
+msgstr "修改我的密码"
 
-#: .\src\templates\registration\password_reset_complete.html:7
-#: .\src\templates\registration\password_reset_complete.html:11
-#: .\src\templates\registration\password_reset_complete.html:12
+#: templates/registration/password_reset_complete.html:7
+#: templates/registration/password_reset_complete.html:11
+#: templates/registration/password_reset_complete.html:12
 msgid "Password reset complete"
-msgstr "Lösenordet är nu återställt"
+msgstr "密码重置已完成"
 
-#: .\src\templates\registration\password_reset_complete.html:16
+#: templates/registration/password_reset_complete.html:16
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "Ditt lösenord har sparats. Nu kan du logga in på portalen."
+msgstr "您的密码已设置。您可以继续登录。"
 
-#: .\src\templates\registration\password_reset_confirm.html:7
+#: templates/registration/password_reset_confirm.html:7
 msgid "Password reset confirmation"
-msgstr "Bekräftelse på återställt lösenord"
+msgstr "密码重置确认"
 
-#: .\src\templates\registration\password_reset_confirm.html:11
-#: .\src\templates\registration\password_reset_confirm.html:12
-#: .\src\templates\registration\password_reset_done.html:7
-#: .\src\templates\registration\password_reset_form.html:7
-#: .\src\templates\registration\password_reset_form.html:11
-#: .\src\templates\registration\password_reset_form.html:12
+#: templates/registration/password_reset_confirm.html:11
+#: templates/registration/password_reset_confirm.html:12
+#: templates/registration/password_reset_done.html:7
+#: templates/registration/password_reset_form.html:7
+#: templates/registration/password_reset_form.html:11
+#: templates/registration/password_reset_form.html:12
 msgid "Password reset"
-msgstr "Återställ lösenord"
+msgstr "重设密码"
 
-#: .\src\templates\registration\password_reset_confirm.html:20
+#: templates/registration/password_reset_confirm.html:20
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
-msgstr "Vänligen skriv in ditt nya lösenord två gånger."
+msgstr ""
+"请两次输入您的新密码，以便我们验证您将其输入"
+"正确。"
 
-#: .\src\templates\registration\password_reset_confirm.html:25
+#: templates/registration/password_reset_confirm.html:25
 msgid "New password:"
-msgstr "Nytt lösenord"
+msgstr "新密码："
 
-#: .\src\templates\registration\password_reset_confirm.html:34
+#: templates/registration/password_reset_confirm.html:34
 msgid "Confirm password:"
-msgstr "Bekräfta lösenord"
+msgstr "确认密码："
 
-#: .\src\templates\registration\password_reset_confirm.html:48
+#: templates/registration/password_reset_confirm.html:48
 msgid "Password reset unsuccessful"
-msgstr "Det gick inte att återställa ditt lösenord"
+msgstr "密码重置失败"
 
-#: .\src\templates\registration\password_reset_confirm.html:50
+#: templates/registration/password_reset_confirm.html:50
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"Länken för att återställa lösenordet gick inte att använda. Vänligen gör om "
-"proceduren för att få en ny länk skickad till din e-postadress."
+"密码重置链接无效，可能是因为它已经存在"
+"用过的。请请求新密码重置。"
 
-#: .\src\templates\registration\password_reset_done.html:11
-#: .\src\templates\registration\password_reset_done.html:12
+#: templates/registration/password_reset_done.html:11
+#: templates/registration/password_reset_done.html:12
 msgid "Password reset successful"
-msgstr "Ditt lösenord är nu återställt."
+msgstr "密码重置成功"
 
-#: .\src\templates\registration\password_reset_done.html:16
+#: templates/registration/password_reset_done.html:16
 msgid ""
 "We've emailed you instructions for setting your password to the email "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
-"Vi har nu mejlat instruktioner för hur du återställer lösenordet. Du bör "
-"inom kort få meddelandet till den e-postadress som du angav."
+"我们已通过电子邮件向您发送了将密码设置为电子邮件的说明"
+"您提交的地址。您应该尽快收到它。"
 
-#: .\src\templates\registration\password_reset_form.html:16
+#: templates/registration/password_reset_form.html:16
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
-"Glömt lösenordet? Fyll i din e-postadress nedan, så skickar vi instruktioner "
-"för hur du återställer lösenordet."
+"忘记了你的密码？在下面输入您的电子邮件地址，我们将发送电子邮件"
+"设置新的说明。"
 
-#: .\src\templates\registration\password_reset_form.html:21
+#: templates/registration/password_reset_form.html:21
 msgid "Email address:"
-msgstr "E-postadress"
+msgstr "电子邮件地址："
 
-#: .\src\templates\registration\password_reset_form.html:30
+#: templates/registration/password_reset_form.html:30
 msgid "Reset my password"
-msgstr "Återställ mitt lösenord"
+msgstr "重置我的密码"
 
-#: .\src\templates\resources_cards.html:32
-msgid "Featured"
-msgstr "Uppmärksammat"
+#: templates/resources_cards_horizontal.html:19
+msgid "NOT ACCEPTED"
+msgstr "不接受"
 
-#: .\src\templates\resources_cards.html:55
-msgid "Last updated"
-msgstr "Senast uppdaterad"
+#: templates/resources_cards_horizontal.html:43
+msgid "review"
+msgstr "审查"
 
-#~ msgid "omdöme"
-#~ msgstr "lämna ett omdöme"
+#: templates/resources_cards_horizontal.html:43
+msgid "reviews"
+msgstr "评论"
 
-#~ msgid "Teaser video"
-#~ msgstr "Kort introduktionsvideo"
+#: templates/resources_cards_horizontal.html:96
+msgid "In my library"
+msgstr "在我的图书馆里"
+
+#: templates/resources_cards_horizontal.html:98
+msgid "Add to library"
+msgstr "添加到库"
+
+#: templates/translations.html:10
+msgid "Translations"
+msgstr "翻译"

@@ -83,7 +83,12 @@
                                data-bs-toggle="dropdown"
                                aria-haspopup="true" 
                                aria-expanded="false" href="#">
-                                {% get_current_language as LANGUAGE_CODE %}{{LANGUAGE_CODE}}
+                               {% for lang in TRANSLATED_LANGUAGES %}
+                                    {% if lang.0 == LANGUAGE_CODE%}
+                                        {{ lang.1}}
+                                    {% endif %}
+                               {% endfor %}
+                                
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownLanguage">
@@ -92,12 +97,12 @@
                                     <div style="display: inline;">          
                                         <input id="language" name="language" type="hidden" value="en">
                                         {% for lang in TRANSLATED_LANGUAGES %}
-                                        <li><a class="dropdown-item" 
-                                               style="cursor: pointer;" 
-                                               onclick="javascript:document.getElementById('language').value='{{ lang.0 }}';languageForm.submit()">
-                                                {{ lang.1 }}
-                                            </a>
-                                        </li>
+                                            <li><a class="dropdown-item" 
+                                                style="cursor: pointer;" 
+                                                onclick="javascript:document.getElementById('language').value='{{ lang.0 }}';languageForm.submit()">
+                                                    {{ lang.1}}
+                                                </a>
+                                            </li>
                                         {% endfor %}          
                                     </div>
                                 </form>

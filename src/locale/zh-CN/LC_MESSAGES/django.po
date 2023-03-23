@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-05 01:51+0000\n"
+"POT-Creation-Date: 2023-03-20 15:31-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: accounts/forms.py:28 accounts/forms.py:88
 msgid "Enter Email"
-msgstr ""
+msgstr "输入电子邮件"
 
 #: accounts/forms.py:30 accounts/forms.py:92
 msgid "Enter Password"
-msgstr ""
+msgstr "输入密码"
 
 #: accounts/forms.py:36 templates/base.html:69
 #: templates/registration/password_reset_complete.html:18
 msgid "Log in"
-msgstr ""
+msgstr "登录"
 
 #: accounts/forms.py:54
 msgid ""
@@ -41,75 +41,75 @@ msgstr ""
 
 #: accounts/forms.py:90
 msgid "Enter name"
-msgstr ""
+msgstr "输入名字"
 
 #: accounts/forms.py:94
 msgid "Re-enter Password"
-msgstr ""
+msgstr "重新输入密码"
 
 #: accounts/forms.py:97 templates/base.html:70 templates/base_forms.html:44
 msgid "Sign up"
-msgstr ""
+msgstr "报名"
 
 #: accounts/forms.py:106
 msgid "Enter old password"
-msgstr ""
+msgstr "输入旧密码"
 
 #: accounts/forms.py:107 accounts/forms.py:130
 #: templates/registration/password_reset_confirm.html:18
 msgid "Enter new password"
-msgstr ""
+msgstr "输入新密码"
 
 #: accounts/forms.py:108 accounts/forms.py:131
 msgid "Enter new password (again)"
-msgstr ""
+msgstr "再次输入新密码（再次）"
 
 #: accounts/forms.py:109 accounts/forms.py:132
 #: profiles/templates/profiles/privacy_center.html:35
 msgid "Change Password"
-msgstr ""
+msgstr "更改密码"
 
 #: accounts/forms.py:119
 msgid "Enter email"
-msgstr ""
+msgstr "输入电子邮件"
 
 #: accounts/forms.py:120
 msgid "Reset Password"
-msgstr ""
+msgstr "重设密码"
 
 #: accounts/templates/accounts/acc_active_email.html:4
 msgid "Activate your EU-Citizen.Science account."
-msgstr ""
+msgstr "激活您的欧盟-citizen.Science帐户。"
 
 #: accounts/templates/accounts/emails/password-reset-email.html:3
 #: accounts/templates/accounts/emails/password-reset-subject.txt:1
 #, python-format
 msgid "Password reset on %(domain)s"
-msgstr ""
+msgstr "密码重置 %(domain)s"
 
 #: contact/templates/contact.html:10 contact/templates/contact.html:19
 #: contact/templates/contact.html:28
 #: contact/templates/submitter_contact.html:20
 #: contact/templates/submitter_contact.html:29 templates/_footer.html:83
 msgid "Contact"
-msgstr ""
+msgstr "接触"
 
 #: contact/templates/contact.html:56
 #: contact/templates/submitter_contact.html:45
 msgid "Send"
-msgstr ""
+msgstr "发送"
 
 #: contact/templates/submitter_contact.html:10
 msgid "Submitter Contact"
-msgstr ""
+msgstr "提交者联系人"
 
 #: contact/templates/submitter_contact.html:30
 msgid "This email will be sent to submitter of"
-msgstr ""
+msgstr "该电子邮件将发送给提交者"
 
 #: contact/templates/success.html:26
 msgid "Thank you for your message."
-msgstr ""
+msgstr "感谢您的留言。"
 
 #: digest/admin.py:92
 #, python-format
@@ -118,71 +118,123 @@ msgid_plural "%d test mails were sent"
 msgstr[0] ""
 msgstr[1] ""
 
+#: eucs_platform/settings/base.py:194
+msgid "Dutch"
+msgstr "荷兰"
+
+#: eucs_platform/settings/base.py:195
+msgid "English"
+msgstr "英语"
+
+#: eucs_platform/settings/base.py:196
+msgid "Estonian"
+msgstr "爱沙尼亚人"
+
+#: eucs_platform/settings/base.py:197
+msgid "Français"
+msgstr "弗朗索瓦人"
+
+#: eucs_platform/settings/base.py:198
+msgid "German"
+msgstr "德语"
+
+#: eucs_platform/settings/base.py:199
+msgid "Greek"
+msgstr "希腊语"
+
+#: eucs_platform/settings/base.py:200
+msgid "Hungarian"
+msgstr "匈牙利"
+
+#: eucs_platform/settings/base.py:201
+msgid "Italian"
+msgstr "意大利人"
+
+#: eucs_platform/settings/base.py:202
+msgid "Lituanian"
+msgstr "lituanian"
+
+#: eucs_platform/settings/base.py:203
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: eucs_platform/settings/base.py:204
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: eucs_platform/settings/base.py:205
+msgid "Swedish"
+msgstr "瑞典"
+
+#: eucs_platform/settings/base.py:206
+msgid "Chinese"
+msgstr "中国人"
+
 #: events/forms.py:8
 msgid "Title of the event"
-msgstr ""
+msgstr "活动的标题"
 
 #: events/forms.py:9
 msgid "A brief description of the event"
-msgstr ""
+msgstr "事件的简要说明"
 
 #: events/forms.py:10
 msgid "Location of the Event"
-msgstr ""
+msgstr "活动的位置"
 
 #: events/forms.py:14
 msgid "Please provide a URL to an external web site for the event"
-msgstr ""
+msgstr "请为活动提供外部网站的URL"
 
 #: events/templates/editEvent.html:25
 msgid "Edit event"
-msgstr ""
+msgstr "编辑事件"
 
 #: events/templates/editEvent.html:34 events/templates/new_event.html:35
 msgid "Event info"
-msgstr ""
+msgstr "事件信息"
 
 #: events/templates/events.html:11
 msgid "On going <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "在进行<span class ='lightblue-color'>事件</span>"
 
 #: events/templates/events.html:24
 msgid "Upcoming <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "即将到来的<span class ='lightblue-color'>事件</span>"
 
 #: events/templates/events.html:36
 msgid "Past <span class='lightBlue-color'>events</span>"
-msgstr ""
+msgstr "过去的<span class ='lightblue-color'>事件</span>"
 
 #: events/templates/new_event.html:25
 msgid "New event"
-msgstr ""
+msgstr "新事件"
 
 #: organisations/forms.py:14
 msgid "The name or the organisation"
-msgstr ""
+msgstr "名称或组织"
 
 #: organisations/forms.py:18
 msgid "URL of the organisation"
-msgstr ""
+msgstr "组织的URL"
 
 #: organisations/forms.py:21
 msgid "Please briefly describe the organisation (max 3000 characters)"
-msgstr ""
+msgstr "请简要描述组织（最大3000个字符）"
 
 #: organisations/forms.py:26
 #: organisations/templates/_finder_organisation.html:30
 #: organisations/templates/finder_organisations.html:18
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: organisations/forms.py:31
 msgid "Please upload the logo of your organisation (.jpg or .png)"
-msgstr ""
+msgstr "请上传组织的徽标（.jpg或.png）"
 
 #: organisations/forms.py:39 platforms/forms.py:59
 msgid "Please name the contact person or contact point for the organisation"
-msgstr ""
+msgstr "请命名该组织的联系人或联系点"
 
 #: organisations/forms.py:44
 msgid ""
@@ -192,11 +244,11 @@ msgstr ""
 
 #: organisations/forms.py:91 projects/forms.py:476 resources/forms.py:286
 msgid "Give additional users permission to edit"
-msgstr ""
+msgstr "授予其他用户许可进行编辑"
 
 #: organisations/templates/_delete_modal.html:6
 msgid "Confirm delete"
-msgstr ""
+msgstr "确认删除"
 
 #: organisations/templates/_delete_modal.html:10
 msgid ""
@@ -205,71 +257,71 @@ msgstr ""
 
 #: organisations/templates/_delete_modal.html:11
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "你想继续吗？"
 
 #: organisations/templates/_delete_modal.html:14 templates/_crop_zone.html:27
 #: templates/_modal_to_crop.html:27
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: organisations/templates/_delete_modal.html:15
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: organisations/templates/_finder_organisation.html:11
 #: projects/templates/_finder_projects.html:12
 msgid "Most Recent Updated"
-msgstr ""
+msgstr "最新更新"
 
 #: organisations/templates/_finder_organisation.html:12
 #: projects/templates/_finder_projects.html:13
 msgid "Featured"
-msgstr ""
+msgstr "特色"
 
 #: organisations/templates/_finder_organisation.html:13
 #: projects/templates/_finder_projects.html:14
 #: resources/templates/_finder_resources.html:16
 msgid "Sort by rating"
-msgstr ""
+msgstr "按评分排序"
 
 #: organisations/templates/_finder_organisation.html:18
 #: organisations/templates/finder_organisations.html:28
 msgid "Country"
-msgstr ""
+msgstr "国家"
 
 #: organisations/templates/_finder_organisation.html:42
 #: projects/templates/_finder_projects.html:76
 #: resources/templates/_finder_resources.html:69
 msgid "keyword:"
-msgstr ""
+msgstr "关键词："
 
 #: organisations/templates/_finder_organisation.html:50
 msgid "country:"
-msgstr ""
+msgstr "国家："
 
 #: organisations/templates/_finder_organisation.html:58
 msgid "type:"
-msgstr ""
+msgstr "类型："
 
 #: organisations/templates/_finder_organisation.html:63
 msgid "organisations"
-msgstr ""
+msgstr "组织"
 
 #: organisations/templates/_finder_organisation.html:65
 #: organisations/templates/_intro_form_organisation.html:8
 msgid "organisation"
-msgstr ""
+msgstr "组织"
 
 #: organisations/templates/_finder_organisation.html:67
 #: organisations/templates/finder_organisations.html:44
 msgid "found"
-msgstr ""
+msgstr "成立"
 
 #: organisations/templates/_finder_organisation.html:70
 #: organisations/templates/finder_organisations.html:54
 #: projects/templates/_finder_projects.html:112
 msgid "Clear current search query and filters"
-msgstr ""
+msgstr "清除当前搜索查询和过滤器"
 
 #: organisations/templates/_intro_form_organisation.html:6
 #: platforms/templates/_intro_form_platform.html:6
@@ -277,7 +329,7 @@ msgstr ""
 #: resources/templates/_intro_form_resource.html:6
 #: resources/templates/_intro_form_training_resource.html:6
 msgid "Editing"
-msgstr ""
+msgstr "编辑"
 
 #: organisations/templates/_intro_form_organisation.html:8
 #: platforms/templates/_intro_form_platform.html:8
@@ -285,7 +337,7 @@ msgstr ""
 #: resources/templates/_intro_form_resource.html:8
 #: resources/templates/_intro_form_training_resource.html:8
 msgid "New"
-msgstr ""
+msgstr "新的"
 
 #: organisations/templates/_intro_form_organisation.html:13
 msgid ""
@@ -320,100 +372,100 @@ msgstr ""
 
 #: organisations/templates/finder_organisations.html:44
 msgid "result"
-msgstr ""
+msgstr "结果"
 
 #: organisations/templates/organisation.html:27 templates/_subnavbar.html:10
 #: templates/about.html:59
 msgid "Projects"
-msgstr ""
+msgstr "项目"
 
 #: organisations/templates/organisation.html:38 templates/_subnavbar.html:16
 #: templates/about.html:63
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: organisations/templates/organisation.html:49 templates/about.html:67
 msgid "Training resources"
-msgstr ""
+msgstr "培训资源"
 
 #: organisations/templates/organisation.html:60
 msgid "Members"
-msgstr ""
+msgstr "成员"
 
 #: organisations/templates/organisation.html:73
 msgid "Go to Organisation"
-msgstr ""
+msgstr "去组织"
 
 #: organisations/templates/organisation.html:78
 msgid "Edit Organisation"
-msgstr ""
+msgstr "编辑组织"
 
 #: organisations/templates/organisation.html:86
 msgid "Delete Organisation"
-msgstr ""
+msgstr "删除组织"
 
 #: organisations/templates/organisation_form.html:46
 #: platforms/templates/platform_form.html:29
 #: projects/templates/project_form.html:35
 #: resources/templates/resource_form.html:36
 msgid "Main information"
-msgstr ""
+msgstr "主要信息"
 
 #: organisations/templates/organisation_form.html:62
 #: platforms/templates/platform_form.html:43
 msgid "Contact information"
-msgstr ""
+msgstr "联系信息"
 
 #: organisations/templates/organisation_form.html:75
 msgid "Organisation logo"
-msgstr ""
+msgstr "组织徽标"
 
 #: organisations/templates/organisation_form.html:96
 #: projects/templates/project.html:151
 msgid "Location"
-msgstr ""
+msgstr "地点"
 
 #: organisations/templates/organisation_form.html:107
 #: profiles/templates/profiles/edit_profile.html:56 templates/_save_zone.html:3
 msgid "Save"
-msgstr ""
+msgstr "节省"
 
 #: organisations/templates/organisations.html:17
 msgid "organisation <span class='lightBlue-color'>search</span>"
-msgstr ""
+msgstr "组织<span class ='LightBlue-Color'>搜索</span>"
 
 #: organisations/views.py:50
 msgid "Organisation added correctly"
-msgstr ""
+msgstr "组织正确添加"
 
 #: platforms/forms.py:26
 msgid "The name of the network or plarform"
-msgstr ""
+msgstr "网络或质量的名称"
 
 #: platforms/forms.py:31
 msgid "URL of the network or platform"
-msgstr ""
+msgstr "网络或平台的URL"
 
 #: platforms/forms.py:36
 msgid "Please briefly describe the network or platform (max 3000 characters)"
-msgstr ""
+msgstr "请简要描述网络或平台（最大3000个字符）"
 
 #: platforms/forms.py:40 platforms/templates/platform.html:66
 #: projects/forms.py:133
 msgid "Geographic extend"
-msgstr ""
+msgstr "地理扩展"
 
 #: platforms/forms.py:41
 msgid "Please indicate the spatial scale of the network / platform"
-msgstr ""
+msgstr "请指出网络 /平台的空间量表"
 
 #: platforms/forms.py:47
 msgid "Please select the country(ies) related to the network / platform"
-msgstr ""
+msgstr "请选择与网络 /平台相关的国家（IES）"
 
 #: platforms/forms.py:50
 msgid "Network / platform locality"
-msgstr ""
+msgstr "网络 /平台区域"
 
 #: platforms/forms.py:54
 msgid ""
@@ -422,11 +474,11 @@ msgstr ""
 
 #: platforms/forms.py:57
 msgid "Contact point"
-msgstr ""
+msgstr "接触点"
 
 #: platforms/forms.py:64 projects/forms.py:161
 msgid "Contact point email"
-msgstr ""
+msgstr "联系点电子邮件"
 
 #: platforms/forms.py:67
 msgid ""
@@ -436,7 +488,7 @@ msgstr ""
 
 #: platforms/forms.py:73 resources/forms.py:119
 msgid "Organisation(s)"
-msgstr ""
+msgstr "组织"
 
 #: platforms/forms.py:75
 msgid ""
@@ -447,31 +499,31 @@ msgstr ""
 
 #: platforms/forms.py:86
 msgid "Logo of your network or platform"
-msgstr ""
+msgstr "网络或平台的徽标"
 
 #: platforms/forms.py:87 projects/forms.py:208
 msgid "Will be resized to 600x400 pixels"
-msgstr ""
+msgstr "将调整为600x400像素"
 
 #: platforms/forms.py:96 projects/forms.py:234
 msgid "Logo credit, if applicable"
-msgstr ""
+msgstr "徽标信用，如果适用"
 
 #: platforms/forms.py:100
 msgid "Network or platform profile image"
-msgstr ""
+msgstr "网络或平台配置文件图像"
 
 #: platforms/forms.py:101
 msgid "Will be resized to 1100x400 pixels)"
-msgstr ""
+msgstr "将调整为1100x400像素）"
 
 #: platforms/forms.py:110
 msgid "Profile Image credit, if applicable"
-msgstr ""
+msgstr "个人资料图像信用，如果适用"
 
 #: platforms/templates/_intro_form_platform.html:8
 msgid "platform"
-msgstr ""
+msgstr "平台"
 
 #: platforms/templates/_intro_form_platform.html:13
 msgid ""
@@ -493,19 +545,19 @@ msgstr ""
 #: profiles/templates/profiles/show_profile.html:17
 #: templates/_subnavbar.html:28 templates/about.html:74
 msgid "Organisations"
-msgstr ""
+msgstr "组织"
 
 #: platforms/templates/platform.html:71
 msgid "Countries"
-msgstr ""
+msgstr "国家"
 
 #: platforms/templates/platform_form.html:54
 msgid "Network or platform images"
-msgstr ""
+msgstr "网络或平台图像"
 
 #: platforms/templates/platforms.html:9
 msgid "platform and network <span class='lightBlue-color'> search</span>"
-msgstr ""
+msgstr "平台和网络<span class ='lightblue-color'>搜索</span>"
 
 #: profiles/forms.py:60
 msgid ""
@@ -521,23 +573,23 @@ msgstr ""
 
 #: profiles/forms.py:73 projects/forms.py:184
 msgid "Other Organisations"
-msgstr ""
+msgstr "其他组织"
 
 #: profiles/models.py:23
 msgid "Surname"
-msgstr ""
+msgstr "姓"
 
 #: profiles/models.py:34
 msgid "Profile picture"
-msgstr ""
+msgstr "个人资料图片"
 
 #: profiles/models.py:39
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: profiles/models.py:41
 msgid "Short Bio and disciplinary background"
-msgstr ""
+msgstr "简短的生物和纪律背景"
 
 #: profiles/models.py:47
 msgid ""
@@ -549,90 +601,90 @@ msgstr ""
 
 #: profiles/models.py:55
 msgid "Email verified"
-msgstr ""
+msgstr "电子邮件已验证"
 
 #: profiles/templates/profiles/bookmarks.html:6
 msgid "Projects in bookmarks"
-msgstr ""
+msgstr "书签项目"
 
 #: profiles/templates/profiles/bookmarks.html:17
 #: profiles/templates/profiles/submissions.html:41
 msgid "Submitted organisations"
-msgstr ""
+msgstr "提交的组织"
 
 #: profiles/templates/profiles/bookmarks.html:29
 msgid "Resources in bookmarks"
-msgstr ""
+msgstr "书签中的资源"
 
 #: profiles/templates/profiles/bookmarks.html:40
 msgid "Training in bookmarks"
-msgstr ""
+msgstr "书签培训"
 
 #: profiles/templates/profiles/bookmarks.html:51
 #: profiles/templates/profiles/submissions.html:52
 msgid "Submitted events"
-msgstr ""
+msgstr "提交的活动"
 
 #: profiles/templates/profiles/edit_profile.html:20
 msgid "Personal information"
-msgstr ""
+msgstr "个人信息"
 
 #: profiles/templates/profiles/edit_profile.html:31
 msgid "Bio &amp; Interest Areas"
-msgstr ""
+msgstr "Bio &amp; Interest Areas"
 
 #: profiles/templates/profiles/edit_profile.html:39
 msgid "Participation"
-msgstr ""
+msgstr "参与"
 
 #: profiles/templates/profiles/edit_profile.html:46
 msgid "Picture"
-msgstr ""
+msgstr "图片"
 
 #: profiles/templates/profiles/privacy_center.html:4
 msgid "Permissions and password"
-msgstr ""
+msgstr "权限和密码"
 
 #: profiles/templates/profiles/privacy_center.html:40
 msgid "General information"
-msgstr ""
+msgstr "一般信息"
 
 #: profiles/templates/profiles/show_profile.html:5
 msgid "Bio and <span class='lightBlue-color'>disciplinary background</span>"
-msgstr ""
+msgstr "bio and <span class ='lightblue-color'>纪律背景</span>"
 
 #: profiles/templates/profiles/show_profile.html:10
 msgid "Interest and expertise areas"
-msgstr ""
+msgstr "兴趣和专业领域"
 
 #: profiles/templates/profiles/submissions.html:6
 msgid "Submitted <span class='lightBlue-color'>projects</span>"
-msgstr ""
+msgstr "提交<span class ='lightblue-color'>项目</span>"
 
 #: profiles/templates/profiles/submissions.html:18 templates/base2.html:64
 #: templates/base_forum.html:87
 msgid "Submitted resources"
-msgstr ""
+msgstr "提交资源"
 
 #: profiles/templates/profiles/submissions.html:29
 msgid "Submitted training"
-msgstr ""
+msgstr "提交的培训"
 
 #: projects/forms.py:32
 msgid "Short name or title of the project"
-msgstr ""
+msgstr "项目的简短名称或标题"
 
 #: projects/forms.py:37
 msgid "Please provide a URL to an external web site for the project"
-msgstr ""
+msgstr "请为该项目提供外部网站的URL"
 
 #: projects/forms.py:41
 msgid "Please provide a description of your project here."
-msgstr ""
+msgstr "请在此处提供您项目的描述。"
 
 #: projects/forms.py:46
 msgid "Primary aim, goal or objective of the project. Max 2000 characters"
-msgstr ""
+msgstr "项目的主要目的，目标或目标。最大2000个字符"
 
 #: projects/forms.py:51
 msgid ""
@@ -646,80 +698,80 @@ msgstr ""
 
 #: projects/forms.py:57
 msgid "Description of citizen science aspects"
-msgstr ""
+msgstr "公民科学方面的描述"
 
 #: projects/forms.py:61
 msgid "Activity status"
-msgstr ""
+msgstr "活动状态"
 
 #: projects/forms.py:63
 msgid "Select one"
-msgstr ""
+msgstr "选择一个"
 
 #: projects/forms.py:72
 msgid "Please enter 2-3 keywords <b>comma separated</b> or pressing enter"
-msgstr ""
+msgstr "请输入2-3个关键字<b>逗号分隔</b>或按Enter"
 
 #: projects/forms.py:73 projects/templates/project.html:91
 #: resources/templates/resource.html:152
 msgid "Keywords"
-msgstr ""
+msgstr "关键字"
 
 #: projects/forms.py:79
 msgid "Closest approximate start date of the project"
-msgstr ""
+msgstr "该项目最接近的开始日期"
 
 #: projects/forms.py:84
 msgid "Approximate end date of the project"
-msgstr ""
+msgstr "项目的大约结束日期"
 
 #: projects/forms.py:89
 msgid "The project topic(s) or field(s) of science, multiple selection"
-msgstr ""
+msgstr "科学的项目主题或领域，多次选择"
 
 #: projects/forms.py:91 projects/templates/_finder_projects.html:46
 msgid "Topic"
-msgstr ""
+msgstr "话题"
 
 #: projects/forms.py:96
 msgid "More information about participation, multiple selection"
-msgstr ""
+msgstr "有关参与，多次选择的更多信息"
 
 #: projects/forms.py:98 projects/templates/project.html:107
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #: projects/forms.py:104
 msgid "Please select the task(s) undertaken by participants"
-msgstr ""
+msgstr "请选择参与者执行的任务"
 
 #: projects/forms.py:106
 msgid "Participation task"
-msgstr ""
+msgstr "参与任务"
 
 #: projects/forms.py:111
 msgid "How difficult is the project?"
-msgstr ""
+msgstr "该项目有多困难？"
 
 #: projects/forms.py:113
 msgid "Difficulty level"
-msgstr ""
+msgstr "难度级别"
 
 #: projects/forms.py:117
 msgid "Please describe how people can get involved in the project"
-msgstr ""
+msgstr "请描述人们如何参与该项目"
 
 #: projects/forms.py:123
 msgid "Describe any required or suggested equipment to be used in the project"
-msgstr ""
+msgstr "描述要在项目中使用的任何必需或建议的设备"
 
 #: projects/forms.py:131
 msgid "Please indicate the spatial scale of the project"
-msgstr ""
+msgstr "请指出该项目的空间规模"
 
 #: projects/forms.py:139
 msgid "Project locality"
-msgstr ""
+msgstr "项目所在地"
 
 #: projects/forms.py:140
 msgid ""
@@ -730,19 +782,19 @@ msgstr ""
 
 #: projects/forms.py:147
 msgid "Project geographic location"
-msgstr ""
+msgstr "项目地理位置"
 
 #: projects/forms.py:153
 msgid "Please name the contact person or contact point for the Project"
-msgstr ""
+msgstr "请命名该项目的联系人或联系点"
 
 #: projects/forms.py:155
 msgid "Public contact point"
-msgstr ""
+msgstr "公共联系点"
 
 #: projects/forms.py:160
 msgid "Please provide the email for the contact person or contact point"
-msgstr ""
+msgstr "请提供联系人或联系点的电子邮件"
 
 #: projects/forms.py:169
 msgid ""
@@ -753,7 +805,7 @@ msgstr ""
 
 #: projects/forms.py:172
 msgid "Lead organisation / coordinator"
-msgstr ""
+msgstr "领导组织 /协调员"
 
 #: projects/forms.py:193
 msgid ""
@@ -764,39 +816,39 @@ msgstr ""
 
 #: projects/forms.py:196
 msgid "Funding body"
-msgstr ""
+msgstr "资金机构"
 
 #: projects/forms.py:201
 msgid "Indication of the programme that funds or funded a project"
-msgstr ""
+msgstr "指示资助或资助项目资助的计划"
 
 #: projects/forms.py:207
 msgid "Image for the thumbnail profile"
-msgstr ""
+msgstr "缩略图的图像"
 
 #: projects/forms.py:219
 msgid "Thumbnail credit, if applicable"
-msgstr ""
+msgstr "缩略图信用，如果适用"
 
 #: projects/forms.py:223
 msgid "Project logo"
-msgstr ""
+msgstr "项目徽标"
 
 #: projects/forms.py:224
 msgid "Will be resized to 600x400 pixels)"
-msgstr ""
+msgstr "将调整为600x400像素）"
 
 #: projects/forms.py:238
 msgid "Image for the profile heading"
-msgstr ""
+msgstr "配置文件标题的图像"
 
 #: projects/forms.py:239
 msgid "Will be resized to 1100x400 pixels"
-msgstr ""
+msgstr "将调整到1100x400像素"
 
 #: projects/forms.py:249
 msgid "Heading image credit, if applicable"
-msgstr ""
+msgstr "标题信用，如果适用"
 
 #: projects/forms.py:259
 msgid ""
@@ -808,106 +860,106 @@ msgstr ""
 
 #: projects/forms.py:420
 msgid "Please provide a <i>description</i> field translation."
-msgstr ""
+msgstr "请提供<i> Description </i>字段翻译。"
 
 #: projects/forms.py:422 projects/templates/translation_form.html:48
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: projects/forms.py:426
 msgid "Please provide an <i>aim</i> field translation."
-msgstr ""
+msgstr "请提供AIM <i> aim </i>字段翻译。"
 
 #: projects/forms.py:428 projects/templates/project.html:46
 #: projects/templates/project.html:67
 #: projects/templates/translation_form.html:55
 msgid "Aim"
-msgstr ""
+msgstr "目的"
 
 #: projects/forms.py:433
 msgid "Please provide a <i>how to participate</i> field translation."
-msgstr ""
+msgstr "请提供如何参与字段翻译。"
 
 #: projects/forms.py:435 projects/templates/project.html:50
 #: projects/templates/project.html:71
 #: projects/templates/translation_form.html:62
 msgid "How to participate"
-msgstr ""
+msgstr "如何参加"
 
 #: projects/forms.py:440
 msgid "Please provide a <i>translated equipment</i> field translation."
-msgstr ""
+msgstr "请提供翻译设备</i>字段翻译。"
 
 #: projects/forms.py:442 projects/templates/project.html:55
 #: projects/templates/project.html:76
 msgid "Needed equipment"
-msgstr ""
+msgstr "需要的设备"
 
 #: projects/templates/_finder_projects.html:19
 msgid "Status"
-msgstr ""
+msgstr "地位"
 
 #: projects/templates/_finder_projects.html:28
 msgid "Has tag"
-msgstr ""
+msgstr "有标签"
 
 #: projects/templates/_finder_projects.html:37
 #: projects/templates/project.html:116
 msgid "Difficulty Level"
-msgstr ""
+msgstr "难度级别"
 
 #: projects/templates/_finder_projects.html:55
 msgid "Participation Task"
-msgstr ""
+msgstr "参与任务"
 
 #: projects/templates/_finder_projects.html:65
 #: resources/templates/_finder_resources.html:58
 msgid "Moderated"
-msgstr ""
+msgstr "主持"
 
 #: projects/templates/_finder_projects.html:66
 #: resources/templates/_finder_resources.html:59
 #: templates/horizontal_card_project.html:13
 #: templates/horizontal_card_resource.html:13
 msgid "Not yet moderated"
-msgstr ""
+msgstr "尚未调节"
 
 #: projects/templates/_finder_projects.html:67
 #: resources/templates/_finder_resources.html:60
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: projects/templates/_finder_projects.html:82
 msgid "topic:"
-msgstr ""
+msgstr "话题："
 
 #: projects/templates/_finder_projects.html:88
 msgid "status:"
-msgstr ""
+msgstr "地位："
 
 #: projects/templates/_finder_projects.html:94
 msgid "has tag:"
-msgstr ""
+msgstr "有标签："
 
 #: projects/templates/_finder_projects.html:100
 msgid "difficulty level:"
-msgstr ""
+msgstr "难度级别："
 
 #: projects/templates/_finder_projects.html:106
 msgid "participation task:"
-msgstr ""
+msgstr "参与任务："
 
 #: projects/templates/_finder_projects.html:118
 msgid "projects found"
-msgstr ""
+msgstr "找到项目"
 
 #: projects/templates/_finder_projects.html:120
 msgid "project found"
-msgstr ""
+msgstr "找到的项目"
 
 #: projects/templates/_intro_form_project.html:8
 msgid "project"
-msgstr ""
+msgstr "项目"
 
 #: projects/templates/_intro_form_project.html:14
 msgid ""
@@ -947,19 +999,19 @@ msgstr ""
 #: projects/templates/modal_projects.html:8
 #: resources/templates/modal_resources.html:8
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: projects/templates/modal_projects.html:10
 #: resources/templates/modal_resources.html:10 templates/_crop_zone.html:8
 #: templates/_modal_to_crop.html:8
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: projects/templates/modal_projects.html:14
 #: resources/templates/modal_resources.html:14 templates/base_forum.html:64
 #: templates/base_r2.html:57
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: projects/templates/modal_projects.html:14
 msgid ""
@@ -969,20 +1021,20 @@ msgstr ""
 #: projects/templates/modal_projects.html:15
 #: resources/templates/modal_resources.html:15
 msgid "Sort"
-msgstr ""
+msgstr "种类"
 
 #: projects/templates/modal_projects.html:15
 msgid "projects by date or by rating"
-msgstr ""
+msgstr "按日期或评级进行项目"
 
 #: projects/templates/modal_projects.html:16
 #: resources/templates/modal_resources.html:16
 msgid "Filter"
-msgstr ""
+msgstr "筛选"
 
 #: projects/templates/modal_projects.html:16
 msgid "search results by project status, or topic"
-msgstr ""
+msgstr "按项目状态或主题搜索结果"
 
 #: projects/templates/modal_projects.html:18
 msgid ""
@@ -994,118 +1046,118 @@ msgstr ""
 #: projects/templates/modal_projects.html:20
 #: resources/templates/modal_resources.html:20
 msgid "Read more about our"
-msgstr ""
+msgstr "阅读有关我们的更多信息"
 
 #: projects/templates/modal_projects.html:20
 #: resources/templates/modal_resources.html:20
 msgid "moderation process"
-msgstr ""
+msgstr "适度过程"
 
 #: projects/templates/project.html:30 resources/templates/resource.html:20
 msgid "Created"
-msgstr ""
+msgstr "创建"
 
 #: projects/templates/project.html:31 resources/templates/resource.html:21
 msgid "Updated"
-msgstr ""
+msgstr "更新"
 
 #: projects/templates/project.html:40
 msgid "This translation was done before a project profile update."
-msgstr ""
+msgstr "此翻译是在项目配置文件更新之前完成的。"
 
 #: projects/templates/project.html:41
 msgid "Plase help the community by improving it"
-msgstr ""
+msgstr "PLASE通过改进社区来帮助社区"
 
 #: projects/templates/project.html:42
 msgid "here"
-msgstr ""
+msgstr "这里"
 
 #: projects/templates/project.html:63
 msgid "This project profile is not available in your selected language,"
-msgstr ""
+msgstr "此项目配置文件不可用您选择的语言，"
 
 #: projects/templates/project.html:86
 msgid "from"
-msgstr ""
+msgstr "从"
 
 #: projects/templates/project.html:89
 msgid "until"
-msgstr ""
+msgstr "直到"
 
 #: projects/templates/project.html:98
 msgid "Science Topics"
-msgstr ""
+msgstr "科学主题"
 
 #: projects/templates/project.html:126
 msgid "Participation tasks"
-msgstr ""
+msgstr "参与任务"
 
 #: projects/templates/project.html:135
 msgid "Coordinator"
-msgstr ""
+msgstr "协调员"
 
 #: projects/templates/project.html:142
 msgid "Other Organisations involved"
-msgstr ""
+msgstr "其他组织"
 
 #: projects/templates/project.html:173
 msgid "Go to Project"
-msgstr ""
+msgstr "去项目"
 
 #: projects/templates/project.html:183
 msgid "Translate"
-msgstr ""
+msgstr "翻译"
 
 #: projects/templates/project.html:202 resources/templates/resource.html:116
 msgid "Admin area"
-msgstr ""
+msgstr "管理区"
 
 #: projects/templates/project_form.html:55
 msgid "Useful information to classificate the project"
-msgstr ""
+msgstr "有用的信息来分类项目"
 
 #: projects/templates/project_form.html:66
 msgid "Participation information"
-msgstr ""
+msgstr "参与信息"
 
 #: projects/templates/project_form.html:77
 msgid "Project location"
-msgstr ""
+msgstr "项目位置"
 
 #: projects/templates/project_form.html:87
 msgid "Contact and hosts details"
-msgstr ""
+msgstr "联系并主持详细信息"
 
 #: projects/templates/project_form.html:98
 msgid "Funding Information"
-msgstr ""
+msgstr "资金信息"
 
 #: projects/templates/project_form.html:107
 msgid "Project profile images"
-msgstr ""
+msgstr "项目配置文件图像"
 
 #: projects/templates/project_review.html:18
 #: resources/templates/resource_review.html:18
 msgid "Review"
-msgstr ""
+msgstr "审查"
 
 #: projects/templates/project_review.html:19
 #: resources/templates/resource_review.html:19
 msgid "Rate and comment"
-msgstr ""
+msgstr "比率和评论"
 
 #: projects/templates/translation_form.html:28
 msgid "Please indicate the language you want to translate to"
-msgstr ""
+msgstr "请指出您要翻译成的语言"
 
 #: projects/templates/translation_form.html:69
 msgid "Equipment"
-msgstr ""
+msgstr "设备"
 
 #: resources/forms.py:20
 msgid "Insert here the title or name of the resource"
-msgstr ""
+msgstr "在这里插入资源的标题或名称"
 
 #: resources/forms.py:25
 msgid ""
@@ -1121,7 +1173,7 @@ msgstr ""
 
 #: resources/forms.py:40
 msgid "Please briefly describe the resource (ideally in 500 words or less)"
-msgstr ""
+msgstr "请简要描述资源（理想情况下，以500个或更少）"
 
 #: resources/forms.py:46
 msgid ""
@@ -1136,7 +1188,7 @@ msgstr ""
 
 #: resources/forms.py:53
 msgid "Description of Citizen Science Aspects"
-msgstr ""
+msgstr "公民科学方面的描述"
 
 #: resources/forms.py:62
 msgid ""
@@ -1146,11 +1198,11 @@ msgstr ""
 
 #: resources/forms.py:65
 msgid "Authors"
-msgstr ""
+msgstr "作者"
 
 #: resources/forms.py:71
 msgid "Select one of the proposed categories"
-msgstr ""
+msgstr "选择拟议类别之一"
 
 #: resources/forms.py:79
 msgid ""
@@ -1160,7 +1212,7 @@ msgstr ""
 
 #: resources/forms.py:85
 msgid "The thematic content of the resource (select as many as apply)"
-msgstr ""
+msgstr "资源的主题内容（选择尽可能多的应用）"
 
 #: resources/forms.py:91
 msgid ""
@@ -1170,11 +1222,11 @@ msgstr ""
 
 #: resources/forms.py:93
 msgid "Resource DOI"
-msgstr ""
+msgstr "资源doi"
 
 #: resources/forms.py:99
 msgid "Enter the year (YYYY) that this version of the resource was published"
-msgstr ""
+msgstr "输入该版本的资源（Yyyy）发表的年度（Yyyy）"
 
 #: resources/forms.py:104
 msgid ""
@@ -1198,43 +1250,43 @@ msgstr ""
 
 #: resources/forms.py:131
 msgid "Project(s)"
-msgstr ""
+msgstr "项目"
 
 #: resources/forms.py:136
 msgid "The publisher of the resource"
-msgstr ""
+msgstr "资源的发布者"
 
 #: resources/forms.py:144
 msgid "Resource image for the thumbnail profile"
-msgstr ""
+msgstr "缩略图配置文件的资源图像"
 
 #: resources/forms.py:145
 msgid "This image will be resized to 600x400 pixels"
-msgstr ""
+msgstr "此图像将调整为600x400像素"
 
 #: resources/forms.py:146
 msgid "Image 1 credit"
-msgstr ""
+msgstr "图片1个贷方"
 
 #: resources/forms.py:156
 msgid "Resource image for the profile heading"
-msgstr ""
+msgstr "配置文件标题的资源图像"
 
 #: resources/forms.py:157
 msgid "This image will be resized to 1100x400 pixels"
-msgstr ""
+msgstr "此图像将调整为1100x400像素"
 
 #: resources/forms.py:158
 msgid "Image 2 credit"
-msgstr ""
+msgstr "图片2信用"
 
 #: resources/forms.py:170
 msgid "Curated lists"
-msgstr ""
+msgstr "精选列表"
 
 #: resources/forms.py:178
 msgid "Educational level"
-msgstr ""
+msgstr "受教育程度"
 
 #: resources/forms.py:180
 msgid ""
@@ -1245,7 +1297,7 @@ msgstr ""
 
 #: resources/forms.py:190
 msgid "Learning resource type"
-msgstr ""
+msgstr "学习资源类型"
 
 #: resources/forms.py:192
 msgid ""
@@ -1255,7 +1307,7 @@ msgstr ""
 
 #: resources/forms.py:196
 msgid "Aproximate hours required to finish the training"
-msgstr ""
+msgstr "完成培训所需的小时"
 
 #: resources/forms.py:198
 msgid ""
@@ -1266,65 +1318,65 @@ msgstr ""
 
 #: resources/templates/_finder_resources.html:14
 msgid "Sort by Most Recent Updated"
-msgstr ""
+msgstr "按最新更新进行排序"
 
 #: resources/templates/_finder_resources.html:15
 msgid "Sort by featured"
-msgstr ""
+msgstr "按特色排序"
 
 #: resources/templates/_finder_resources.html:20
 msgid "All languages"
-msgstr ""
+msgstr "所有语言"
 
 #: resources/templates/_finder_resources.html:33
 msgid "All themes"
-msgstr ""
+msgstr "所有主题"
 
 #: resources/templates/_finder_resources.html:39
 #: resources/templates/resource.html:162
 msgid "Category"
-msgstr ""
+msgstr "类别"
 
 #: resources/templates/_finder_resources.html:47
 #: resources/templates/resource.html:167
 msgid "Audience"
-msgstr ""
+msgstr "观众"
 
 #: resources/templates/_finder_resources.html:76
 msgid "language:"
-msgstr ""
+msgstr "语言："
 
 #: resources/templates/_finder_resources.html:86
 msgid "theme:"
-msgstr ""
+msgstr "主题："
 
 #: resources/templates/_finder_resources.html:93
 msgid "category:"
-msgstr ""
+msgstr "类别："
 
 #: resources/templates/_finder_resources.html:100
 msgid "audience:"
-msgstr ""
+msgstr "观众："
 
 #: resources/templates/_finder_resources.html:112
 msgid "training resources found"
-msgstr ""
+msgstr "发现培训资源"
 
 #: resources/templates/_finder_resources.html:112
 msgid "training resource found"
-msgstr ""
+msgstr "发现培训资源"
 
 #: resources/templates/_finder_resources.html:115
 msgid "resources found"
-msgstr ""
+msgstr "找到资源"
 
 #: resources/templates/_finder_resources.html:115
 msgid "resource found"
-msgstr ""
+msgstr "找到资源"
 
 #: resources/templates/_intro_form_resource.html:8
 msgid "resource"
-msgstr ""
+msgstr "资源"
 
 #: resources/templates/_intro_form_resource.html:14
 msgid ""
@@ -1364,7 +1416,7 @@ msgstr ""
 
 #: resources/templates/_intro_form_training_resource.html:8
 msgid "training resource"
-msgstr ""
+msgstr "培训资源"
 
 #: resources/templates/_intro_form_training_resource.html:14
 msgid ""
@@ -1393,11 +1445,11 @@ msgstr ""
 
 #: resources/templates/modal_resources.html:15
 msgid "resources by date or by rating"
-msgstr ""
+msgstr "按日期或评级进行资源"
 
 #: resources/templates/modal_resources.html:16
 msgid "search results by language, theme or category"
-msgstr ""
+msgstr "按语言，主题或类别进行搜索结果"
 
 #: resources/templates/modal_resources.html:18
 msgid ""
@@ -1409,107 +1461,107 @@ msgstr ""
 #: resources/templates/resource.html:25
 #: resources/templates/resource_form.html:54
 msgid "Publish information"
-msgstr ""
+msgstr "发布信息"
 
 #: resources/templates/resource.html:47
 msgid "Links with projects and/or organisations"
-msgstr ""
+msgstr "与项目和/或组织的链接"
 
 #: resources/templates/resource.html:64
 msgid "Training information"
-msgstr ""
+msgstr "培训信息"
 
 #: resources/templates/resource.html:66
 msgid "Time required"
-msgstr ""
+msgstr "需要时间"
 
 #: resources/templates/resource.html:69
 msgid "Conditions of access"
-msgstr ""
+msgstr "访问条件"
 
 #: resources/templates/resource.html:82
 msgid "Go to Training"
-msgstr ""
+msgstr "去训练"
 
 #: resources/templates/resource.html:84
 msgid "Go to Resource"
-msgstr ""
+msgstr "转到资源"
 
 #: resources/templates/resource.html:94
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: resources/templates/resource.html:109
 msgid "Comment"
-msgstr ""
+msgstr "评论"
 
 #: resources/templates/resource.html:122
 msgid "Approve"
-msgstr ""
+msgstr "批准"
 
 #: resources/templates/resource.html:129
 msgid "Set featured"
-msgstr ""
+msgstr "设置特色"
 
 #: resources/templates/resource.html:136
 msgid "Is training"
-msgstr ""
+msgstr "正在训练"
 
 #: resources/templates/resource.html:138
 msgid "Contact submitter"
-msgstr ""
+msgstr "联系提交者"
 
 #: resources/templates/resource.html:144
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #: resources/templates/resource.html:157
 msgid "Theme"
-msgstr ""
+msgstr "主题"
 
 #: resources/templates/resource.html:175
 msgid "Education level"
-msgstr ""
+msgstr "教育程度"
 
 #: resources/templates/resource.html:182
 msgid "Learning Resource Type"
-msgstr ""
+msgstr "学习资源类型"
 
 #: resources/templates/resource_form.html:83
 msgid "Training resource fields"
-msgstr ""
+msgstr "培训资源领域"
 
 #: resources/templates/resource_form.html:98
 msgid "Links with projects and organisations"
-msgstr ""
+msgstr "与项目和组织的联系"
 
 #: resources/templates/resource_form.html:108
 msgid "Resource profile images"
-msgstr ""
+msgstr "资源配置文件图像"
 
 #: resources/views.py:134
 msgid "Training resource added correctly"
-msgstr ""
+msgstr "培训资源正确添加了"
 
 #: resources/views.py:141
 msgid "Resource added correctly"
-msgstr ""
+msgstr "资源正确添加"
 
 #: templates/_crop_zone.html:6 templates/_modal_to_crop.html:6
 msgid "Crop the photo"
-msgstr ""
+msgstr "裁剪照片"
 
 #: templates/_crop_zone.html:21 templates/_modal_to_crop.html:21
 msgid "zoom_in"
-msgstr ""
+msgstr "放大"
 
 #: templates/_crop_zone.html:24 templates/_modal_to_crop.html:24
 msgid "zoom_out"
-msgstr ""
+msgstr "缩小"
 
 #: templates/_crop_zone.html:28 templates/_modal_to_crop.html:28
 msgid "Crop and upload"
-msgstr ""
+msgstr "作物和上传"
 
 #: templates/_footer.html:11
 msgid ""
@@ -1519,11 +1571,11 @@ msgstr ""
 
 #: templates/_footer.html:13
 msgid "GitHub repository"
-msgstr ""
+msgstr "GitHub存储库"
 
 #: templates/_footer.html:14
 msgid "here to subscribe to our newsletter"
-msgstr ""
+msgstr "在这里订阅我们的新闻通讯"
 
 #: templates/_footer.html:55
 msgid ""
@@ -1534,74 +1586,74 @@ msgstr ""
 
 #: templates/_footer.html:65
 msgid "Links"
-msgstr ""
+msgstr "链接"
 
 #: templates/_footer.html:68 templates/base_forum.html:70
 #: templates/base_r2.html:70
 msgid "Open Call"
-msgstr "公开征集"
+msgstr "打开电话"
 
 #: templates/_footer.html:71
 msgid "Terms of Use"
-msgstr ""
+msgstr "使用条款"
 
 #: templates/_footer.html:74 templates/privacy.html:10
 #: templates/privacy.html:21
 msgid "Privacy"
-msgstr ""
+msgstr "隐私"
 
 #: templates/_footer.html:77 templates/imprint.html:10
 #: templates/imprint.html:22
 msgid "Imprint"
-msgstr ""
+msgstr "烙印"
 
 #: templates/_footer.html:80
 msgid "Deliverables"
-msgstr ""
+msgstr "可交付成果"
 
 #: templates/_footer.html:96 templates/base_r2.html:74
 msgid "Policy Event"
-msgstr ""
+msgstr "政策事件"
 
 #: templates/_footer.html:99 templates/faq_old.html:14
 msgid "FAQ"
-msgstr ""
+msgstr "常问问题"
 
 #: templates/_footer.html:103
 msgid "Moderation & quality criteria"
-msgstr ""
+msgstr "适度与质量标准"
 
 #: templates/_footer.html:106 templates/development.html:10
 msgid "Development"
-msgstr ""
+msgstr "发展"
 
 #: templates/_footer.html:109
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: templates/_modalsubmit.html:8
 msgid "What do you want to submit?"
-msgstr ""
+msgstr "您想提交什么？"
 
 #: templates/_modalsubmit.html:13
 msgid "Project"
-msgstr ""
+msgstr "项目"
 
 #: templates/_modalsubmit.html:14
 msgid "Create a Citizen Science Project profile"
-msgstr ""
+msgstr "创建公民科学项目概况"
 
 #: templates/_modalsubmit.html:15
 msgid "Resource"
-msgstr ""
+msgstr "资源"
 
 #: templates/_modalsubmit.html:16
 msgid "Create a profile for a Resource that is relevant for Citizen Science"
-msgstr ""
+msgstr "为与公民科学相关的资源创建个人资料"
 
 #: templates/_modalsubmit.html:17 templates/_subnavbar.html:22
 msgid "Training"
-msgstr ""
+msgstr "训练"
 
 #: templates/_modalsubmit.html:18
 msgid ""
@@ -1611,72 +1663,72 @@ msgstr ""
 
 #: templates/_modalsubmit.html:19
 msgid "Organisation"
-msgstr ""
+msgstr "组织"
 
 #: templates/_modalsubmit.html:20
 msgid "Create a profile for your Organisation"
-msgstr ""
+msgstr "为您的组织创建个人资料"
 
 #: templates/_modalsubmit.html:22
 msgid "Event"
-msgstr ""
+msgstr "事件"
 
 #: templates/_modalsubmit.html:23
 msgid "Create an Event"
-msgstr ""
+msgstr "创建一个事件"
 
 #: templates/_navbar.html:3
 msgid "SEARCH"
-msgstr ""
+msgstr "搜索"
 
 #: templates/_navbar.html:4
 msgid "BLOG"
-msgstr ""
+msgstr "博客"
 
 #: templates/_navbar.html:5
 msgid "EVENTS"
-msgstr ""
+msgstr "事件"
 
 #: templates/_navbar.html:6
 msgid "MOOCS"
-msgstr ""
+msgstr "MOOC"
 
 #: templates/_navbar.html:7
 msgid "CALL"
-msgstr ""
+msgstr "称呼"
 
 #: templates/_navbar.html:8
 msgid "ABOUT"
-msgstr ""
+msgstr "关于"
 
 #: templates/_save_zone.html:6
 msgid "Save & continue editing"
-msgstr ""
+msgstr "保存并继续编辑"
 
 #: templates/_subnavbar.html:34
 msgid "Platforms"
-msgstr ""
+msgstr "平台"
 
 #: templates/_subnavbar.html:41
 msgid "Our Gold Star Selection"
-msgstr ""
+msgstr "我们的金星选择"
 
 #: templates/about.html:4 templates/base_forum.html:65 templates/faq.html:4
 #: templates/moderation_quality_criteria.html:4
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: templates/about.html:12
 msgid "about"
-msgstr ""
+msgstr "关于"
 
 #: templates/about.html:19
 msgid "Watch our teaser, in 12 different languages!"
-msgstr ""
+msgstr "观看我们的预告片，用12种不同的语言！"
 
 #: templates/about.html:49
 msgid "The Platform"
-msgstr ""
+msgstr "该平台"
 
 #: templates/about.html:54
 msgid ""
@@ -1696,39 +1748,39 @@ msgstr ""
 
 #: templates/about.html:56
 msgid "On this platform you will find:"
-msgstr ""
+msgstr "在此平台上，您会发现："
 
 #: templates/about.html:60
 msgid "that are engaging the public in research via citizen science activities"
-msgstr ""
+msgstr "通过公民科学活动吸引公众参与研究"
 
 #: templates/about.html:64
 msgid "that are useful for citizen science practitioners"
-msgstr ""
+msgstr "对公民科学从业者有用"
 
 #: templates/about.html:68
 msgid "and materials on citizen science as a practice"
-msgstr ""
+msgstr "和公民科学作为实践的材料"
 
 #: templates/about.html:71
 msgid "Training modules"
-msgstr ""
+msgstr "训练模块"
 
 #: templates/about.html:72
 msgid "on citizen science in a wide range of themes"
-msgstr ""
+msgstr "关于公民科学的广泛主题"
 
 #: templates/about.html:75
 msgid "that are involved in citizen science projects and research"
-msgstr ""
+msgstr "参与公民科学项目和研究"
 
 #: templates/about.html:77
 msgid "Events calendar"
-msgstr ""
+msgstr "事件日历"
 
 #: templates/about.html:79
 msgid "A blog"
-msgstr ""
+msgstr "一个博客"
 
 #: templates/about.html:82
 msgid ""
@@ -1739,11 +1791,11 @@ msgstr ""
 
 #: templates/about.html:82
 msgid "contact form"
-msgstr ""
+msgstr "联系表"
 
 #: templates/about.html:86
 msgid "The project"
-msgstr ""
+msgstr "该项目"
 
 #: templates/about.html:91
 msgid ""
@@ -1771,7 +1823,7 @@ msgstr ""
 
 #: templates/about.html:95
 msgid "Our objectives are:"
-msgstr ""
+msgstr "我们的目标是："
 
 #: templates/about.html:97
 msgid ""
@@ -1805,7 +1857,7 @@ msgstr ""
 
 #: templates/about.html:110
 msgid "The team"
-msgstr ""
+msgstr "团队"
 
 #: templates/about.html:115
 msgid ""
@@ -1818,142 +1870,142 @@ msgstr ""
 
 #: templates/about.html:121
 msgid "Consortium partners"
-msgstr ""
+msgstr "财团合作伙伴"
 
 #: templates/about.html:183
 msgid "Third party partners"
-msgstr ""
+msgstr "第三方合作伙伴"
 
 #: templates/base.html:74 templates/base2.html:68 templates/base_forms.html:51
-#: templates/base_forum.html:92 templates/base_r2.html:130
+#: templates/base_forum.html:92 templates/base_r2.html:135
 msgid "Admin"
-msgstr ""
+msgstr "行政"
 
 #: templates/base.html:84
 msgid "Profile"
-msgstr ""
+msgstr "轮廓"
 
 #: templates/base.html:85 templates/base2.html:70 templates/base_forum.html:94
-#: templates/base_r2.html:132
+#: templates/base_r2.html:137
 msgid "Logout"
-msgstr ""
+msgstr "登出"
 
 #: templates/base.html:141 templates/base_forms.html:75
 msgid "Company"
-msgstr ""
+msgstr "公司"
 
 #: templates/base.html:144 templates/base_forms.html:78
 msgid "Connect with us on"
-msgstr ""
+msgstr "与我们联系"
 
 #: templates/base2.html:56 templates/base3.html:49
 msgid "LOGIN"
-msgstr ""
+msgstr "登录"
 
 #: templates/base2.html:57 templates/base3.html:50
 msgid "SIGN UP"
-msgstr ""
+msgstr "报名"
 
 #: templates/base2.html:61 templates/base_forum.html:84
 msgid "My Profile"
-msgstr ""
+msgstr "我的简历"
 
 #: templates/base2.html:62 templates/base_forum.html:85
 msgid "My organisations"
-msgstr ""
+msgstr "我的组织"
 
 #: templates/base2.html:63 templates/base_forum.html:86
 msgid "Submitted projects"
-msgstr ""
+msgstr "提交的项目"
 
 #: templates/base2.html:65 templates/base_forum.html:88
 msgid "Followed projects"
-msgstr ""
+msgstr "跟随项目"
 
 #: templates/base2.html:66 templates/base_forum.html:89
 msgid "Resources library"
-msgstr ""
+msgstr "资源库"
 
 #: templates/base3.html:52
 msgid "PROFILE"
-msgstr ""
+msgstr "轮廓"
 
 #: templates/base3.html:53
 msgid "LOGOUT"
-msgstr ""
+msgstr "登出"
 
 #: templates/base3.html:56
 msgid "ADMIN"
-msgstr ""
+msgstr "行政"
 
 #: templates/base_forms.html:43 templates/base_forum.html:76
-#: templates/base_r2.html:110
+#: templates/base_r2.html:115
 msgid "Login"
 msgstr "登录"
 
 #: templates/base_forms.html:46
 msgid "profile"
-msgstr ""
+msgstr "轮廓"
 
 #: templates/base_forms.html:47
 msgid "logout"
-msgstr ""
+msgstr "登出"
 
 #: templates/base_forum.html:66 templates/base_r2.html:61
 msgid "Blog"
-msgstr "登录"
+msgstr "博客"
 
 #: templates/base_forum.html:67 templates/base_r2.html:64
 msgid "Events"
-msgstr "登录"
+msgstr "事件"
 
 #: templates/base_forum.html:68
 msgid "Forum"
-msgstr ""
+msgstr "论坛"
 
 #: templates/base_forum.html:69 templates/base_r2.html:67
 msgid "Moocs"
-msgstr "登录"
+msgstr "MOOC"
 
-#: templates/base_forum.html:77 templates/base_r2.html:112
+#: templates/base_forum.html:77 templates/base_r2.html:117
 msgid "Signup"
-msgstr "登录"
+msgstr "报名"
 
 #: templates/base_forum.html:132
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
-#: templates/base_forum.html:192 templates/base_r2.html:199
+#: templates/base_forum.html:192 templates/base_r2.html:204
 msgid "FORUM"
-msgstr ""
+msgstr "论坛"
 
-#: templates/base_r2.html:124
+#: templates/base_r2.html:129
 msgid "My personal area"
-msgstr ""
+msgstr "我的个人区域"
 
-#: templates/base_r2.html:125
+#: templates/base_r2.html:130
 msgid "My submissions"
-msgstr ""
+msgstr "我的提交"
 
-#: templates/base_r2.html:126 templates/base_r2.html:127
+#: templates/base_r2.html:131 templates/base_r2.html:132
 msgid "My bookmarks"
-msgstr ""
+msgstr "我的书签"
 
-#: templates/base_r2.html:141
+#: templates/base_r2.html:146
 msgid "New submission"
-msgstr ""
+msgstr "新提交"
 
 #: templates/call.html:10
 msgid "EU-Citizen.Science call (closed)"
-msgstr ""
+msgstr "欧盟-Citizen.Science Call（关闭）"
 
 #: templates/criteria.html:10 templates/moderation_quality_criteria.html:36
 msgid "Quality criteria"
-msgstr ""
+msgstr "质量标准"
 
 #: templates/curated.html:11
 msgid "gold star <span class='lightBlue-color'> selection</span>"
-msgstr ""
+msgstr "金星<span class ='lightblue-color'>选择</span>"
 
 #: templates/curated.html:14
 msgid ""
@@ -1970,11 +2022,11 @@ msgstr ""
 
 #: templates/faq.html:12
 msgid "frequently <span class='lightBlue-color'>asked questions</span>"
-msgstr ""
+msgstr "经常<span class ='lightblue-color'>问问题</span>"
 
 #: templates/faq.html:21
 msgid "What is Citizen Science?"
-msgstr ""
+msgstr "什么是公民科学？"
 
 #: templates/faq.html:27
 msgid ""
@@ -2003,7 +2055,7 @@ msgstr ""
 
 #: templates/faq.html:34
 msgid "Who is the EU-Citizen.Science Knowledge Hub for?"
-msgstr ""
+msgstr "谁是欧盟-Citizen.Science知识中心？"
 
 #: templates/faq.html:40
 msgid ""
@@ -2025,7 +2077,7 @@ msgstr ""
 
 #: templates/faq.html:48
 msgid "What are the features of the EU-Citizen.Science platform?"
-msgstr ""
+msgstr "欧盟-Citizen.Science平台的功能是什么？"
 
 #: templates/faq.html:54
 msgid ""
@@ -2043,7 +2095,7 @@ msgstr ""
 
 #: templates/faq.html:60
 msgid "Why should I sign-up to become a member of the community?"
-msgstr ""
+msgstr "我为什么要注册成为社区成员？"
 
 #: templates/faq.html:66
 msgid ""
@@ -2059,7 +2111,7 @@ msgstr ""
 
 #: templates/faq.html:72
 msgid "Are the resources hosted on the EU-Citizen.Science platform?"
-msgstr ""
+msgstr "资源是否在欧盟-Citizen.Science平台上托管？"
 
 #: templates/faq.html:78
 msgid ""
@@ -2073,7 +2125,7 @@ msgstr ""
 
 #: templates/faq.html:84
 msgid "I can’t find the type of resource that I’m looking for, can you help?"
-msgstr ""
+msgstr "我找不到我想要的资源类型，您能帮忙吗？"
 
 #: templates/faq.html:90
 msgid ""
@@ -2086,7 +2138,7 @@ msgstr ""
 
 #: templates/faq.html:96
 msgid "Can I add a project or resource of my own?"
-msgstr ""
+msgstr "我可以添加自己的项目或资源吗？"
 
 #: templates/faq.html:102
 msgid ""
@@ -2109,7 +2161,7 @@ msgstr ""
 
 #: templates/faq.html:109
 msgid "What types of resources can I submit?"
-msgstr ""
+msgstr "我可以提交哪些类型的资源？"
 
 #: templates/faq.html:115
 msgid ""
@@ -2128,7 +2180,7 @@ msgstr ""
 
 #: templates/faq.html:121
 msgid "What types of projects can I submit?"
-msgstr ""
+msgstr "我可以提交哪些类型的项目？"
 
 #: templates/faq.html:127
 msgid ""
@@ -2146,7 +2198,7 @@ msgstr ""
 
 #: templates/faq.html:133
 msgid "How do I add a project or resource?"
-msgstr ""
+msgstr "如何添加项目或资源？"
 
 #: templates/faq.html:139
 msgid ""
@@ -2173,7 +2225,7 @@ msgstr ""
 
 #: templates/faq.html:148
 msgid "How does moderation work?"
-msgstr ""
+msgstr "节制如何工作？"
 
 #: templates/faq.html:154
 msgid ""
@@ -2198,7 +2250,7 @@ msgstr ""
 
 #: templates/faq.html:162
 msgid "What are the quality criteria for resources?"
-msgstr ""
+msgstr "资源的质量标准是什么？"
 
 #: templates/faq.html:168
 msgid ""
@@ -2218,7 +2270,7 @@ msgstr ""
 
 #: templates/faq.html:173
 msgid "What are the quality criteria for projects?"
-msgstr ""
+msgstr "项目的质量标准是什么？"
 
 #: templates/faq.html:179
 msgid ""
@@ -2234,7 +2286,7 @@ msgstr ""
 
 #: templates/faq.html:185
 msgid "Can I edit a profile after I have saved it?"
-msgstr ""
+msgstr "保存后可以编辑个人资料吗？"
 
 #: templates/faq.html:191
 msgid ""
@@ -2245,7 +2297,7 @@ msgstr ""
 
 #: templates/faq.html:197
 msgid "What is the Our Gold Star Selection page?"
-msgstr ""
+msgstr "我们的金星选择页面是什么？"
 
 #: templates/faq.html:203
 msgid ""
@@ -2259,7 +2311,7 @@ msgstr ""
 
 #: templates/faq.html:209
 msgid "What is the Personal Area?"
-msgstr ""
+msgstr "什么是个人区域？"
 
 #: templates/faq.html:215
 msgid ""
@@ -2274,7 +2326,7 @@ msgstr ""
 
 #: templates/faq_old.html:20
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "经常问的问题"
 
 #: templates/final_launch.html:10
 msgid ""
@@ -2282,40 +2334,34 @@ msgid ""
 "engagement"
 msgstr ""
 
-#: templates/home.html:20
-msgid ""
-"Welcome to the platform of the Universty of Guadalajara for sharing citizen "
-"science projects, resources, tools, training and much more"
-msgstr ""
-
-#: templates/home.html:40
+#: templates/home.html:43
 msgid "Search..."
-msgstr ""
+msgstr "搜索..."
 
 #: templates/horizontal_card_project.html:16
 #: templates/horizontal_card_resource.html:16
 msgid "Not approved"
-msgstr ""
+msgstr "不批准"
 
 #: templates/moderation.html:10
 msgid "The moderation process"
-msgstr ""
+msgstr "适度过程"
 
 #: templates/moderation.html:23
 msgid "The Moderation Process"
-msgstr ""
+msgstr "适度过程"
 
 #: templates/moderation_quality_criteria.html:12
 msgid "moderation"
-msgstr ""
+msgstr "适度"
 
 #: templates/moderation_quality_criteria.html:12
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #: templates/moderation_quality_criteria.html:12
 msgid "quality criteria"
-msgstr ""
+msgstr "质量标准"
 
 #: templates/moderation_quality_criteria.html:27
 msgid ""
@@ -2357,70 +2403,70 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:46
 msgid "Overarching Criteria (for projects and resources)"
-msgstr ""
+msgstr "总体标准（用于项目和资源）"
 
 #: templates/moderation_quality_criteria.html:56
 msgid "Specific Criteria (for resources)"
-msgstr ""
+msgstr "特定标准（用于资源）"
 
 #: templates/moderation_quality_criteria.html:60
 #: templates/moderation_quality_criteria.html:144
 msgid "Readability and Legibility"
-msgstr ""
+msgstr "可读性和可读性"
 
 #: templates/moderation_quality_criteria.html:61
 msgid "Clear structure"
-msgstr ""
+msgstr "清晰的结构"
 
 #: templates/moderation_quality_criteria.html:64
 msgid "Clear language"
-msgstr ""
+msgstr "清晰的语言"
 
 #: templates/moderation_quality_criteria.html:67
 msgid "Basic formatting"
-msgstr ""
+msgstr "基本格式"
 
 #: templates/moderation_quality_criteria.html:70
 msgid "Content"
-msgstr ""
+msgstr "内容"
 
 #: templates/moderation_quality_criteria.html:73
 #: templates/moderation_quality_criteria.html:156
 msgid "Applicability"
-msgstr ""
+msgstr "适用性"
 
 #: templates/moderation_quality_criteria.html:74
 msgid "Easy to implement"
-msgstr ""
+msgstr "易于实现"
 
 #: templates/moderation_quality_criteria.html:77
 msgid "Easy to adapt"
-msgstr ""
+msgstr "容易适应"
 
 #: templates/moderation_quality_criteria.html:80
 msgid "Object"
-msgstr ""
+msgstr "目的"
 
 #: templates/moderation_quality_criteria.html:81
 msgid "Clearly audible (audio object)"
-msgstr ""
+msgstr "显然听到（音频对象）"
 
 #: templates/moderation_quality_criteria.html:84
 msgid "Good quality (video or image)"
-msgstr ""
+msgstr "优质（视频或图像）"
 
 #: templates/moderation_quality_criteria.html:87
 msgid "Supporting Criteria (for resources)"
-msgstr ""
+msgstr "支持标准（资源）"
 
 #: templates/moderation_quality_criteria.html:88
 #: templates/moderation_quality_criteria.html:186
 msgid "Evaluation"
-msgstr ""
+msgstr "评估"
 
 #: templates/moderation_quality_criteria.html:89
 msgid "Used in the context of a citizen science initiative"
-msgstr ""
+msgstr "用于公民科学计划的背景"
 
 #: templates/moderation_quality_criteria.html:92
 msgid ""
@@ -2431,15 +2477,15 @@ msgstr ""
 #: templates/moderation_quality_criteria.html:95
 #: templates/moderation_quality_criteria.html:192
 msgid "Impact"
-msgstr ""
+msgstr "影响"
 
 #: templates/moderation_quality_criteria.html:108
 msgid "The overarching criteria for all resources"
-msgstr ""
+msgstr "所有资源的总体标准"
 
 #: templates/moderation_quality_criteria.html:114
 msgid " Required Criteria - Citizen Science"
-msgstr ""
+msgstr "所需标准 - 公民科学"
 
 #: templates/moderation_quality_criteria.html:115
 msgid ""
@@ -2470,7 +2516,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:121
 msgid "Suggested Criteria - the Principles of Citizen Science"
-msgstr ""
+msgstr "建议的标准 - 公民科学的原则"
 
 #: templates/moderation_quality_criteria.html:122
 msgid ""
@@ -2481,7 +2527,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:128
 msgid "Specific criteria"
-msgstr ""
+msgstr "具体标准"
 
 #: templates/moderation_quality_criteria.html:134
 msgid ""
@@ -2504,7 +2550,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:139
 msgid "Easy access to the resource"
-msgstr ""
+msgstr "轻松访问资源"
 
 #: templates/moderation_quality_criteria.html:141
 msgid ""
@@ -2538,7 +2584,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:151
 msgid "Clarity of Content"
-msgstr ""
+msgstr "内容的清晰度"
 
 #: templates/moderation_quality_criteria.html:153
 msgid ""
@@ -2564,7 +2610,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:163
 msgid "Object Quality"
-msgstr ""
+msgstr "对象质量"
 
 #: templates/moderation_quality_criteria.html:165
 msgid ""
@@ -2590,7 +2636,7 @@ msgstr ""
 
 #: templates/moderation_quality_criteria.html:177
 msgid "Supporting criteria"
-msgstr ""
+msgstr "支持标准"
 
 #: templates/moderation_quality_criteria.html:183
 msgid ""
@@ -2630,11 +2676,11 @@ msgstr ""
 
 #: templates/policy_brief.html:4 templates/policy_brief.html:8
 msgid "Policy Brief"
-msgstr ""
+msgstr "政策简介"
 
 #: templates/policy_maker_event_2021.html:10
 msgid "Citizen Science for Policy across Europe"
-msgstr ""
+msgstr "欧洲政策的公民科学"
 
 #: templates/projects_cards_featured.html:19
 #: templates/projects_cards_short.html:19
@@ -2642,7 +2688,7 @@ msgstr ""
 #: templates/resources_cards_horizontal.html:20
 #: templates/resources_cards_short.html:17
 msgid "NOT YET MODERATED"
-msgstr ""
+msgstr "尚未调节"
 
 #: templates/projects_cards_featured.html:20
 #: templates/projects_cards_short.html:20
@@ -2650,7 +2696,7 @@ msgstr ""
 #: templates/resources_cards_horizontal.html:21
 #: templates/resources_cards_short.html:18
 msgid "MODERATED"
-msgstr ""
+msgstr "主持"
 
 #: templates/projects_cards_featured.html:28
 #: templates/projects_cards_short.html:28
@@ -2658,15 +2704,15 @@ msgstr ""
 #: templates/resources_cards_horizontal.html:45
 #: templates/resources_cards_short.html:30
 msgid "Read more"
-msgstr ""
+msgstr "阅读更多"
 
 #: templates/registration/logged_out.html:9
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr ""
+msgstr "感谢您今天在网站上度过美好的时光。"
 
 #: templates/registration/logged_out.html:11
 msgid "Log in again"
-msgstr ""
+msgstr "再次登录"
 
 #: templates/registration/password_change_done.html:6
 #: templates/registration/password_change_form.html:6
@@ -2675,31 +2721,31 @@ msgstr ""
 #: templates/registration/password_reset_done.html:6
 #: templates/registration/password_reset_form.html:6
 msgid "Home"
-msgstr ""
+msgstr "家"
 
 #: templates/registration/password_change_done.html:7
 #: templates/registration/password_change_form.html:7
 #: templates/registration/password_change_form.html:11
 #: templates/registration/password_change_form.html:12
 msgid "Password change"
-msgstr ""
+msgstr "密码更改"
 
 #: templates/registration/password_change_done.html:11
 #: templates/registration/password_change_done.html:12
 msgid "Password change successful"
-msgstr ""
+msgstr "密码更改成功"
 
 #: templates/registration/password_change_done.html:16
 msgid "Your password was changed."
-msgstr ""
+msgstr "您的密码已更改。"
 
 #: templates/registration/password_change_form.html:19
 msgid "Please correct the error below."
-msgstr ""
+msgstr "请更正下面的错误。"
 
 #: templates/registration/password_change_form.html:19
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "请更正以下错误。"
 
 #: templates/registration/password_change_form.html:23
 msgid ""
@@ -2710,21 +2756,21 @@ msgstr ""
 #: templates/registration/password_change_form.html:63
 #: templates/registration/password_reset_confirm.html:42
 msgid "Change my password"
-msgstr ""
+msgstr "修改我的密码"
 
 #: templates/registration/password_reset_complete.html:7
 #: templates/registration/password_reset_complete.html:11
 #: templates/registration/password_reset_complete.html:12
 msgid "Password reset complete"
-msgstr ""
+msgstr "密码重置已完成"
 
 #: templates/registration/password_reset_complete.html:16
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr ""
+msgstr "您的密码已设置。您可以继续登录。"
 
 #: templates/registration/password_reset_confirm.html:7
 msgid "Password reset confirmation"
-msgstr ""
+msgstr "密码重置确认"
 
 #: templates/registration/password_reset_confirm.html:11
 #: templates/registration/password_reset_confirm.html:12
@@ -2733,7 +2779,7 @@ msgstr ""
 #: templates/registration/password_reset_form.html:11
 #: templates/registration/password_reset_form.html:12
 msgid "Password reset"
-msgstr ""
+msgstr "重设密码"
 
 #: templates/registration/password_reset_confirm.html:20
 msgid ""
@@ -2743,15 +2789,15 @@ msgstr ""
 
 #: templates/registration/password_reset_confirm.html:25
 msgid "New password:"
-msgstr ""
+msgstr "新密码："
 
 #: templates/registration/password_reset_confirm.html:34
 msgid "Confirm password:"
-msgstr ""
+msgstr "确认密码："
 
 #: templates/registration/password_reset_confirm.html:48
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "密码重置失败"
 
 #: templates/registration/password_reset_confirm.html:50
 msgid ""
@@ -2762,7 +2808,7 @@ msgstr ""
 #: templates/registration/password_reset_done.html:11
 #: templates/registration/password_reset_done.html:12
 msgid "Password reset successful"
-msgstr ""
+msgstr "密码重置成功"
 
 #: templates/registration/password_reset_done.html:16
 msgid ""
@@ -2778,32 +2824,32 @@ msgstr ""
 
 #: templates/registration/password_reset_form.html:21
 msgid "Email address:"
-msgstr ""
+msgstr "电子邮件地址："
 
 #: templates/registration/password_reset_form.html:30
 msgid "Reset my password"
-msgstr ""
+msgstr "重置我的密码"
 
 #: templates/resources_cards_horizontal.html:19
 msgid "NOT ACCEPTED"
-msgstr ""
+msgstr "不接受"
 
 #: templates/resources_cards_horizontal.html:43
 msgid "review"
-msgstr ""
+msgstr "审查"
 
 #: templates/resources_cards_horizontal.html:43
 msgid "reviews"
-msgstr ""
+msgstr "评论"
 
 #: templates/resources_cards_horizontal.html:96
 msgid "In my library"
-msgstr ""
+msgstr "在我的图书馆里"
 
 #: templates/resources_cards_horizontal.html:98
 msgid "Add to library"
-msgstr ""
+msgstr "添加到库"
 
 #: templates/translations.html:10
 msgid "Translations"
-msgstr ""
+msgstr "翻译"

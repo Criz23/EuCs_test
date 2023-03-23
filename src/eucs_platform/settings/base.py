@@ -15,7 +15,8 @@ import os
 from django.contrib import messages
 # Use 12factor inspired environment variables or from a file
 import environ
-
+from textblob import TextBlob
+from django.utils.translation import gettext_lazy as _
 # Build paths inside the project like this: BASE_DIR / "directory"
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 STATICFILES_DIRS = [str(BASE_DIR / "static"), MACHINA_MAIN_STATIC_DIR]
@@ -190,19 +191,18 @@ DATABASES = {
 LANGUAGE_CODE = "en"
 
 TRANSLATED_LANGUAGES = (
-    ('nl', 'Dutch'),
-    ('en', 'English'),
-    ('et', 'Estonian'),
-    ('fr', 'Français'),
-    ('de', 'German'),
-    ('el', 'Greek'),
-    ('hu', 'Hungarian'),
-    ('it', 'Italian'),
-    ('lt', 'Lituanian'),
-    ('pt', 'Portuguese'),
-    ('es', 'Spanish'),
-    ('sv', 'Swedish'),
-    ('zh-hant', 'S C'),
+    ('nl', _('Dutch')),
+    ('en', _('English')),
+    ('et', _('Estonian')),
+    ('fr', _('Français')),
+    ('de', _('German')),
+    ('el', _('Greek')),
+    ('hu', _('Hungarian')),
+    ('it', _('Italian')),
+    ('lt', _('Lituanian')),
+    ('pt', _('Portuguese')),
+    ('es', _('Spanish')),
+    ('sv', _('Chinese')),
 )
 
 LANGUAGE_CODES = [
@@ -256,8 +256,8 @@ LANGUAGE_CODES = [
     'tr',
     'uk',
     'vi',
-    'zh-hans',
-    'zh-hant'
+    'zh-CN',
+    'zh-TW'
 ]
 
 TIME_ZONE = "UTC"
