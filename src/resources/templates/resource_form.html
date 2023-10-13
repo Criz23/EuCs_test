@@ -111,7 +111,7 @@
                             <div class="col-11">
                                 <img class="img-fluid img-zoom" 
                                      id="imageResult1" 
-                                     src="{% thumbnail resource.image1|default:'void_600.png' 600x400 %}">
+                                     src="{% static thumbnail resource.image1|default:'void_600.png' 600x400 %}">
                                 {{ form.image1|as_crispy_field }}
                                 {{ form.x1|as_crispy_field }}
                                 {{ form.y1|as_crispy_field }}
@@ -121,7 +121,7 @@
                                 <div class="mb-5"></div>
                                 <img class="img-fluid img-zoom" 
                                      id="imageResult2" 
-                                     src="{% thumbnail resource.image2|default:'void_1100.png' 1100x400 %}">
+                                     src="{% static thumbnail resource.image2|default:'void_1100.png' 1100x400 %}">
                                 {{ form.image2|as_crispy_field }}
                                 {{ form.x2|as_crispy_field }}
                                 {{ form.y2|as_crispy_field }}

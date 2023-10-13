@@ -13,6 +13,12 @@ python3 -m venv EuCs
 source EuCs/bin/activate
 ```
 
+## Configura Recapchas
+```
+Follow the instructions in this link
+https://www.youtube.com/watch?v=EOb1uRP3X_Q
+```
+
 ## Configure postgres
 ```
 sudo -u postgres psql
@@ -26,6 +32,8 @@ ALTER ROLE eucitizenscience WITH CREATEROLE;
 ALTER ROLE eucitizenscience WITH INHERIT;
 ALTER ROLE eucitizenscience WITH REPLICATION;
 ```
+
+## Configura    
 
 ## Installation
 First of all, install Python v3
@@ -41,7 +49,12 @@ In source directory:
 pip3 install -r requirements.txt
 ```
 Copy file local settings for edit <br/>
-And edit this last file with database and email configuration
+Edit this last file with database configuration <br/>
+Edit RECAPTCHA public and private KEY <br/>
+Take this video as a reference: https://www.youtube.com/watch?v=EOb1uRP3X_Q <br/>
+And edit email configuration <br/>
+Take this videos as a reference: https://www.youtube.com/watch?v=3jtMdcvBA3c <br/>
+https://www.youtube.com/watch?v=2Wd-5KyTSP4 
 ```
 cd src
 cp eucs_platform/settings/local.sample.reference.env eucs_platform/settings/local.env
